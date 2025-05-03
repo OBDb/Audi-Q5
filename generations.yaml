@@ -1,0 +1,10 @@
+generations:
+  - name: "First Generation (8R)"
+    start_year: 2008
+    end_year: 2017
+    description: "The original Audi Q5 was a compact luxury crossover SUV built on the Volkswagen Group MLB platform. It featured a design that balanced sportiness with practicality, offering more cargo space than its competitors while maintaining Audi's distinctive styling. Engine options included four and six-cylinder TFSI petrol and TDI diesel units, with the high-performance SQ5 initially offered as a diesel in Europe (making it Audi's first diesel S model) and later as a petrol model in North America. A facelift in 2012 updated the styling and added new technologies. The first-generation Q5 quickly became one of Audi's best-selling models globally."
+
+  - name: "Second Generation (FY)"
+    start_year: 2017
+    end_year: null
+    description: "Built on the updated MLB Evo platform, the second-generation Q5 is lighter than its predecessor despite increased dimensions. It features more angular styling in line with Audi's modern design language. The interior represents a significant upgrade with digital instrumentation and improved infotainment systems. Engine options include four and six-cylinder TFSI petrol and TDI diesel units with mild-hybrid technology, plus plug-in hybrid variants. The performance-oriented SQ5 continues, and a coupe-inspired Sportback body style was added in 2020. A facelift in 2020 refreshed the styling and updated the technology. The Q5 continues to be one of Audi's global best-sellers, offering a balance of practicality, technology, and driving dynamics in the competitive premium midsize SUV segment."
