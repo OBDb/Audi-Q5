@@ -1,0 +1,34 @@
+command_id: 713.77D.222B29
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 77D05622B290007
+  expected_values:
+    AUDI_STEER_ANGLE: 0.007
+- response: 77D05622B290010
+  expected_values:
+    AUDI_STEER_ANGLE: 0.016
+- response: 77D05622B29001E
+  expected_values:
+    AUDI_STEER_ANGLE: 0.03
+- response: 77D05622B290040
+  expected_values:
+    AUDI_STEER_ANGLE: 0.064
+- response: 77D05622B2900FA
+  expected_values:
+    AUDI_STEER_ANGLE: 0.25
+- response: 77D05622B29097B
+  expected_values:
+    AUDI_STEER_ANGLE: 2.427
+- response: 77D05622B290982
+  expected_values:
+    AUDI_STEER_ANGLE: 2.434
+- response: 77D05622B29DCAB
+  expected_values:
+    AUDI_STEER_ANGLE: -9.045
+- response: 77D05622B29E9B6
+  expected_values:
+    AUDI_STEER_ANGLE: -5.706
+- response: 77D05622B29FF0D
+  expected_values:
+    AUDI_STEER_ANGLE: -0.243
