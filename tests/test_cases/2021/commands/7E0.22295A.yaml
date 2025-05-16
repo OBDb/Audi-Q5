@@ -1,0 +1,13 @@
+command_id: 7E0.22295A
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80662295A01E11B
+  expected_values:
+    AUDI_ODO_V4: 123163
+- response: 7E80662295A01E1FF
+  expected_values:
+    AUDI_ODO_V4: 123391
+- response: 7E80662295A01E200
+  expected_values:
+    AUDI_ODO_V4: 123392
