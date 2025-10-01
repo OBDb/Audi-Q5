@@ -1,22 +1,20 @@
 command_id: 7E0.7E8.22F40D
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80462F40D00
-  expected_values:
+- expected_values:
     AUDI_VSS: 0
-- response: 7E80462F40D09
-  expected_values:
+  response: 7E80462F40D00
+- expected_values:
     AUDI_VSS: 9
-- response: 7E80462F40D0B
-  expected_values:
+  response: 7E80462F40D09
+- expected_values:
     AUDI_VSS: 11
-- response: 7E80462F40D10
-  expected_values:
+  response: 7E80462F40D0B
+- expected_values:
     AUDI_VSS: 16
-- response: 7E80462F40D1F
-  expected_values:
+  response: 7E80462F40D10
+- expected_values:
     AUDI_VSS: 31
-- response: 7E80462F40D2B
-  expected_values:
+  response: 7E80462F40D1F
+- expected_values:
     AUDI_VSS: 43
+  response: 7E80462F40D2B

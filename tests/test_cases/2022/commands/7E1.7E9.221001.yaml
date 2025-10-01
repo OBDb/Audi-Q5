@@ -1,22 +1,20 @@
 command_id: 7E1.7E9.221001
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: '7E9056210010000'
-  expected_values:
+- expected_values:
     AUDI_TIRE_FR_SPD_V3: 0
-- response: '7E9056210010034'
-  expected_values:
+  response: '7E9056210010000'
+- expected_values:
     AUDI_TIRE_FR_SPD_V3: 5.2
-- response: 7E905621001008A
-  expected_values:
+  response: '7E9056210010034'
+- expected_values:
     AUDI_TIRE_FR_SPD_V3: 13.8
-- response: 7E90562100100BE
-  expected_values:
+  response: 7E905621001008A
+- expected_values:
     AUDI_TIRE_FR_SPD_V3: 19
-- response: '7E9056210010137'
-  expected_values:
+  response: 7E90562100100BE
+- expected_values:
     AUDI_TIRE_FR_SPD_V3: 31.1
-- response: 7E90562100101A7
-  expected_values:
+  response: '7E9056210010137'
+- expected_values:
     AUDI_TIRE_FR_SPD_V3: 42.3
+  response: 7E90562100101A7
