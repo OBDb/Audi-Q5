@@ -1,13 +1,11 @@
 command_id: 7E0.7E8.222062
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: '7E8056220620178'
-  expected_values:
+- expected_values:
     AUDI_APP_POS2: 0.376
-- response: 7E80562206201CD
-  expected_values:
+  response: '7E8056220620178'
+- expected_values:
     AUDI_APP_POS2: 0.461
-- response: 7E805622062031D
-  expected_values:
+  response: 7E80562206201CD
+- expected_values:
     AUDI_APP_POS2: 0.797
+  response: 7E805622062031D
