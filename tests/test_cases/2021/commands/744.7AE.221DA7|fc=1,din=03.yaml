@@ -1,0 +1,8 @@
+command_id: 744.7AE.221DA7|fc=1,din=03
+test_cases:
+- expected_values:
+    AUDI_CHRGR_V_OUT: 1
+  response: 7AE05621DA7019D
+- expected_values:
+    AUDI_CHRGR_V_OUT: 1
+  response: 7AE05621DA7019E

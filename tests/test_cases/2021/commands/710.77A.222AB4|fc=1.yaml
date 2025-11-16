@@ -1,0 +1,8 @@
+command_id: 710.77A.222AB4|fc=1
+test_cases:
+- expected_values:
+    AUDI_HVBAT_CSMP_AVG_INT: 47
+    AUDI_RANGE_EST_INT: 33
+  response: |-
+    77A100D622AB4022300
+    77A212100000000002F
