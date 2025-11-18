@@ -1,0 +1,23 @@
+command_id: 746.7B0.22260C|fc=1
+test_cases:
+- expected_values:
+    AUDI_FRONT_LEFT_DEFL_T: 0
+  response: 7B00562260C00DA
+- expected_values:
+    AUDI_FRONT_LEFT_DEFL_T: 0
+  response: 7B00562260C00DC
+- expected_values:
+    AUDI_FRONT_LEFT_DEFL_T: 0
+  response: 7B00562260C00DE
+- expected_values:
+    AUDI_FRONT_LEFT_DEFL_T: 0
+  response: 7B00562260C00E4
+- expected_values:
+    AUDI_FRONT_LEFT_DEFL_T: 0
+  response: 7B00562260C00EA
+- expected_values:
+    AUDI_FRONT_LEFT_DEFL_T: 0
+  response: 7B00562260C00F1
+- expected_values:
+    AUDI_FRONT_LEFT_DEFL_T: 0
+  response: 7B00562260C00F7

@@ -1,0 +1,32 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 23.8
+  response: 7B00562261300EE
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 23.9
+  response: 7B00562261300EF
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 24
+  response: 7B00562261300F0
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 27
+  response: 7B005622613010E
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 27.1
+  response: 7B005622613010F
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 27.2
+  response: 7B0056226130110
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 27.6
+  response: 7B0056226130114
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 27.9
+  response: 7B0056226130117
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 28
+  response: 7B0056226130118
+- expected_values:
+    AUDI_HVAC_INTERIOR_T: 3200.2
+  response: 7B0056226137D02

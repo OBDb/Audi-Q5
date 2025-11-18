@@ -1,0 +1,14 @@
+command_id: FC00.FE007C.224657|ta=7C,c=17
+test_cases:
+- expected_values:
+    AUDI_ELDRIVE_MOTOR_FREQ: 0
+  response: 17FE007C0762465700000000
+- expected_values:
+    AUDI_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C0762465700003BEB
+- expected_values:
+    AUDI_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C0762465700003F84
+- expected_values:
+    AUDI_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C0762465700005B14
