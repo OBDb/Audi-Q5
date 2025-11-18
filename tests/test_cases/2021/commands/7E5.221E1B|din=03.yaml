@@ -1,0 +1,32 @@
+command_id: 7E5.221E1B|din=03
+test_cases:
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 39
+  response: 7ED05621E1B0027
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 40
+  response: 7ED05621E1B0028
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 41
+  response: 7ED05621E1B0029
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 112
+  response: 7ED05621E1B0070
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 115
+  response: 7ED05621E1B0073
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 116
+  response: 7ED05621E1B0074
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 117
+  response: 7ED05621E1B0075
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 154
+  response: 7ED05621E1B009A
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 157
+  response: 7ED05621E1B009D
+- expected_values:
+    AUDI_BMS_I_CHG_LIM_DYN: 65534
+  response: 7ED05621E1BFFFE
