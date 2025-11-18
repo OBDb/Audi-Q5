@@ -1,0 +1,17 @@
+command_id: 744.7AE.2215E1|fc=1,din=03
+test_cases:
+- expected_values:
+    AUDI_CHRGR_PWR_LOSS: 0
+  response: 7AE046215E100
+- expected_values:
+    AUDI_CHRGR_PWR_LOSS: 200
+  response: 7AE046215E10A
+- expected_values:
+    AUDI_CHRGR_PWR_LOSS: 220
+  response: 7AE046215E10B
+- expected_values:
+    AUDI_CHRGR_PWR_LOSS: 240
+  response: 7AE046215E10C
+- expected_values:
+    AUDI_CHRGR_PWR_LOSS: 260
+  response: 7AE046215E10D
