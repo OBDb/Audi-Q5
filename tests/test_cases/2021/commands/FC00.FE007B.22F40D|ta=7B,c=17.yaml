@@ -1,0 +1,20 @@
+command_id: FC00.FE007B.22F40D|ta=7B,c=17
+test_cases:
+- expected_values:
+    AUDI_VSS_V2: 0
+  response: 17FE007B0462F40D00
+- expected_values:
+    AUDI_VSS_V2: 19
+  response: 17FE007B0462F40D13
+- expected_values:
+    AUDI_VSS_V2: 39
+  response: 17FE007B0462F40D27
+- expected_values:
+    AUDI_VSS_V2: 42
+  response: 17FE007B0462F40D2A
+- expected_values:
+    AUDI_VSS_V2: 80
+  response: 17FE007B0462F40D50
+- expected_values:
+    AUDI_VSS_V2: 85
+  response: 17FE007B0462F40D55
