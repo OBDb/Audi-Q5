@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     AUDI_ELDRIVE_MOTOR_RPM: 1471
   response: 17FE007B0562F40C16FC
+- expected_values:
+    AUDI_ELDRIVE_MOTOR_RPM: 1740
+  response: 17FE007B0562F40C1B30
+- expected_values:
+    AUDI_ELDRIVE_MOTOR_RPM: 1959
+  response: 17FE007B0562F40C1E9C

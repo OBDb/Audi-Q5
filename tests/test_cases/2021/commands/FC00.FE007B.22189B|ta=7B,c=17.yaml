@@ -10,6 +10,9 @@ test_cases:
     AUDI_HVBAT_AFTER_CONTACTS_V: 995
   response: 17FE007B0562189B0F96
 - expected_values:
+    AUDI_HVBAT_AFTER_CONTACTS_V: 1010
+  response: 17FE007B0562189B0FB4
+- expected_values:
     AUDI_HVBAT_AFTER_CONTACTS_V: 1017.5
   response: 17FE007B0562189B0FC3
 - expected_values:
@@ -18,3 +21,12 @@ test_cases:
 - expected_values:
     AUDI_HVBAT_AFTER_CONTACTS_V: 1060
   response: 17FE007B0562189B1018
+- expected_values:
+    AUDI_HVBAT_AFTER_CONTACTS_V: 1067.5
+  response: 17FE007B0562189B1027
+- expected_values:
+    AUDI_HVBAT_AFTER_CONTACTS_V: 1070
+  response: 17FE007B0562189B102C
+- expected_values:
+    AUDI_HVBAT_AFTER_CONTACTS_V: 1108.5
+  response: 17FE007B0562189B1079
