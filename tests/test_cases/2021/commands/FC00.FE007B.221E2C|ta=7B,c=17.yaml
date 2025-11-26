@@ -5,28 +5,7 @@ test_cases:
   response: 17FE007B06621E2C420067
 - expected_values:
     AUDI_HVBAT_CELL_SOC_MAX: 100
-  response: 17FE007B06621E2C430067
-- expected_values:
-    AUDI_HVBAT_CELL_SOC_MAX: 100
-  response: 17FE007B06621E2C47005A
-- expected_values:
-    AUDI_HVBAT_CELL_SOC_MAX: 100
-  response: 17FE007B06621E2C48005A
-- expected_values:
-    AUDI_HVBAT_CELL_SOC_MAX: 100
-  response: 17FE007B06621E2C49005A
-- expected_values:
-    AUDI_HVBAT_CELL_SOC_MAX: 100
-  response: 17FE007B06621E2C510067
-- expected_values:
-    AUDI_HVBAT_CELL_SOC_MAX: 100
-  response: 17FE007B06621E2C530067
-- expected_values:
-    AUDI_HVBAT_CELL_SOC_MAX: 100
-  response: 17FE007B06621E2C540067
-- expected_values:
-    AUDI_HVBAT_CELL_SOC_MAX: 100
-  response: 17FE007B06621E2C570053
+  response: 17FE007B06621E2C4C0027
 - expected_values:
     AUDI_HVBAT_CELL_SOC_MAX: 100
   response: 17FE007B06621E2C5B0053

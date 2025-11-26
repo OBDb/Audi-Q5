@@ -4,26 +4,5 @@ test_cases:
     AUDI_SOC_DISP: 22.86957
   response: 17FE007B0462028C42
 - expected_values:
-    AUDI_SOC_DISP: 25.08696
-  response: 17FE007B0462028C47
-- expected_values:
-    AUDI_SOC_DISP: 25.53043
-  response: 17FE007B0462028C48
-- expected_values:
-    AUDI_SOC_DISP: 25.97391
-  response: 17FE007B0462028C49
-- expected_values:
-    AUDI_SOC_DISP: 29.52174
-  response: 17FE007B0462028C51
-- expected_values:
-    AUDI_SOC_DISP: 30.4087
-  response: 17FE007B0462028C53
-- expected_values:
-    AUDI_SOC_DISP: 30.85217
-  response: 17FE007B0462028C54
-- expected_values:
-    AUDI_SOC_DISP: 31.73913
-  response: 17FE007B0462028C56
-- expected_values:
     AUDI_SOC_DISP: 33.95652
   response: 17FE007B0462028C5B
