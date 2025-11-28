@@ -60,3 +60,9 @@ test_cases:
   response: |-
     77A100D622AB4022300
     77A212100000000002F
+- expected_values:
+    AUDI_HVBAT_CSMP_AVG_INT: 64
+    AUDI_RANGE_EST_INT: 2
+  response: |-
+    77A100D622AB4025C00
+    77A2102000000000040
