@@ -4,6 +4,15 @@ test_cases:
     AUDI_HVBAT_T_OUT: 465.82812
   response: 17FE007B0562189D7475
 - expected_values:
+    AUDI_HVBAT_T_OUT: 481.875
+  response: 17FE007B0562189D7878
+- expected_values:
+    AUDI_HVBAT_T_OUT: 489.8125
+  response: 17FE007B0562189D7A74
+- expected_values:
+    AUDI_HVBAT_T_OUT: 489.82812
+  response: 17FE007B0562189D7A75
+- expected_values:
     AUDI_HVBAT_T_OUT: 489.92188
   response: 17FE007B0562189D7A7B
 - expected_values:
