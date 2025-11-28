@@ -7,6 +7,9 @@ test_cases:
     AUDI_VSS_V2: 19
   response: 17FE007B0462F40D13
 - expected_values:
+    AUDI_VSS_V2: 22
+  response: 17FE007B0462F40D16
+- expected_values:
     AUDI_VSS_V2: 39
   response: 17FE007B0462F40D27
 - expected_values:
@@ -21,6 +24,9 @@ test_cases:
 - expected_values:
     AUDI_VSS_V2: 85
   response: 17FE007B0462F40D55
+- expected_values:
+    AUDI_VSS_V2: 98
+  response: 17FE007B0462F40D62
 - expected_values:
     AUDI_VSS_V2: 113
   response: 17FE007B0462F40D71
