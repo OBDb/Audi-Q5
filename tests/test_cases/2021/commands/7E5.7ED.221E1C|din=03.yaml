@@ -1,6 +1,9 @@
 command_id: 7E5.7ED.221E1C|din=03
 test_cases:
 - expected_values:
+    AUDI_BMS_I_DCHG_LIM_DYN: 287
+  response: 7ED05621E1C011F
+- expected_values:
     AUDI_BMS_I_DCHG_LIM_DYN: 313
   response: 7ED05621E1C0139
 - expected_values:
