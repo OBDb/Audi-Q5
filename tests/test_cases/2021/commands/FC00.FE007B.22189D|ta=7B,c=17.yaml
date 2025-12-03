@@ -1,29 +1,11 @@
 command_id: FC00.FE007B.22189D|ta=7B,c=17
 test_cases:
 - expected_values:
-    AUDI_HVBAT_T_OUT: 465.82812
-  response: 17FE007B0562189D7475
+    AUDI_HVBAT_T_OUT: 461.8125
+  response: 17FE007B0562189D7374
 - expected_values:
-    AUDI_HVBAT_T_OUT: 481.875
-  response: 17FE007B0562189D7878
-- expected_values:
-    AUDI_HVBAT_T_OUT: 489.8125
-  response: 17FE007B0562189D7A74
-- expected_values:
-    AUDI_HVBAT_T_OUT: 489.82812
-  response: 17FE007B0562189D7A75
-- expected_values:
-    AUDI_HVBAT_T_OUT: 489.92188
-  response: 17FE007B0562189D7A7B
-- expected_values:
-    AUDI_HVBAT_T_OUT: 493.9375
-  response: 17FE007B0562189D7B7C
-- expected_values:
-    AUDI_HVBAT_T_OUT: 497.89062
-  response: 17FE007B0562189D7C79
-- expected_values:
-    AUDI_HVBAT_T_OUT: 501.95312
-  response: 17FE007B0562189D7D7D
+    AUDI_HVBAT_T_OUT: 469.78125
+  response: 17FE007B0562189D7572
 - expected_values:
     AUDI_HVBAT_T_OUT: 509.95312
   response: 17FE007B0562189D7F7D
