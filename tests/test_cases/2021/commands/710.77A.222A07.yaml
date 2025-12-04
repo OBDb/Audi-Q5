@@ -1,9 +1,9 @@
 command_id: 710.77A.222A07
 test_cases:
 - expected_values:
-    AUDI_BAT_V_2A07: 12.05
+    AUDI_BAT_V_2A07: 11.244
     AUDI_SSB_V: 69.54
-  response: 77A05622A071F72
+  response: 77A05622A071C4C
 - expected_values:
     AUDI_BAT_V_2A07: 12.703
     AUDI_SSB_V: 69.54
