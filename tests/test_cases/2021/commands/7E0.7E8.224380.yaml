@@ -7,5 +7,5 @@ test_cases:
     AUDI_ENG_TRQ_REQ_2: 51.1
   response: 7E80562438001FF
 - expected_values:
-    AUDI_ENG_TRQ_REQ_2: 251.3
-  response: 7E80562438009D1
+    AUDI_ENG_TRQ_REQ_2: 6533
+  response: 7E805624380FF32
