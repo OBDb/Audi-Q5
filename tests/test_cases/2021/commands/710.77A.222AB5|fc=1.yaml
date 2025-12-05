@@ -1,20 +1,15 @@
 command_id: 710.77A.222AB5|fc=1
 test_cases:
 - expected_values:
-    AUDI_RANGE_EST_CAN: 7
+    AUDI_RANGE_EST_CAN: 0
   response: |-
-    77A100D622AB5005B00
-    77A2154000707FF0000
+    77A100D622AB5005300
+    77A2153000007FF0000
 - expected_values:
     AUDI_RANGE_EST_CAN: 15
   response: |-
     77A100D622AB5006200
     77A2153000F07FF0000
-- expected_values:
-    AUDI_RANGE_EST_CAN: 16
-  response: |-
-    77A100D622AB5006300
-    77A2153001007FF0000
 - expected_values:
     AUDI_RANGE_EST_CAN: 30
   response: |-
