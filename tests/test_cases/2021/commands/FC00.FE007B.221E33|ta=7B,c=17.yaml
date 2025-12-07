@@ -7,10 +7,6 @@ test_cases:
 - expected_values:
     AUDI_HVBAT_CELL_V_MAX: 15.997
     AUDI_HVBAT_CELL_V_MAX_ID: 4
-  response: 17FE007B07621E330DFD0004
-- expected_values:
-    AUDI_HVBAT_CELL_V_MAX: 15.997
-    AUDI_HVBAT_CELL_V_MAX_ID: 4
   response: 17FE007B07621E330E040004
 - expected_values:
     AUDI_HVBAT_CELL_V_MAX: 15.997
@@ -20,6 +16,10 @@ test_cases:
     AUDI_HVBAT_CELL_V_MAX: 15.997
     AUDI_HVBAT_CELL_V_MAX_ID: 103
   response: 17FE007B07621E330EA40067
+- expected_values:
+    AUDI_HVBAT_CELL_V_MAX: 15.997
+    AUDI_HVBAT_CELL_V_MAX_ID: 87
+  response: 17FE007B07621E330EFE0057
 - expected_values:
     AUDI_HVBAT_CELL_V_MAX: 15.997
     AUDI_HVBAT_CELL_V_MAX_ID: 46
