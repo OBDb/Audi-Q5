@@ -4,5 +4,5 @@ test_cases:
     AUDI_CHRGR_COOLANT_T: 8
   response: 7AE046215E230
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 63
-  response: 7AE046215E267
+    AUDI_CHRGR_COOLANT_T: 68
+  response: 7AE046215E26C

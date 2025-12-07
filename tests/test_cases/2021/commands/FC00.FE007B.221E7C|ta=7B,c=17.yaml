@@ -1,8 +1,11 @@
 command_id: FC00.FE007B.221E7C|ta=7B,c=17
 test_cases:
 - expected_values:
-    AUDI_HVBAT_CELL_V_061: 4.405
-  response: 17FE007B05621E7C0D4D
+    AUDI_HVBAT_CELL_V_061: 4.323
+  response: 17FE007B05621E7C0CFB
+- expected_values:
+    AUDI_HVBAT_CELL_V_061: 4.5
+  response: 17FE007B05621E7C0E00
 - expected_values:
     AUDI_HVBAT_CELL_V_061: 4.5
   response: 17FE007B05621E7C0EFF
