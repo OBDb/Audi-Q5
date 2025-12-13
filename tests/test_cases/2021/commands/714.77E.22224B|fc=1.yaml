@@ -1,8 +1,8 @@
 command_id: 714.77E.22224B|fc=1
 test_cases:
 - expected_values:
-    AUDI_DASH_OIL_THERMAL_WEAR: 114
-  response: 77E0562224B0072
+    AUDI_DASH_OIL_THERMAL_WEAR: 4
+  response: 77E0562224B0004
 - expected_values:
     AUDI_DASH_OIL_THERMAL_WEAR: 239
   response: 77E0562224B00EF
