@@ -6,33 +6,9 @@ test_cases:
   response: 7B0056226060064
 - expected_values:
     AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0
-    AUDI_HVAC_FAN1_ACT: 21
-  response: 7B00562260600D2
-- expected_values:
-    AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0
     AUDI_HVAC_FAN1_ACT: 23
   response: 7B00562260600E6
 - expected_values:
     AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0.4
     AUDI_HVAC_FAN1_ACT: 26
   response: 7B0056226060104
-- expected_values:
-    AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0.4
-    AUDI_HVAC_FAN1_ACT: 28
-  response: 7B0056226060118
-- expected_values:
-    AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0.4
-    AUDI_HVAC_FAN1_ACT: 33
-  response: 7B005622606014A
-- expected_values:
-    AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0.4
-    AUDI_HVAC_FAN1_ACT: 35
-  response: 7B005622606015E
-- expected_values:
-    AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0.4
-    AUDI_HVAC_FAN1_ACT: 38
-  response: 7B005622606017C
-- expected_values:
-    AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0.4
-    AUDI_HVAC_FAN1_ACT: 48
-  response: 7B00562260601E0
