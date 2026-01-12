@@ -4,5 +4,5 @@ test_cases:
     AUDI_CLIMATE_REFRIG_P: 2.8
   response: 7B0046226050E
 - expected_values:
-    AUDI_CLIMATE_REFRIG_P: 8
-  response: 7B00462260528
+    AUDI_CLIMATE_REFRIG_P: 8.8
+  response: 7B0046226052C
