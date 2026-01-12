@@ -5,10 +5,10 @@ test_cases:
     AUDI_HVAC_FAN1_ACT: 10
   response: 7B0056226060064
 - expected_values:
-    AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0
-    AUDI_HVAC_FAN1_ACT: 23
-  response: 7B00562260600E6
-- expected_values:
     AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0.4
     AUDI_HVAC_FAN1_ACT: 26
   response: 7B0056226060104
+- expected_values:
+    AUDI_CLIMATE_RAD_FAN_ACT_DUTY: 0.4
+    AUDI_HVAC_FAN1_ACT: 50
+  response: 7B00562260601F4
