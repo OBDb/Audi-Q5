@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Audi_Q5"
+
 generations:
   - name: "First Generation (8R)"
     start_year: 2008
@@ -5,6 +8,11 @@ generations:
     description: "The original Audi Q5 was a compact luxury crossover SUV built on the Volkswagen Group MLB platform. It featured a design that balanced sportiness with practicality, offering more cargo space than its competitors while maintaining Audi's distinctive styling. Engine options included four and six-cylinder TFSI petrol and TDI diesel units, with the high-performance SQ5 initially offered as a diesel in Europe (making it Audi's first diesel S model) and later as a petrol model in North America. A facelift in 2012 updated the styling and added new technologies. The first-generation Q5 quickly became one of Audi's best-selling models globally."
 
   - name: "Second Generation (FY)"
-    start_year: 2017
+    start_year: 2016
+    end_year: 2025
+    description: "Built on the updated MLB Evo platform, the second-generation Q5 was revealed at the 2016 Paris Motor Show and production began in September 2016 for the 2017 model year. The Q5 is lighter than its predecessor despite increased dimensions. It features more angular styling in line with Audi's modern design language. The interior represents a significant upgrade with digital instrumentation and improved infotainment systems. Engine options include four and six-cylinder TFSI petrol and TDI diesel units with mild-hybrid technology, plus plug-in hybrid variants. The performance-oriented SQ5 continues, and a coupe-inspired Sportback body style was added in 2020. A facelift in 2020 refreshed the styling and updated the technology. The second generation ended production in February 2025. The Q5 continues to be one of Audi's global best-sellers, offering a balance of practicality, technology, and driving dynamics in the competitive premium midsize SUV segment."
+
+  - name: "Third Generation (GU)"
+    start_year: 2026
     end_year: null
-    description: "Built on the updated MLB Evo platform, the second-generation Q5 is lighter than its predecessor despite increased dimensions. It features more angular styling in line with Audi's modern design language. The interior represents a significant upgrade with digital instrumentation and improved infotainment systems. Engine options include four and six-cylinder TFSI petrol and TDI diesel units with mild-hybrid technology, plus plug-in hybrid variants. The performance-oriented SQ5 continues, and a coupe-inspired Sportback body style was added in 2020. A facelift in 2020 refreshed the styling and updated the technology. The Q5 continues to be one of Audi's global best-sellers, offering a balance of practicality, technology, and driving dynamics in the competitive premium midsize SUV segment."
+    description: "The third-generation Audi Q5 represents a comprehensive redesign unveiled in September 2024, built on Volkswagen Group's new Premium Platform Combustion (PPC) architecture shared with the redesigned Audi A5. Production commenced in November 2024 for the 2026 model year. The exterior styling features a raked silhouette inspired by the larger Q7, with customizable lighting signatures. The interior features digital instrumentation and a touchscreen infotainment system. The Q5 continues to offer a range of petrol, diesel, and plug-in hybrid powertrains. A Sportback coupe SUV variant was unveiled in November 2024 and launched in North America in April 2025."
