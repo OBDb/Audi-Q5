@@ -13,6 +13,9 @@ test_cases:
     AUDI_AT_OUTPUT_SPEED: 154
   response: '7E9056221030268'
 - expected_values:
+    AUDI_AT_OUTPUT_SPEED: 302
+  response: 7E90562210304B8
+- expected_values:
     AUDI_AT_OUTPUT_SPEED: 485
   response: '7E9056221030794'
 - expected_values:
