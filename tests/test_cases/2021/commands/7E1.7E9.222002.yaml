@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.222002
+test_cases:
+- expected_values:
+    AUDI_ENGINE_TORQUE__AT: 0
+  response: '7E9056220020000'
+- expected_values:
+    AUDI_ENGINE_TORQUE__AT: 130
+  response: '7E9056220020082'
+- expected_values:
+    AUDI_ENGINE_TORQUE__AT: 236
+  response: 7E90562200200EC
+- expected_values:
+    AUDI_ENGINE_TORQUE__AT: 502
+  response: 7E90562200201F6
+- expected_values:
+    AUDI_ENGINE_TORQUE__AT: 3255
+  response: 7E9056220020CB7
+- expected_values:
+    AUDI_ENGINE_TORQUE__AT: 3269
+  response: 7E9056220020CC5
