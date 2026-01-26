@@ -13,6 +13,9 @@ test_cases:
     AUDI_ENGINE_TORQUE__AT: 502
   response: 7E90562200201F6
 - expected_values:
+    AUDI_ENGINE_TORQUE__AT: 3167
+  response: 7E9056220020C5F
+- expected_values:
     AUDI_ENGINE_TORQUE__AT: 3255
   response: 7E9056220020CB7
 - expected_values:
