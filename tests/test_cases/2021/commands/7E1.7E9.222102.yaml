@@ -10,6 +10,9 @@ test_cases:
     AUDI_AT_INPUT_SPEED: 1796
   response: 7E9056221021C10
 - expected_values:
+    AUDI_AT_INPUT_SPEED: 1808
+  response: 7E9056221021C40
+- expected_values:
     AUDI_AT_INPUT_SPEED: 2226
   response: 7E90562210222C8
 - expected_values:
