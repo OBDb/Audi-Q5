@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.2213CD
+test_cases:
+- expected_values:
+    AUDI_MQB_DL382_CLUTCH_2_ABSOLUTE_P: 1
+  response: 7E9046213CD14
+- expected_values:
+    AUDI_MQB_DL382_CLUTCH_2_ABSOLUTE_P: 5
+  response: 7E9046213CD3C
+- expected_values:
+    AUDI_MQB_DL382_CLUTCH_2_ABSOLUTE_P: 10
+  response: 7E9046213CD6E
