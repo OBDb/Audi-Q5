@@ -25,5 +25,8 @@ test_cases:
     AUDI_EOT_CALC: 159
   response: 7E80562201A009F
 - expected_values:
+    AUDI_EOT_CALC: 175
+  response: 7E80562201A00AF
+- expected_values:
     AUDI_EOT_CALC: 187
   response: 7E80562201A00BB
