@@ -4,5 +4,5 @@ test_cases:
     AUDI_MQB_DL382_P_SENSOR_1_T: 4
   response: 7E90562132A0004
 - expected_values:
-    AUDI_MQB_DL382_P_SENSOR_1_T: 36
-  response: 7E90562132A0024
+    AUDI_MQB_DL382_P_SENSOR_1_T: 44
+  response: 7E90562132A002C
