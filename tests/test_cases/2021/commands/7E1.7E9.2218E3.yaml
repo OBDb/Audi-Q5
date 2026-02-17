@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.2218E3
 test_cases:
 - expected_values:
-    AUDI_MQB_DL382_CLUTCH_T_CALCULATED: 40
-  response: 7E9056218E30028
+    AUDI_MQB_DL382_CLUTCH_T_CALCULATED: 3
+  response: 7E9056218E30003
 - expected_values:
     AUDI_MQB_DL382_CLUTCH_T_CALCULATED: 107
   response: 7E9056218E3006B
