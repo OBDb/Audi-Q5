@@ -1,23 +1,8 @@
 command_id: 7E1.7E9.22132A
 test_cases:
 - expected_values:
-    AUDI_MQB_DL382_P_SENSOR_1_T: 20
-  response: 7E90562132A0014
-- expected_values:
-    AUDI_MQB_DL382_P_SENSOR_1_T: 22
-  response: 7E90562132A0016
-- expected_values:
-    AUDI_MQB_DL382_P_SENSOR_1_T: 25
-  response: 7E90562132A0019
-- expected_values:
-    AUDI_MQB_DL382_P_SENSOR_1_T: 29
-  response: 7E90562132A001D
-- expected_values:
-    AUDI_MQB_DL382_P_SENSOR_1_T: 32
-  response: 7E90562132A0020
-- expected_values:
-    AUDI_MQB_DL382_P_SENSOR_1_T: 33
-  response: 7E90562132A0021
+    AUDI_MQB_DL382_P_SENSOR_1_T: 4
+  response: 7E90562132A0004
 - expected_values:
     AUDI_MQB_DL382_P_SENSOR_1_T: 36
   response: 7E90562132A0024

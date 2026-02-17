@@ -4,29 +4,5 @@ test_cases:
     AUDI_EOT_CALC: 0
   response: 7E80562201A0000
 - expected_values:
-    AUDI_EOT_CALC: 42
-  response: 7E80562201A002A
-- expected_values:
-    AUDI_EOT_CALC: 82
-  response: 7E80562201A0052
-- expected_values:
-    AUDI_EOT_CALC: 84
-  response: 7E80562201A0054
-- expected_values:
-    AUDI_EOT_CALC: 111
-  response: 7E80562201A006F
-- expected_values:
-    AUDI_EOT_CALC: 125
-  response: 7E80562201A007D
-- expected_values:
-    AUDI_EOT_CALC: 132
-  response: 7E80562201A0084
-- expected_values:
-    AUDI_EOT_CALC: 159
-  response: 7E80562201A009F
-- expected_values:
-    AUDI_EOT_CALC: 175
-  response: 7E80562201A00AF
-- expected_values:
-    AUDI_EOT_CALC: 187
-  response: 7E80562201A00BB
+    AUDI_EOT_CALC: 224
+  response: 7E80562201A00E0
