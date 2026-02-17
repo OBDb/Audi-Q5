@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_DL382_STIFFNESS_POINT_P_CLUTCH_2: 3.906
   response: 7E90562141A0F42
+- expected_values:
+    AUDI_MQB_DL382_STIFFNESS_POINT_P_CLUTCH_2: 4.01
+  response: 7E90562141A0FAA

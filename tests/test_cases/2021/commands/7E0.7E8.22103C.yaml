@@ -4,29 +4,8 @@ test_cases:
     AUDI_MQB_INT_MAN_P: 14531
   response: 7E80562103C38C3
 - expected_values:
-    AUDI_MQB_INT_MAN_P: 14550
-  response: 7E80562103C38D6
-- expected_values:
     AUDI_MQB_INT_MAN_P: 14589
   response: 7E80562103C38FD
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 14609
-  response: 7E80562103C3911
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 14687
-  response: 7E80562103C395F
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 14726
-  response: 7E80562103C3986
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 14785
-  response: 7E80562103C39C1
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 14804
-  response: 7E80562103C39D4
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 14843
-  response: 7E80562103C39FB
 - expected_values:
     AUDI_MQB_INT_MAN_P: 14863
   response: 7E80562103C3A0F
