@@ -4,11 +4,11 @@ test_cases:
     AUDI_PQ35_DPF_SURF_T: 47
   response: 7E8056210440C81
 - expected_values:
+    AUDI_PQ35_DPF_SURF_T: 111.2
+  response: 7E8056210440F03
+- expected_values:
     AUDI_PQ35_DPF_SURF_T: 263.3
   response: 7E80562104414F4
-- expected_values:
-    AUDI_PQ35_DPF_SURF_T: 317.5
-  response: '7E8056210441712'
 - expected_values:
     AUDI_PQ35_DPF_SURF_T: 376
   response: 7E805621044195B
