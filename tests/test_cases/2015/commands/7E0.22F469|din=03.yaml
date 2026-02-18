@@ -19,7 +19,7 @@ test_cases:
     AUDI_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 64
   response: |-
     7E8100A62F4693F403F
-    7E8217E4D4C7F555555
+    7E8217E49487F555555
 - expected_values:
     AUDI_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 81
   response: |-
