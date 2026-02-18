@@ -1,0 +1,29 @@
+command_id: 7E0.22105E|din=03
+test_cases:
+- expected_values:
+    AUDI_PQ35_BAT_V_2: 11.8
+  response: 7E80562105E024E
+- expected_values:
+    AUDI_PQ35_BAT_V_2: 14.06
+  response: 7E80562105E02BF
+- expected_values:
+    AUDI_PQ35_BAT_V_2: 14.28
+  response: 7E80562105E02CA
+- expected_values:
+    AUDI_PQ35_BAT_V_2: 14.36
+  response: 7E80562105E02CE
+- expected_values:
+    AUDI_PQ35_BAT_V_2: 14.4
+  response: 7E80562105E02D0
+- expected_values:
+    AUDI_PQ35_BAT_V_2: 14.42
+  response: 7E80562105E02D1
+- expected_values:
+    AUDI_PQ35_BAT_V_2: 14.46
+  response: 7E80562105E02D3
+- expected_values:
+    AUDI_PQ35_BAT_V_2: 14.48
+  response: 7E80562105E02D4
+- expected_values:
+    AUDI_PQ35_BAT_V_2: 14.5
+  response: 7E80562105E02D5

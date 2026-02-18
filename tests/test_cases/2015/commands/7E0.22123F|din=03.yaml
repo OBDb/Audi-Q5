@@ -1,0 +1,11 @@
+command_id: 7E0.22123F|din=03
+test_cases:
+- expected_values:
+    AUDI_PQ35_OIL_DYN_AVG: 34.312
+  response: 7E80562123F2182
+- expected_values:
+    AUDI_PQ35_OIL_DYN_AVG: 34.692
+  response: 7E80562123F21E1
+- expected_values:
+    AUDI_PQ35_OIL_DYN_AVG: 34.86
+  response: 7E80562123F220B
