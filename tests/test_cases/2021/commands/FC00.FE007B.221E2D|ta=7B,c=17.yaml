@@ -8,4 +8,7 @@ test_cases:
   response: 17FE007B06621E2D3B0001
 - expected_values:
     AUDI_HVBAT_CELL_SOC_MIN: 100
-  response: 17FE007B06621E2D5B0021
+  response: 17FE007B06621E2D5E001B
+- expected_values:
+    AUDI_HVBAT_CELL_SOC_MIN: 100
+  response: 17FE007B06621E2D5E0067
