@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     AUDI_ATF_T: 34
   response: 7E9046221044A
+- expected_values:
+    AUDI_ATF_T: 61
+  response: '7E90462210465'
+- expected_values:
+    AUDI_ATF_T: 63
+  response: '7E90462210467'
+- expected_values:
+    AUDI_ATF_T: 65
+  response: '7E90462210469'
+- expected_values:
+    AUDI_ATF_T: 66
+  response: 7E9046221046A
+- expected_values:
+    AUDI_ATF_T: 67
+  response: 7E9046221046B
+- expected_values:
+    AUDI_ATF_T: 68
+  response: 7E9046221046C
+- expected_values:
+    AUDI_ATF_T: 69
+  response: 7E9046221046D
+- expected_values:
+    AUDI_ATF_T: 70
+  response: 7E9046221046E
+- expected_values:
+    AUDI_ATF_T: 71
+  response: 7E9046221046F

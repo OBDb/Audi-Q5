@@ -1,0 +1,34 @@
+command_id: 7E5.7ED.22028C|din=03
+test_cases:
+- expected_values:
+    AUDI_BMS_SOC: 77
+    AUDI_HVBAT_SOC_V2: 30.19608
+  response: 7ED0462028C4D
+- expected_values:
+    AUDI_BMS_SOC: 78
+    AUDI_HVBAT_SOC_V2: 30.58824
+  response: 7ED0462028C4E
+- expected_values:
+    AUDI_BMS_SOC: 79
+    AUDI_HVBAT_SOC_V2: 30.98039
+  response: 7ED0462028C4F
+- expected_values:
+    AUDI_BMS_SOC: 80
+    AUDI_HVBAT_SOC_V2: 31.37255
+  response: 7ED0462028C50
+- expected_values:
+    AUDI_BMS_SOC: 81
+    AUDI_HVBAT_SOC_V2: 31.76471
+  response: 7ED0462028C51
+- expected_values:
+    AUDI_BMS_SOC: 83
+    AUDI_HVBAT_SOC_V2: 32.54902
+  response: 7ED0462028C53
+- expected_values:
+    AUDI_BMS_SOC: 86
+    AUDI_HVBAT_SOC_V2: 33.72549
+  response: 7ED0462028C56
+- expected_values:
+    AUDI_BMS_SOC: 87
+    AUDI_HVBAT_SOC_V2: 34.11765
+  response: 7ED0462028C57
