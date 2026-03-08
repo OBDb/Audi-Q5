@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     AUDI_CHRGR_COOLANT_T: 17
   response: 7AE046215E239
+- expected_values:
+    AUDI_CHRGR_COOLANT_T: 43
+  response: 7AE046215E253
+- expected_values:
+    AUDI_CHRGR_COOLANT_T: 44
+  response: 7AE046215E254
+- expected_values:
+    AUDI_CHRGR_COOLANT_T: 45
+  response: 7AE046215E255
+- expected_values:
+    AUDI_CHRGR_COOLANT_T: 46
+  response: 7AE046215E256
+- expected_values:
+    AUDI_CHRGR_COOLANT_T: 47
+  response: 7AE046215E257
+- expected_values:
+    AUDI_CHRGR_COOLANT_T: 49
+  response: 7AE046215E259
+- expected_values:
+    AUDI_CHRGR_COOLANT_T: 51
+  response: 7AE046215E25B
+- expected_values:
+    AUDI_CHRGR_COOLANT_T: 53
+  response: 7AE046215E25D
