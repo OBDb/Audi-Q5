@@ -1,6 +1,13 @@
 command_id: 710.77A.222A53|fc=1
 test_cases:
 - expected_values:
+    AUDI_DCDC_I: 20
+    AUDI_DCDC_I_RSV: 195
+    AUDI_DCDC_V_LOW: 13.2
+  response: |-
+    77A1008622A53840213
+    77A2102C2AAAAAAAAAA
+- expected_values:
     AUDI_DCDC_I: 23
     AUDI_DCDC_I_RSV: 192
     AUDI_DCDC_V_LOW: 13.2
