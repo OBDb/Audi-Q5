@@ -1,17 +1,8 @@
 command_id: FC00.FE007B.22028C|ta=7B,c=17
 test_cases:
 - expected_values:
-    AUDI_SOC_DISP: 27.74783
-  response: 17FE007B0462028C4D
-- expected_values:
-    AUDI_SOC_DISP: 28.1913
-  response: 17FE007B0462028C4E
-- expected_values:
-    AUDI_SOC_DISP: 28.63478
-  response: 17FE007B0462028C4F
-- expected_values:
-    AUDI_SOC_DISP: 29.07826
-  response: 17FE007B0462028C50
+    AUDI_SOC_DISP: 19.32174
+  response: 17FE007B0462028C3A
 - expected_values:
     AUDI_SOC_DISP: 32.18261
   response: 17FE007B0462028C57
