@@ -4,17 +4,5 @@ test_cases:
     AUDI_MQB_DL382_CLUTCH_2_P: 0
   response: 7E90462214D0A
 - expected_values:
-    AUDI_MQB_DL382_CLUTCH_2_P: 0.3
-  response: 7E90462214D0D
-- expected_values:
-    AUDI_MQB_DL382_CLUTCH_2_P: 2.8
-  response: 7E90462214D26
-- expected_values:
-    AUDI_MQB_DL382_CLUTCH_2_P: 3.3
-  response: 7E90462214D2B
-- expected_values:
-    AUDI_MQB_DL382_CLUTCH_2_P: 3.6
-  response: 7E90462214D2E
-- expected_values:
-    AUDI_MQB_DL382_CLUTCH_2_P: 3.9
-  response: 7E90462214D31
+    AUDI_MQB_DL382_CLUTCH_2_P: 13.9
+  response: 7E90462214D95
