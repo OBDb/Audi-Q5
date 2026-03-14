@@ -10,5 +10,5 @@ test_cases:
     AUDI_RUNTM: 2304
   response: 7E80562F41F0900
 - expected_values:
-    AUDI_RUNTM: 3608
-  response: 7E80562F41F0E18
+    AUDI_RUNTM: 5915
+  response: 7E80562F41F171B

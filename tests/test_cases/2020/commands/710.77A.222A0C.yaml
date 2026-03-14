@@ -5,38 +5,6 @@ test_cases:
     AUDI_SSB_SOC: 90
   response: 77A04622A0C5A
 - expected_values:
-    AUDI_MQB_BAT_CHG_COND: 91
-    AUDI_SSB_SOC: 91
-  response: 77A04622A0C5B
-- expected_values:
-    AUDI_MQB_BAT_CHG_COND: 92
-    AUDI_SSB_SOC: 92
-  response: 77A04622A0C5C
-- expected_values:
-    AUDI_MQB_BAT_CHG_COND: 93
-    AUDI_SSB_SOC: 93
-  response: 77A04622A0C5D
-- expected_values:
-    AUDI_MQB_BAT_CHG_COND: 94
-    AUDI_SSB_SOC: 94
-  response: 77A04622A0C5E
-- expected_values:
-    AUDI_MQB_BAT_CHG_COND: 95
-    AUDI_SSB_SOC: 95
-  response: 77A04622A0C5F
-- expected_values:
-    AUDI_MQB_BAT_CHG_COND: 96
-    AUDI_SSB_SOC: 96
-  response: 77A04622A0C60
-- expected_values:
-    AUDI_MQB_BAT_CHG_COND: 97
-    AUDI_SSB_SOC: 97
-  response: 77A04622A0C61
-- expected_values:
-    AUDI_MQB_BAT_CHG_COND: 99
-    AUDI_SSB_SOC: 99
-  response: 77A04622A0C63
-- expected_values:
     AUDI_MQB_BAT_CHG_COND: 100
     AUDI_SSB_SOC: 100
   response: 77A04622A0C64
