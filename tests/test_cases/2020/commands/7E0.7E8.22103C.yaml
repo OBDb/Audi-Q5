@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22103C
 test_cases:
 - expected_values:
-    AUDI_MQB_INT_MAN_P: 13007
-  response: 7E80562103C32CF
+    AUDI_MQB_INT_MAN_P: 12343
+  response: 7E80562103C3037
 - expected_values:
     AUDI_MQB_INT_MAN_P: 14082
   response: 7E80562103C3702
