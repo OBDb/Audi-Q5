@@ -10,5 +10,5 @@ test_cases:
     AUDI_MQB_INT_MAN_P: 14335
   response: 7E80562103C37FF
 - expected_values:
-    AUDI_MQB_INT_MAN_P: 15117
-  response: 7E80562103C3B0D
+    AUDI_MQB_INT_MAN_P: 15371
+  response: 7E80562103C3C0B
