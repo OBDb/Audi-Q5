@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     AUDI_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS: -48.64
   response: 7E90562105700ED
+- expected_values:
+    AUDI_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS: 38.41
+  response: 7E905621057010F
