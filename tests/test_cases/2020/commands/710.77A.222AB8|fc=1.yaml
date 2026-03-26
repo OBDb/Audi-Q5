@@ -22,6 +22,11 @@ test_cases:
     77A100B622AB8006401
     77A213000000000AAAA
 - expected_values:
+    AUDI_HVBAT_KWH: 975
+  response: |-
+    77A100B622AB800D200
+    77A212700000000AAAA
+- expected_values:
     AUDI_HVBAT_KWH: 0
   response: |-
     77A100B622AB800DC00
