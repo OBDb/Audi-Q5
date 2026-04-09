@@ -1,20 +1,20 @@
-command_id: 7E0.7E8.22295A
+command_id: 7E0.22295A
 test_cases:
 - expected_values:
-    AUDI_ODO: 18834
+    AUDI_ODO_V2: 18834
   response: 7E80662295A004992
 - expected_values:
-    AUDI_ODO: 45879
+    AUDI_ODO_V2: 45879
   response: 7E80662295A00B337
 - expected_values:
-    AUDI_ODO: 45880
+    AUDI_ODO_V2: 45880
   response: 7E80662295A00B338
 - expected_values:
-    AUDI_ODO: 129040
+    AUDI_ODO_V2: 129040
   response: 7E80662295A01F810
 - expected_values:
-    AUDI_ODO: 129041
+    AUDI_ODO_V2: 129041
   response: 7E80662295A01F811
 - expected_values:
-    AUDI_ODO: 129042
+    AUDI_ODO_V2: 129042
   response: 7E80662295A01F812
