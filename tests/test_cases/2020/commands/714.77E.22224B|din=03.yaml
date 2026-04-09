@@ -4,5 +4,5 @@ test_cases:
     AUDI_PQ35_OIL_WEAR: 37
   response: 77E0562224B0025
 - expected_values:
-    AUDI_PQ35_OIL_WEAR: 64
-  response: 77E0562224B0040
+    AUDI_PQ35_OIL_WEAR: 65
+  response: 77E0562224B0041
