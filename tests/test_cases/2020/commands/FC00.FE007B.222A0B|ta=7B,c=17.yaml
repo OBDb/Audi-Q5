@@ -4,5 +4,5 @@ test_cases:
     AUDI_BATTERY_T: 17
   response: 17FE007B04622A0B72
 - expected_values:
-    AUDI_BATTERY_T: 27
-  response: 17FE007B04622A0B86
+    AUDI_BATTERY_T: 28
+  response: 17FE007B04622A0B88
