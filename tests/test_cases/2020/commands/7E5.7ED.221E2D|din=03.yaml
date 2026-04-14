@@ -5,9 +5,9 @@ test_cases:
     AUDI_BMS_CELL_SOC_MIN_IDX: 0
   response: 7ED06621E2D100045
 - expected_values:
-    AUDI_BMS_CELL_SOC_MIN: 19
+    AUDI_BMS_CELL_SOC_MIN: 18
     AUDI_BMS_CELL_SOC_MIN_IDX: 0
-  response: 7ED06621E2D130015
+  response: 7ED06621E2D120015
 - expected_values:
     AUDI_BMS_CELL_SOC_MIN: 89
     AUDI_BMS_CELL_SOC_MIN_IDX: 0
