@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     AUDI_ODO_V2: 134419
   response: 7E80662295A020D13
+- expected_values:
+    AUDI_ODO_V2: 134420
+  response: 7E80662295A020D14
+- expected_values:
+    AUDI_ODO_V2: 134421
+  response: 7E80662295A020D15
