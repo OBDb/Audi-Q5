@@ -4,5 +4,8 @@ test_cases:
     AUDI_HVBAT_CAP: 12900
   response: 77A07622AB201020600
 - expected_values:
+    AUDI_HVBAT_CAP: 12950
+  response: 77A07622AB201030600
+- expected_values:
     AUDI_HVBAT_CAP: 65250
   response: 77A07622AB205190100
