@@ -7,6 +7,9 @@ test_cases:
     AUDI_MQB_DL382_CLUTCH_T_CALCULATED: 29
   response: 7E9056218E3001D
 - expected_values:
+    AUDI_MQB_DL382_CLUTCH_T_CALCULATED: 30
+  response: 7E9056218E3001E
+- expected_values:
     AUDI_MQB_DL382_CLUTCH_T_CALCULATED: 32
   response: 7E9056218E30020
 - expected_values:
@@ -18,6 +21,9 @@ test_cases:
 - expected_values:
     AUDI_MQB_DL382_CLUTCH_T_CALCULATED: 54
   response: 7E9056218E30036
+- expected_values:
+    AUDI_MQB_DL382_CLUTCH_T_CALCULATED: 61
+  response: 7E9056218E3003D
 - expected_values:
     AUDI_MQB_DL382_CLUTCH_T_CALCULATED: 75
   response: 7E9056218E3004B
