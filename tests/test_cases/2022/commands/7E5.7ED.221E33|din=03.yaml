@@ -24,3 +24,7 @@ test_cases:
     AUDI_BMS_CELL_V_MAX: 0.4024
     AUDI_BMS_CELL_V_MAX_IDX: 0
   response: 7ED07621E330FB80067
+- expected_values:
+    AUDI_BMS_CELL_V_MAX: 0.4099
+    AUDI_BMS_CELL_V_MAX_IDX: 0
+  response: 7ED07621E3310030067
