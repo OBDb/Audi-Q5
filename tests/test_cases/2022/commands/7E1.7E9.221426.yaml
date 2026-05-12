@@ -7,5 +7,8 @@ test_cases:
     AUDI_MQB_DL382_CLUTCH_0_CMD_P_OFFSET: -1.578
   response: 7E905621426F9D6
 - expected_values:
+    AUDI_MQB_DL382_CLUTCH_0_CMD_P_OFFSET: -1.386
+  response: 7E905621426FA96
+- expected_values:
     AUDI_MQB_DL382_CLUTCH_0_CMD_P_OFFSET: -1.037
   response: 7E905621426FBF3
