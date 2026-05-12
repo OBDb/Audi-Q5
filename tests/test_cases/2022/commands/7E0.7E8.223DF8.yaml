@@ -13,6 +13,9 @@ test_cases:
     AUDI_ENG_MOTOR_RPM: 1746
   response: 7E805623DF80DA4
 - expected_values:
+    AUDI_ENG_MOTOR_RPM: 1921
+  response: 7E805623DF80F02
+- expected_values:
     AUDI_ENG_MOTOR_RPM: 1936
   response: 7E805623DF80F20
 - expected_values:
