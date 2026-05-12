@@ -7,36 +7,4 @@ test_cases:
 - expected_values:
     AUDI_PTC_PUMP_PWR: 0
     AUDI_PTC_PUMP_RPM: 0
-  response: 7AC066227D600BD00
-- expected_values:
-    AUDI_PTC_PUMP_PWR: 0
-    AUDI_PTC_PUMP_RPM: 0
-  response: 7AC066227D600BE00
-- expected_values:
-    AUDI_PTC_PUMP_PWR: 0
-    AUDI_PTC_PUMP_RPM: 0
-  response: 7AC066227D600C300
-- expected_values:
-    AUDI_PTC_PUMP_PWR: 0
-    AUDI_PTC_PUMP_RPM: 0
-  response: 7AC066227D600C600
-- expected_values:
-    AUDI_PTC_PUMP_PWR: 0
-    AUDI_PTC_PUMP_RPM: 0
-  response: 7AC066227D600C700
-- expected_values:
-    AUDI_PTC_PUMP_PWR: 0
-    AUDI_PTC_PUMP_RPM: 0
-  response: 7AC066227D600C800
-- expected_values:
-    AUDI_PTC_PUMP_PWR: 0
-    AUDI_PTC_PUMP_RPM: 0
-  response: 7AC066227D600D000
-- expected_values:
-    AUDI_PTC_PUMP_PWR: 0
-    AUDI_PTC_PUMP_RPM: 0
-  response: 7AC066227D600D100
-- expected_values:
-    AUDI_PTC_PUMP_PWR: 0
-    AUDI_PTC_PUMP_RPM: 0
   response: 7AC066227D600D400
