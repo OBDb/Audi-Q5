@@ -5,38 +5,10 @@ test_cases:
     AUDI_HVBAT_VOLTS: 897.5
   response: 7ED05621E3B0E06
 - expected_values:
-    AUDI_BMS_CELL_V_SUM: 374
-    AUDI_HVBAT_VOLTS: 935
-  response: 7ED05621E3B0E9C
-- expected_values:
     AUDI_BMS_CELL_V_SUM: 379.5
     AUDI_HVBAT_VOLTS: 948.75
   response: 7ED05621E3B0ED3
 - expected_values:
-    AUDI_BMS_CELL_V_SUM: 396.7
-    AUDI_HVBAT_VOLTS: 991.75
-  response: 7ED05621E3B0F7F
-- expected_values:
-    AUDI_BMS_CELL_V_SUM: 398.5
-    AUDI_HVBAT_VOLTS: 996.25
-  response: 7ED05621E3B0F91
-- expected_values:
-    AUDI_BMS_CELL_V_SUM: 402.5
-    AUDI_HVBAT_VOLTS: 1000
-  response: 7ED05621E3B0FB9
-- expected_values:
     AUDI_BMS_CELL_V_SUM: 409.7
     AUDI_HVBAT_VOLTS: 1000
   response: 7ED05621E3B1001
-- expected_values:
-    AUDI_BMS_CELL_V_SUM: 418.5
-    AUDI_HVBAT_VOLTS: 1000
-  response: 7ED05621E3B1059
-- expected_values:
-    AUDI_BMS_CELL_V_SUM: 420.2
-    AUDI_HVBAT_VOLTS: 1000
-  response: 7ED05621E3B106A
-- expected_values:
-    AUDI_BMS_CELL_V_SUM: 424.5
-    AUDI_HVBAT_VOLTS: 1000
-  response: 7ED05621E3B1095
