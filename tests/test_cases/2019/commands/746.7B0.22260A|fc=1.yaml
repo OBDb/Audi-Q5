@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     AUDI_AAT_CABIN: -50
   response: 7B00562260A006E
+- expected_values:
+    AUDI_AAT_CABIN: -49.5
+  response: 7B00562260A013C
+- expected_values:
+    AUDI_AAT_CABIN: -49.5
+  response: 7B00562260A0142

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F40D
+test_cases:
+- expected_values:
+    AUDI_VSS: 26
+  response: 7E80462F40D1A
+- expected_values:
+    AUDI_VSS: 69
+  response: 7E80462F40D45
+- expected_values:
+    AUDI_VSS: 84
+  response: 7E80462F40D54
