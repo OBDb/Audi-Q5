@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221065
+test_cases:
+- expected_values:
+    AUDI_CLU_1_T_TIME_RANGE_0: 865.36
+  response: 7E90562106504A9
+- expected_values:
+    AUDI_CLU_1_T_TIME_RANGE_0: 1162.32
+  response: 7E90562106504E3
+- expected_values:
+    AUDI_CLU_1_T_TIME_RANGE_0: 82.02
+  response: '7E9056210650510'
+- expected_values:
+    AUDI_CLU_1_T_TIME_RANGE_0: 97.4
+  response: '7E9056210650613'

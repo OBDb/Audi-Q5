@@ -2,4 +2,5 @@ command_id: 7E1.222104
 test_cases:
 - expected_values:
     AUDI_ATF_T: 75
+    AUDI_ATF_T_DUAL_CLU: 115
   response: '7E90462210473'

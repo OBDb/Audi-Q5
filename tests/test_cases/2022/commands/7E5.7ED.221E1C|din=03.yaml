@@ -2,25 +2,33 @@ command_id: 7E5.7ED.221E1C|din=03
 test_cases:
 - expected_values:
     AUDI_BMS_I_DCHG_LIM_DYN: 313
+    AUDI_HVBAT_DISCHG_I_LIM: 1
   response: 7ED05621E1C0139
 - expected_values:
     AUDI_BMS_I_DCHG_LIM_DYN: 315
+    AUDI_HVBAT_DISCHG_I_LIM: 1
   response: 7ED05621E1C013B
 - expected_values:
     AUDI_BMS_I_DCHG_LIM_DYN: 318
+    AUDI_HVBAT_DISCHG_I_LIM: 1
   response: 7ED05621E1C013E
 - expected_values:
     AUDI_BMS_I_DCHG_LIM_DYN: 319
+    AUDI_HVBAT_DISCHG_I_LIM: 1
   response: 7ED05621E1C013F
 - expected_values:
     AUDI_BMS_I_DCHG_LIM_DYN: 330
+    AUDI_HVBAT_DISCHG_I_LIM: 1
   response: 7ED05621E1C014A
 - expected_values:
     AUDI_BMS_I_DCHG_LIM_DYN: 331
+    AUDI_HVBAT_DISCHG_I_LIM: 1
   response: 7ED05621E1C014B
 - expected_values:
     AUDI_BMS_I_DCHG_LIM_DYN: 333
+    AUDI_HVBAT_DISCHG_I_LIM: 1
   response: 7ED05621E1C014D
 - expected_values:
     AUDI_BMS_I_DCHG_LIM_DYN: 335
+    AUDI_HVBAT_DISCHG_I_LIM: 1
   response: 7ED05621E1C014F

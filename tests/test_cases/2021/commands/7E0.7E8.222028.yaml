@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222028
+test_cases:
+- expected_values:
+    AUDI_ACTIVATION_FUEL_PMP: 10
+  response: 7E80562202803E8
+- expected_values:
+    AUDI_ACTIVATION_FUEL_PMP: 28.13
+  response: 7E8056220280AFD
+- expected_values:
+    AUDI_ACTIVATION_FUEL_PMP: 28.23
+  response: 7E8056220280B07
