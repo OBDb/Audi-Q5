@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221201
+test_cases:
+- expected_values:
+    AUDI_EA888B_BOOST_P_CTRL_2: 53.39
+  response: '7E8056212011368'
+- expected_values:
+    AUDI_EA888B_BOOST_P_CTRL_2: 59.01
+  response: 7E80562120115FF
+- expected_values:
+    AUDI_EA888B_BOOST_P_CTRL_2: 61.82
+  response: '7E8056212011601'

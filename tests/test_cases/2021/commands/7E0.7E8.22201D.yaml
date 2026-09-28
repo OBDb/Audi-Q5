@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22201D
+test_cases:
+- expected_values:
+    AUDI_CAM_ADJ_INT_SPEC: 0
+  response: 7E80562201D0000
+- expected_values:
+    AUDI_CAM_ADJ_INT_SPEC: 23.3
+  response: 7E80562201D00E9
+- expected_values:
+    AUDI_CAM_ADJ_INT_SPEC: 52.2
+  response: 7E80562201D020A

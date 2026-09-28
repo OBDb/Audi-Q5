@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223960
+test_cases:
+- expected_values:
+    AUDI_KNOCK_SENS_CYL_1: 0.391
+  response: '7E8056239600187'
+- expected_values:
+    AUDI_KNOCK_SENS_CYL_1: 0.485
+  response: 7E80562396001E5
+- expected_values:
+    AUDI_KNOCK_SENS_CYL_1: 0.555
+  response: 7E805623960022B

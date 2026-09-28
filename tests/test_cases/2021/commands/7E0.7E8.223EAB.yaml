@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223EAB
+test_cases:
+- expected_values:
+    AUDI_CHG_P_CTRL_VLV_V_POS: 3.10917
+  response: 7E805623EAB4F98
+- expected_values:
+    AUDI_CHG_P_CTRL_VLV_V_POS: 3.12214
+  response: 7E805623EAB4FED
+- expected_values:
+    AUDI_CHG_P_CTRL_VLV_V_POS: 3.16655
+  response: 7E805623EAB5110

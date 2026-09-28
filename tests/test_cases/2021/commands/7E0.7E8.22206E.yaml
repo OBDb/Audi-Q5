@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22206E
+test_cases:
+- expected_values:
+    AUDI_CRANK_SPD_RPM: 0
+  response: 7E80562206E0000
+- expected_values:
+    AUDI_CRANK_SPD_RPM: 1523
+  response: 7E80562206E05F3
+- expected_values:
+    AUDI_CRANK_SPD_RPM: 2332
+  response: 7E80562206E091C

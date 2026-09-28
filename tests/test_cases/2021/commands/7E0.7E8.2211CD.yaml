@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2211CD
+test_cases:
+- expected_values:
+    AUDI_TCO_1_SYS: 84
+  response: 7E8046211CD7C
+- expected_values:
+    AUDI_TCO_1_SYS: 99
+  response: 7E8046211CD8B
+- expected_values:
+    AUDI_TCO_1_SYS: 100
+  response: 7E8046211CD8C
+- expected_values:
+    AUDI_TCO_1_SYS: 102
+  response: 7E8046211CD8E
+- expected_values:
+    AUDI_TCO_1_SYS: 103
+  response: 7E8046211CD8F
+- expected_values:
+    AUDI_TCO_1_SYS: 104
+  response: 7E8046211CD90
+- expected_values:
+    AUDI_TCO_1_SYS: 105
+  response: 7E8046211CD91
+- expected_values:
+    AUDI_TCO_1_SYS: 106
+  response: 7E8046211CD92
+- expected_values:
+    AUDI_TCO_1_SYS: 107
+  response: 7E8046211CD93
+- expected_values:
+    AUDI_TCO_1_SYS: 108
+  response: 7E8046211CD94

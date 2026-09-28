@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22295B
+test_cases:
+- expected_values:
+    AUDI_ODO_ECU_INSTALLED: 37823
+  response: 7E80662295B0093BF
+- expected_values:
+    AUDI_ODO_ECU_INSTALLED: 37837
+  response: 7E80662295B0093CD
