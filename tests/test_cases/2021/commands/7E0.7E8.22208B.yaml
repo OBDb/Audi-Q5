@@ -1,0 +1,22 @@
+command_id: 7E0.7E8.22208B
+test_cases:
+- expected_values:
+    AUDI_GPF_SOOT_MASS_CALC: 0
+    AUDI_SOOT_MASS_CALC: 0
+  response: 7E80562208B0000
+- expected_values:
+    AUDI_GPF_SOOT_MASS_CALC: 1
+    AUDI_SOOT_MASS_CALC: 0.01
+  response: 7E80562208B0001
+- expected_values:
+    AUDI_GPF_SOOT_MASS_CALC: 2
+    AUDI_SOOT_MASS_CALC: 0.02
+  response: 7E80562208B0002
+- expected_values:
+    AUDI_GPF_SOOT_MASS_CALC: 4
+    AUDI_SOOT_MASS_CALC: 0.04
+  response: 7E80562208B0004
+- expected_values:
+    AUDI_GPF_SOOT_MASS_CALC: 5
+    AUDI_SOOT_MASS_CALC: 0.05
+  response: 7E80562208B0005

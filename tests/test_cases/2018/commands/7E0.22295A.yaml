@@ -1,5 +1,6 @@
 command_id: 7E0.22295A
 test_cases:
 - expected_values:
+    AUDI_ODO_MILEAGE: 29798
     AUDI_ODO_V2: 29798
   response: 7E80662295A007466

@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22202F
+test_cases:
+- expected_values:
+    AUDI_EOT_V2: 31.9
+  response: 7E80562202F0BEA
+- expected_values:
+    AUDI_EOT_V2: 52.9
+  response: 7E80562202F0CBC
+- expected_values:
+    AUDI_EOT_V2: 73.9
+  response: 7E80562202F0D8E
+- expected_values:
+    AUDI_EOT_V2: 89.9
+  response: 7E80562202F0E2E
+- expected_values:
+    AUDI_EOT_V2: 94.9
+  response: 7E80562202F0E60
+- expected_values:
+    AUDI_EOT_V2: 96.9
+  response: 7E80562202F0E74
+- expected_values:
+    AUDI_EOT_V2: 97.9
+  response: 7E80562202F0E7E
+- expected_values:
+    AUDI_EOT_V2: 98.9
+  response: 7E80562202F0E88
+- expected_values:
+    AUDI_EOT_V2: 99.9
+  response: 7E80562202F0E92

@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22209C
+test_cases:
+- expected_values:
+    AUDI_ENG_DRAG_TQ: 15.1
+  response: 7E80562209C0097
+- expected_values:
+    AUDI_ENG_DRAG_TQ: 15.2
+  response: 7E80562209C0098
+- expected_values:
+    AUDI_ENG_DRAG_TQ: 15.3
+  response: 7E80562209C0099
+- expected_values:
+    AUDI_ENG_DRAG_TQ: 15.4
+  response: 7E80562209C009A
+- expected_values:
+    AUDI_ENG_DRAG_TQ: 15.5
+  response: 7E80562209C009B
+- expected_values:
+    AUDI_ENG_DRAG_TQ: 15.6
+  response: 7E80562209C009C
+- expected_values:
+    AUDI_ENG_DRAG_TQ: 15.7
+  response: 7E80562209C009D
+- expected_values:
+    AUDI_ENG_DRAG_TQ: 16.3
+  response: 7E80562209C00A3
+- expected_values:
+    AUDI_ENG_DRAG_TQ: 17.5
+  response: 7E80562209C00AF

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22202E
+test_cases:
+- expected_values:
+    AUDI_ECT_DIFF_ENG: 42.7
+  response: 7E80562202E01AB
+- expected_values:
+    AUDI_ECT_DIFF_ENG: 57.7
+  response: 7E80562202E0241
+- expected_values:
+    AUDI_ECT_DIFF_ENG: 74.2
+  response: 7E80562202E02E6

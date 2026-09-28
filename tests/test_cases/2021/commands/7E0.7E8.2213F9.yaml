@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2213F9
+test_cases:
+- expected_values:
+    AUDI_NL_PRE_3: 0.01534
+  response: 7E8056213F900C9
+- expected_values:
+    AUDI_NL_PRE_3: 0.0383
+  response: 7E8056213F901F6
+- expected_values:
+    AUDI_NL_PRE_3: 0.03922
+  response: 7E8056213F90202
+- expected_values:
+    AUDI_NL_PRE_3: 0.05905
+  response: 7E8056213F90306

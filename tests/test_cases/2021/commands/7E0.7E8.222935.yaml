@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222935
+test_cases:
+- expected_values:
+    AUDI_ECT_ENG_START: 22.5
+  response: 7E80562293500E1
+- expected_values:
+    AUDI_ECT_ENG_START: 105.7
+  response: '7E8056229350421'
+- expected_values:
+    AUDI_ECT_ENG_START: 106.5
+  response: '7E8056229350429'
+- expected_values:
+    AUDI_ECT_ENG_START: 108
+  response: '7E8056229350438'

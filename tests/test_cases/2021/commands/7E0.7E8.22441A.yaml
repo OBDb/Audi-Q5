@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22441A
+test_cases:
+- expected_values:
+    AUDI_ENG_T_MANAGEMENT_ACTUATOR: 0
+  response: 7E80562441A0000
+- expected_values:
+    AUDI_ENG_T_MANAGEMENT_ACTUATOR: 19.44
+  response: 7E80562441A0798
+- expected_values:
+    AUDI_ENG_T_MANAGEMENT_ACTUATOR: 20.78
+  response: 7E80562441A081E
+- expected_values:
+    AUDI_ENG_T_MANAGEMENT_ACTUATOR: -11.84
+  response: 7E80562441AFB60
+- expected_values:
+    AUDI_ENG_T_MANAGEMENT_ACTUATOR: -7.02
+  response: 7E80562441AFD42

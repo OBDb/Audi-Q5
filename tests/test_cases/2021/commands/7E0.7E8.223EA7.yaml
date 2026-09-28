@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223EA7
+test_cases:
+- expected_values:
+    AUDI_CHG_P_CTRL_VLV_POS_ACT: 0
+  response: 7E805623EA70000
+- expected_values:
+    AUDI_CHG_P_CTRL_VLV_POS_ACT: 96.59
+  response: 7E805623EA725BB
+- expected_values:
+    AUDI_CHG_P_CTRL_VLV_POS_ACT: 97.85
+  response: 7E805623EA72639
