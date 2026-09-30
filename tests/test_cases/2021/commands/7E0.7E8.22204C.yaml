@@ -7,5 +7,5 @@ test_cases:
     AUDI_FUEL_RATE_V2: 2.52
   response: 7E80562204C00FC
 - expected_values:
-    AUDI_FUEL_RATE_V2: 5.97
-  response: 7E80562204C0255
+    AUDI_FUEL_RATE_V2: 5.17
+  response: 7E80562204C0205

@@ -4,8 +4,8 @@ test_cases:
     AUDI_NL_PRE_0: 0.01976
   response: 7E8056213F60103
 - expected_values:
-    AUDI_NL_PRE_0: 0.03662
-  response: 7E8056213F601E0
+    AUDI_NL_PRE_0: 0.03899
+  response: 7E8056213F601FF
 - expected_values:
-    AUDI_NL_PRE_0: 0.04028
-  response: 7E8056213F60210
+    AUDI_NL_PRE_0: 0.03906
+  response: 7E8056213F60200

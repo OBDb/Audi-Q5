@@ -4,5 +4,5 @@ test_cases:
     AUDI_IGA_IGC_2: -35.25025
   response: 7E80462138C01
 - expected_values:
-    AUDI_IGA_IGC_2: 24.335
-  response: 7E80462138CA0
+    AUDI_IGA_IGC_2: 31.83
+  response: 7E80462138CB4

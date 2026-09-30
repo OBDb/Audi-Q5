@@ -4,5 +4,8 @@ test_cases:
     AUDI_INT_MANIFOLD_RUNNER_CTRL: 0
   response: 7E80562206A0000
 - expected_values:
+    AUDI_INT_MANIFOLD_RUNNER_CTRL: 74.06
+  response: 7E80562206A1CEE
+- expected_values:
     AUDI_INT_MANIFOLD_RUNNER_CTRL: 100
   response: 7E80562206A2710

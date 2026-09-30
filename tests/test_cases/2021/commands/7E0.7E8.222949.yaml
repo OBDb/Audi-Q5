@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.222949
 test_cases:
 - expected_values:
-    AUDI_AVG_IGN_TIM_ANG: 8.62
-  response: 7E805622949035E
+    AUDI_AVG_IGN_TIM_ANG: 8.25
+  response: '7E8056229490339'
 - expected_values:
     AUDI_AVG_IGN_TIM_ANG: 10.12
   response: 7E80562294903F4

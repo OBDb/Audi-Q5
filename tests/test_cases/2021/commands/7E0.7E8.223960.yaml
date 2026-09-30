@@ -4,11 +4,11 @@ test_cases:
     AUDI_KNOCK_SENS_CYL_1: 0.345
   response: '7E8056239600159'
 - expected_values:
-    AUDI_KNOCK_SENS_CYL_1: 0.497
-  response: 7E80562396001F1
+    AUDI_KNOCK_SENS_CYL_1: 0.511
+  response: 7E80562396001FF
 - expected_values:
-    AUDI_KNOCK_SENS_CYL_1: 0.535
-  response: '7E8056239600217'
+    AUDI_KNOCK_SENS_CYL_1: 0.513
+  response: '7E8056239600201'
 - expected_values:
-    AUDI_KNOCK_SENS_CYL_1: 0.825
-  response: '7E8056239600339'
+    AUDI_KNOCK_SENS_CYL_1: 0.774
+  response: '7E8056239600306'

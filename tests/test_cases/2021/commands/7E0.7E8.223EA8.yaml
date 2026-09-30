@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.223EA8
 test_cases:
 - expected_values:
-    AUDI_CHG_P_CTRL_VLV_SENS_V: 0.70802
-  response: 7E805623EA81220
+    AUDI_CHG_P_CTRL_VLV_SENS_V: 0.70436
+  response: 7E805623EA81208
 - expected_values:
     AUDI_CHG_P_CTRL_VLV_SENS_V: 3.12504
   response: 7E805623EA85000
@@ -10,5 +10,5 @@ test_cases:
     AUDI_CHG_P_CTRL_VLV_SENS_V: 3.1635
   response: 7E805623EA850FC
 - expected_values:
-    AUDI_CHG_P_CTRL_VLV_SENS_V: 3.16472
-  response: 7E805623EA85104
+    AUDI_CHG_P_CTRL_VLV_SENS_V: 3.16411
+  response: 7E805623EA85100

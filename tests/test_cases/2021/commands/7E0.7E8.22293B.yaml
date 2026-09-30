@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22293B
 test_cases:
 - expected_values:
-    AUDI_FUEL_HIGH_P_SPEC: 82
-  response: 7E80562293B0334
+    AUDI_FUEL_HIGH_P_SPEC: 60
+  response: 7E80562293B0258
+- expected_values:
+    AUDI_FUEL_HIGH_P_SPEC: 102.3
+  response: 7E80562293B03FF
 - expected_values:
     AUDI_FUEL_HIGH_P_SPEC: 102.4
   response: 7E80562293B0400
 - expected_values:
-    AUDI_FUEL_HIGH_P_SPEC: 152.5
-  response: 7E80562293B05F5
-- expected_values:
-    AUDI_FUEL_HIGH_P_SPEC: 273.7
-  response: 7E80562293B0AB1
+    AUDI_FUEL_HIGH_P_SPEC: 266.5
+  response: 7E80562293B0A69
