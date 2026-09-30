@@ -7,8 +7,8 @@ test_cases:
     AUDI_DYNAMIC_AVG_IGN_ANG: 23.25
   response: 7E80562294A0915
 - expected_values:
-    AUDI_DYNAMIC_AVG_IGN_ANG: -25.87
-  response: 7E80562294AF5E5
+    AUDI_DYNAMIC_AVG_IGN_ANG: -30.75
+  response: 7E80562294AF3FD
 - expected_values:
-    AUDI_DYNAMIC_AVG_IGN_ANG: -0.37
-  response: 7E80562294AFFDB
+    AUDI_DYNAMIC_AVG_IGN_ANG: -2.25
+  response: 7E80562294AFF1F

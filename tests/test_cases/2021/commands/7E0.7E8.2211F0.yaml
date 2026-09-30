@@ -2,16 +2,16 @@ command_id: 7E0.7E8.2211F0
 test_cases:
 - expected_values:
     AUDI_ACT_TURBO_BOOST: 2
-    AUDI_BOOST_P_ACT: 395.07812
-  response: 7E8056211F013C1
+    AUDI_BOOST_P_ACT: 369.29688
+  response: 7E8056211F01277
 - expected_values:
     AUDI_ACT_TURBO_BOOST: 2
-    AUDI_BOOST_P_ACT: 440.85938
-  response: 7E8056211F0160B
+    AUDI_BOOST_P_ACT: 439.6875
+  response: 7E8056211F015FC
 - expected_values:
     AUDI_ACT_TURBO_BOOST: 2
-    AUDI_BOOST_P_ACT: 458.82812
-  response: 7E8056211F016F1
+    AUDI_BOOST_P_ACT: 440.54688
+  response: 7E8056211F01607
 - expected_values:
     AUDI_ACT_TURBO_BOOST: 2
     AUDI_BOOST_P_ACT: 523.67188

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2240D5
 test_cases:
 - expected_values:
-    AUDI_EOT_SENS_2: 23
-  response: 7E8056240D500E6
+    AUDI_EOT_SENS_2: 17
+  response: 7E8056240D500AA
 - expected_values:
     AUDI_EOT_SENS_2: 102
   response: 7E8056240D503FC

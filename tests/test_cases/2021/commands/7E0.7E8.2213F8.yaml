@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2213F8
 test_cases:
 - expected_values:
-    AUDI_NL_PRE_2: 0.02083
-  response: 7E8056213F80111
+    AUDI_NL_PRE_2: 0.01991
+  response: 7E8056213F80105
 - expected_values:
     AUDI_NL_PRE_2: 0.03838
   response: 7E8056213F801F7
