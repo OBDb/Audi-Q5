@@ -4,5 +4,5 @@ test_cases:
     AUDI_AVG_INJ_TIME_7E0: 0
   response: '7E80462200300'
 - expected_values:
-    AUDI_AVG_INJ_TIME_7E0: 1.8
-  response: '7E80462200312'
+    AUDI_AVG_INJ_TIME_7E0: 2.2
+  response: '7E80462200316'

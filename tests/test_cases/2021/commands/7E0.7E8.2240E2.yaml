@@ -4,26 +4,8 @@ test_cases:
     AUDI_T_SENS_ENG_T_TGT: 96.7
   response: 7E8056240E203C7
 - expected_values:
-    AUDI_T_SENS_ENG_T_TGT: 97.5
-  response: 7E8056240E203CF
-- expected_values:
     AUDI_T_SENS_ENG_T_TGT: 100.5
   response: 7E8056240E203ED
 - expected_values:
     AUDI_T_SENS_ENG_T_TGT: 102.7
   response: 7E8056240E20403
-- expected_values:
-    AUDI_T_SENS_ENG_T_TGT: 103.5
-  response: 7E8056240E2040B
-- expected_values:
-    AUDI_T_SENS_ENG_T_TGT: 104.2
-  response: 7E8056240E20412
-- expected_values:
-    AUDI_T_SENS_ENG_T_TGT: 105
-  response: 7E8056240E2041A
-- expected_values:
-    AUDI_T_SENS_ENG_T_TGT: 105.7
-  response: 7E8056240E20421
-- expected_values:
-    AUDI_T_SENS_ENG_T_TGT: 106.5
-  response: 7E8056240E20429

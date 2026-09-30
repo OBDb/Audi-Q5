@@ -4,5 +4,5 @@ test_cases:
     AUDI_MAF_OVER_THROTTLE: 0
   response: 7E80562394F0000
 - expected_values:
-    AUDI_MAF_OVER_THROTTLE: 136
-  response: 7E80562394F0088
+    AUDI_MAF_OVER_THROTTLE: 230
+  response: 7E80562394F00E6

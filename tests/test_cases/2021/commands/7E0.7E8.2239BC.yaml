@@ -1,32 +1,8 @@
 command_id: 7E0.7E8.2239BC
 test_cases:
 - expected_values:
-    AUDI_MIXTURE_VARIATION_1: 0.36
-  response: 7E8056239BC0024
-- expected_values:
-    AUDI_MIXTURE_VARIATION_1: 0.72
-  response: 7E8056239BC0048
-- expected_values:
-    AUDI_MIXTURE_VARIATION_1: 0.82
-  response: 7E8056239BC0052
-- expected_values:
-    AUDI_MIXTURE_VARIATION_1: 0.87
-  response: 7E8056239BC0057
-- expected_values:
-    AUDI_MIXTURE_VARIATION_1: 0.9
-  response: 7E8056239BC005A
-- expected_values:
-    AUDI_MIXTURE_VARIATION_1: 0.98
-  response: 7E8056239BC0062
-- expected_values:
-    AUDI_MIXTURE_VARIATION_1: 1.13
-  response: 7E8056239BC0071
-- expected_values:
-    AUDI_MIXTURE_VARIATION_1: 1.41
-  response: 7E8056239BC008D
-- expected_values:
-    AUDI_MIXTURE_VARIATION_1: 1.44
-  response: 7E8056239BC0090
+    AUDI_MIXTURE_VARIATION_1: 0
+  response: 7E8056239BC0000
 - expected_values:
     AUDI_MIXTURE_VARIATION_1: 2.32
   response: 7E8056239BC00E8

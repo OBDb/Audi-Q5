@@ -4,8 +4,8 @@ test_cases:
     AUDI_ACCEL_PEDAL_POS: 0
   response: '7E8056238040000'
 - expected_values:
-    AUDI_ACCEL_PEDAL_POS: 14.94
-  response: 7E80562380405D6
+    AUDI_ACCEL_PEDAL_POS: 12.79
+  response: 7E80562380404FF
 - expected_values:
-    AUDI_ACCEL_PEDAL_POS: 26.56
-  response: 7E8056238040A60
+    AUDI_ACCEL_PEDAL_POS: 46.78
+  response: '7E8056238041246'

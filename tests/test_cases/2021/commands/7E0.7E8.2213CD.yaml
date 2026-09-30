@@ -4,8 +4,8 @@ test_cases:
     AUDI_MAF_RATE: 0
   response: 7E8056213CD0000
 - expected_values:
-    AUDI_MAF_RATE: 63.75
-  response: 7E8056213CD07F8
+    AUDI_MAF_RATE: 39.90625
+  response: 7E8056213CD04FD
 - expected_values:
-    AUDI_MAF_RATE: 73.75
-  response: 7E8056213CD0938
+    AUDI_MAF_RATE: 136.6875
+  response: 7E8056213CD1116

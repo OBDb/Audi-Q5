@@ -16,6 +16,9 @@ test_cases:
     AUDI_ANALYSIS_CLU_1_T_2: 163.92
   response: '7E9056210670420'
 - expected_values:
+    AUDI_ANALYSIS_CLU_1_T_2: 348.24
+  response: '7E9056210670444'
+- expected_values:
     AUDI_ANALYSIS_CLU_1_T_2: 660.56
   response: '7E9056210670481'
 - expected_values:

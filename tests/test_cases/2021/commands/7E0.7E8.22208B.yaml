@@ -13,6 +13,10 @@ test_cases:
     AUDI_SOOT_MASS_CALC: 0.02
   response: 7E80562208B0002
 - expected_values:
+    AUDI_GPF_SOOT_MASS_CALC: 3
+    AUDI_SOOT_MASS_CALC: 0.03
+  response: 7E80562208B0003
+- expected_values:
     AUDI_GPF_SOOT_MASS_CALC: 4
     AUDI_SOOT_MASS_CALC: 0.04
   response: 7E80562208B0004
