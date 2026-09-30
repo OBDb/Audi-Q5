@@ -10,5 +10,5 @@ test_cases:
     AUDI_ENG_TQ_7E0: 75.1
   response: 7E80562437C02EF
 - expected_values:
-    AUDI_ENG_TQ_7E0: -16.3
-  response: 7E80562437CFF5D
+    AUDI_ENG_TQ_7E0: -17.8
+  response: 7E80562437CFF4E

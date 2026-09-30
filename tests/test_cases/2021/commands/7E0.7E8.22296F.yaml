@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22296F
 test_cases:
 - expected_values:
-    AUDI_EXH_GAS_T_BEFORE: 377.9
-  response: 7E80562296F0EC3
+    AUDI_EXH_GAS_T_BEFORE: 338.3
+  response: 7E80562296F0D37
 - expected_values:
-    AUDI_EXH_GAS_T_BEFORE: 408.4
-  response: 7E80562296F0FF4
+    AUDI_EXH_GAS_T_BEFORE: 383.9
+  response: 7E80562296F0EFF
 - expected_values:
     AUDI_EXH_GAS_T_BEFORE: 512.1
   response: 7E80562296F1401
