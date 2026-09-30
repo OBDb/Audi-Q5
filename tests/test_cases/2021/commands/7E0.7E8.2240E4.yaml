@@ -4,8 +4,8 @@ test_cases:
     AUDI_T_SENS_ENG_T_V: 0.66
   response: 7E8056240E40294
 - expected_values:
-    AUDI_T_SENS_ENG_T_V: 1.06
-  response: 7E8056240E40424
+    AUDI_T_SENS_ENG_T_V: 0.796
+  response: 7E8056240E4031C
 - expected_values:
     AUDI_T_SENS_ENG_T_V: 1.787
   response: 7E8056240E406FB

@@ -7,6 +7,9 @@ test_cases:
     AUDI_ECT_ENG_START: 22.5
   response: 7E80562293500E1
 - expected_values:
+    AUDI_ECT_ENG_START: 61.5
+  response: '7E8056229350267'
+- expected_values:
     AUDI_ECT_ENG_START: 63
   response: '7E8056229350276'
 - expected_values:

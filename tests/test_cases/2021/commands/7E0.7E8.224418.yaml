@@ -11,4 +11,4 @@ test_cases:
   response: 7E8056244181DEB
 - expected_values:
     AUDI_THERMOSTAT_ACT: 100
-  response: 7E8056244183FD8
+  response: '7E8056244186176'

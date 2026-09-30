@@ -10,5 +10,5 @@ test_cases:
     AUDI_EXH_GAS_T: 523.6
   response: 7E80562F43C1604
 - expected_values:
-    AUDI_EXH_GAS_T: 620.9
-  response: 7E80562F43C19D1
+    AUDI_EXH_GAS_T: 628.6
+  response: 7E80562F43C1A1E

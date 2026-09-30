@@ -4,6 +4,9 @@ test_cases:
     AUDI_T_SENS_ENG_T_TGT: 96.7
   response: 7E8056240E203C7
 - expected_values:
+    AUDI_T_SENS_ENG_T_TGT: 97.5
+  response: 7E8056240E203CF
+- expected_values:
     AUDI_T_SENS_ENG_T_TGT: 100.5
   response: 7E8056240E203ED
 - expected_values:
