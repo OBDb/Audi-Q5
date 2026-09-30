@@ -4,11 +4,11 @@ test_cases:
     AUDI_EA888B_BOOST_P_CTRL_1: 53.39
   response: 7E805621200134F
 - expected_values:
-    AUDI_EA888B_BOOST_P_CTRL_1: 70.25
-  response: '7E8056212001906'
-- expected_values:
-    AUDI_EA888B_BOOST_P_CTRL_1: 78.68
-  response: 7E8056212001CF8
+    AUDI_EA888B_BOOST_P_CTRL_1: 81.49
+  response: 7E8056212001DFF
 - expected_values:
     AUDI_EA888B_BOOST_P_CTRL_1: 101.16
-  response: '7E8056212002455'
+  response: '7E8056212002401'
+- expected_values:
+    AUDI_EA888B_BOOST_P_CTRL_1: 103.97
+  response: '7E8056212002524'

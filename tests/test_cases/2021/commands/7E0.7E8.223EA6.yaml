@@ -4,8 +4,8 @@ test_cases:
     AUDI_CHG_P_CTRL_VLV_POS_TGT: 0
   response: 7E805623EA60000
 - expected_values:
-    AUDI_CHG_P_CTRL_VLV_POS_TGT: 97.2
-  response: 7E805623EA625F8
+    AUDI_CHG_P_CTRL_VLV_POS_TGT: 97.26
+  response: 7E805623EA625FE
 - expected_values:
-    AUDI_CHG_P_CTRL_VLV_POS_TGT: 97.38
-  response: 7E805623EA6260A
+    AUDI_CHG_P_CTRL_VLV_POS_TGT: 97.33
+  response: 7E805623EA62605

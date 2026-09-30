@@ -4,5 +4,5 @@ test_cases:
     AUDI_MEAN_ENG_AIR_MASS: 0
   response: '7E8056220320000'
 - expected_values:
-    AUDI_MEAN_ENG_AIR_MASS: 155
-  response: 7E805622032009B
+    AUDI_MEAN_ENG_AIR_MASS: 188
+  response: 7E80562203200BC
