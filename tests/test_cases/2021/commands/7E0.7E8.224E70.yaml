@@ -4,8 +4,8 @@ test_cases:
     AUDI_KNOCK_SENSORS_AVG_V_1_2: 0
   response: 7E805624E700000
 - expected_values:
-    AUDI_KNOCK_SENSORS_AVG_V_1_2: 0.498
-  response: 7E805624E7001F2
+    AUDI_KNOCK_SENSORS_AVG_V_1_2: 0.503
+  response: 7E805624E7001F7
 - expected_values:
     AUDI_KNOCK_SENSORS_AVG_V_1_2: 0.818
   response: 7E805624E700332

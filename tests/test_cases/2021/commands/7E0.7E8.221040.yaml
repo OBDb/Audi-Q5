@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221040
 test_cases:
 - expected_values:
-    AUDI_PF_DIFF_P_FILTERED: -4541.75
-  response: '7E8056210400729'
+    AUDI_PF_DIFF_P_FILTERED: -4560.5
+  response: 7E80562104006DE
 - expected_values:
     AUDI_PF_DIFF_P_FILTERED: -4488
   response: '7E8056210400800'

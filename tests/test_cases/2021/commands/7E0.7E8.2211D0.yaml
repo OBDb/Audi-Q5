@@ -7,6 +7,9 @@ test_cases:
     AUDI_TCO_1_ST: 23
   response: 7E8046211D03F
 - expected_values:
+    AUDI_TCO_1_ST: 62
+  response: 7E8046211D066
+- expected_values:
     AUDI_TCO_1_ST: 63
   response: 7E8046211D067
 - expected_values:

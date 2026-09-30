@@ -11,4 +11,4 @@ test_cases:
   response: '7E8056244173106'
 - expected_values:
     AUDI_THERMOSTAT_CMD: 100
-  response: 7E8056244173FF7
+  response: 7E80562441761A8

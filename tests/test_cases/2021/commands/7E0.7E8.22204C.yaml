@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.22204C
 test_cases:
 - expected_values:
-    AUDI_FUEL_RATE_V2: 0.48
-  response: 7E80562204C0030
+    AUDI_FUEL_RATE_V2: 0
+  response: 7E80562204C0000
 - expected_values:
     AUDI_FUEL_RATE_V2: 2.52
   response: 7E80562204C00FC
-- expected_values:
-    AUDI_FUEL_RATE_V2: 2.64
-  response: 7E80562204C0108
 - expected_values:
     AUDI_FUEL_RATE_V2: 5.97
   response: 7E80562204C0255

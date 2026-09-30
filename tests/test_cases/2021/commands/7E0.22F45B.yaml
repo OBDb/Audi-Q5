@@ -25,5 +25,8 @@ test_cases:
     AUDI_HVBAT_REMAINING: 59.60784
   response: 7E80462F45B98
 - expected_values:
+    AUDI_HVBAT_REMAINING: 61.56863
+  response: 7E80462F45B9D
+- expected_values:
     AUDI_HVBAT_REMAINING: 61.96078
   response: 7E80462F45B9E
