@@ -7,5 +7,8 @@ test_cases:
     AUDI_ACTIVATION_FUEL_PMP: 28.13
   response: 7E8056220280AFD
 - expected_values:
-    AUDI_ACTIVATION_FUEL_PMP: 28.23
-  response: 7E8056220280B07
+    AUDI_ACTIVATION_FUEL_PMP: 28.22
+  response: 7E8056220280B06
+- expected_values:
+    AUDI_ACTIVATION_FUEL_PMP: 32.63
+  response: 7E8056220280CBF

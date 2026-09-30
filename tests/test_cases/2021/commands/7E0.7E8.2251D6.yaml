@@ -4,8 +4,8 @@ test_cases:
     AUDI_FUEL_CONS_PER: 0
   response: 7E8056251D60000
 - expected_values:
-    AUDI_FUEL_CONS_PER: 15.05
-  response: 7E8056251D605E1
+    AUDI_FUEL_CONS_PER: 46.05
+  response: 7E8056251D611FD
 - expected_values:
     AUDI_FUEL_CONS_PER: 92.52
   response: 7E8056251D62424
