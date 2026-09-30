@@ -4,5 +4,11 @@ test_cases:
     AUDI_HEATER_SUPPORT_PMP_SPEC: 10
   response: 7E80562433603E8
 - expected_values:
+    AUDI_HEATER_SUPPORT_PMP_SPEC: 62.4
+  response: '7E8056243361860'
+- expected_values:
+    AUDI_HEATER_SUPPORT_PMP_SPEC: 94.79
+  response: '7E8056243362507'
+- expected_values:
     AUDI_HEATER_SUPPORT_PMP_SPEC: 95
   response: 7E805624336251C

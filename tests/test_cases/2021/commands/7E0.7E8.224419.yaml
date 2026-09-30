@@ -4,8 +4,8 @@ test_cases:
     AUDI_ENG_T_MANAGEMENT: 1087
   response: 7E805624419043F
 - expected_values:
-    AUDI_ENG_T_MANAGEMENT: 1275
-  response: 7E80562441904FB
+    AUDI_ENG_T_MANAGEMENT: 2046
+  response: 7E80562441907FE
 - expected_values:
     AUDI_ENG_T_MANAGEMENT: 2056
   response: '7E8056244190808'

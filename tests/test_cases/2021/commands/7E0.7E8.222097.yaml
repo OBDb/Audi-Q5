@@ -4,5 +4,5 @@ test_cases:
     AUDI_MEAN_INJ_QTY: 7
   response: '7E8056220970007'
 - expected_values:
-    AUDI_MEAN_INJ_QTY: 38
-  response: '7E8056220970026'
+    AUDI_MEAN_INJ_QTY: 42
+  response: 7E805622097002A

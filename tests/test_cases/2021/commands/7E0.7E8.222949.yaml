@@ -10,5 +10,5 @@ test_cases:
     AUDI_AVG_IGN_TIM_ANG: 15.37
   response: '7E8056229490601'
 - expected_values:
-    AUDI_AVG_IGN_TIM_ANG: 27
-  response: 7E8056229490A8C
+    AUDI_AVG_IGN_TIM_ANG: 25.87
+  response: 7E8056229490A1B
