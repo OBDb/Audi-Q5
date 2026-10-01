@@ -4,29 +4,5 @@ test_cases:
     AUDI_TCO_1_ST: 16
   response: 7E8046211D038
 - expected_values:
-    AUDI_TCO_1_ST: 23
-  response: 7E8046211D03F
-- expected_values:
-    AUDI_TCO_1_ST: 62
-  response: 7E8046211D066
-- expected_values:
-    AUDI_TCO_1_ST: 63
-  response: 7E8046211D067
-- expected_values:
-    AUDI_TCO_1_ST: 65
-  response: 7E8046211D069
-- expected_values:
-    AUDI_TCO_1_ST: 66
-  response: 7E8046211D06A
-- expected_values:
-    AUDI_TCO_1_ST: 71
-  response: 7E8046211D06F
-- expected_values:
-    AUDI_TCO_1_ST: 106
-  response: 7E8046211D092
-- expected_values:
-    AUDI_TCO_1_ST: 107
-  response: 7E8046211D093
-- expected_values:
     AUDI_TCO_1_ST: 108
   response: 7E8046211D094

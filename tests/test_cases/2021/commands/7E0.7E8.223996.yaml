@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.223996
 test_cases:
 - expected_values:
-    AUDI_MIXTURE_ADPT_FACTOR: 0.07
-  response: '7E8056239960007'
+    AUDI_MIXTURE_ADPT_FACTOR: 0.03
+  response: '7E8056239960003'
 - expected_values:
     AUDI_MIXTURE_ADPT_FACTOR: 2.32
   response: 7E80562399600E8

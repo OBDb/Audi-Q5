@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2229D1
 test_cases:
 - expected_values:
-    AUDI_AIR_MASS_ACT_MG: 81.86
-  response: 7E8056229D11FFA
+    AUDI_AIR_MASS_ACT_MG: 81.76
+  response: 7E8056229D11FF0
 - expected_values:
     AUDI_AIR_MASS_ACT_MG: 110.09
   response: 7E8056229D12B01

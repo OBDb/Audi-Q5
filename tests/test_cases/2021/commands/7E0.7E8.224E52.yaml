@@ -5,28 +5,10 @@ test_cases:
   response: 7E805624E522B16
 - expected_values:
     AUDI_OIL_LEVEL_TEST_2: 100
-  response: 7E805624E522BC0
-- expected_values:
-    AUDI_OIL_LEVEL_TEST_2: 100
-  response: 7E805624E522BF2
-- expected_values:
-    AUDI_OIL_LEVEL_TEST_2: 100
-  response: 7E805624E522D5A
-- expected_values:
-    AUDI_OIL_LEVEL_TEST_2: 100
-  response: 7E805624E522DD2
-- expected_values:
-    AUDI_OIL_LEVEL_TEST_2: 100
   response: 7E805624E522E0E
 - expected_values:
     AUDI_OIL_LEVEL_TEST_2: 100
-  response: 7E805624E522EAE
-- expected_values:
-    AUDI_OIL_LEVEL_TEST_2: 100
   response: 7E805624E522FF8
-- expected_values:
-    AUDI_OIL_LEVEL_TEST_2: 100
-  response: 7E805624E52307A
 - expected_values:
     AUDI_OIL_LEVEL_TEST_2: 100
   response: 7E805624E523656

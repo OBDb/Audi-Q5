@@ -2,17 +2,21 @@ command_id: 7E0.7E8.22028D
 test_cases:
 - expected_values:
     AUDI_ECU_TEMP: 7
+    AUDI_ECU_TEMP_K: -266.1
     AUDI_ENG_CTRL_MODULE_T: 7
   response: 7E80562028D0046
 - expected_values:
     AUDI_ECU_TEMP: 51
+    AUDI_ECU_TEMP_K: -222.1
     AUDI_ENG_CTRL_MODULE_T: 51
   response: 7E80562028D01FE
 - expected_values:
     AUDI_ECU_TEMP: 77
+    AUDI_ECU_TEMP_K: -196.1
     AUDI_ENG_CTRL_MODULE_T: 77
   response: 7E80562028D0302
 - expected_values:
     AUDI_ECU_TEMP: -50
+    AUDI_ECU_TEMP_K: 6230.5
     AUDI_ENG_CTRL_MODULE_T: -50
   response: 7E80562028DFE0C

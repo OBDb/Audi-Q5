@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.22295A
+test_cases:
+- expected_values:
+    AUDI_ODO_ECM: 134042
+    AUDI_ODO_MILEAGE_V2: 134042
+  response: 7E80662295A020B9A
+- expected_values:
+    AUDI_ODO_ECM: 147722
+    AUDI_ODO_MILEAGE_V2: 147722
+  response: 7E80662295A02410A
+- expected_values:
+    AUDI_ODO_ECM: 147727
+    AUDI_ODO_MILEAGE_V2: 147727
+  response: 7E80662295A02410F
+- expected_values:
+    AUDI_ODO_ECM: 147730
+    AUDI_ODO_MILEAGE_V2: 147730
+  response: 7E80662295A024112

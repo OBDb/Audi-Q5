@@ -1,14 +1,18 @@
 command_id: 7E1.7E9.221426
 test_cases:
 - expected_values:
+    AUDI_CLU_0_CMD_P_OFFSET: -1.709
     AUDI_MQB_DL382_CLUTCH_0_CMD_P_OFFSET: -1.709
   response: 7E905621426F953
 - expected_values:
+    AUDI_CLU_0_CMD_P_OFFSET: -1.578
     AUDI_MQB_DL382_CLUTCH_0_CMD_P_OFFSET: -1.578
   response: 7E905621426F9D6
 - expected_values:
+    AUDI_CLU_0_CMD_P_OFFSET: -1.386
     AUDI_MQB_DL382_CLUTCH_0_CMD_P_OFFSET: -1.386
   response: 7E905621426FA96
 - expected_values:
+    AUDI_CLU_0_CMD_P_OFFSET: -1.037
     AUDI_MQB_DL382_CLUTCH_0_CMD_P_OFFSET: -1.037
   response: 7E905621426FBF3

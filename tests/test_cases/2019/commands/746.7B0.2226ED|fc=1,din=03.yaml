@@ -3,5 +3,4 @@ test_cases:
 - expected_values:
     AUDI_AIR_POLUTION: 0
     AUDI_CLIMATE_AIR_POLUTION_LVL: 0
-    AUDI_PQ35_AIR_QUAL: 0
   response: 7B0046226ED00

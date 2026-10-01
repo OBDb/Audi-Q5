@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.222142|fc=1
+test_cases:
+- expected_values:
+    AUDI_SPEC_TQ_CLU_1_DATA: 0.05
+  response: '7E9056221420001'
+- expected_values:
+    AUDI_SPEC_TQ_CLU_1_DATA: 20.6
+  response: 7E905622142019C
+- expected_values:
+    AUDI_SPEC_TQ_CLU_1_DATA: 42.6
+  response: '7E9056221420354'
+- expected_values:
+    AUDI_SPEC_TQ_CLU_1_DATA: 58.35
+  response: 7E905622142048F
+- expected_values:
+    AUDI_SPEC_TQ_CLU_1_DATA: -500
+  response: 7E905622142D8F0

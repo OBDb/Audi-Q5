@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.2270E0|fc=1
+test_cases:
+- expected_values:
+    AUDI_INPUT_SHFT_SPD_1: -1
+  response: 7E9056270E00000
+- expected_values:
+    AUDI_INPUT_SHFT_SPD_1: 1260
+  response: 7E9056270E004ED
+- expected_values:
+    AUDI_INPUT_SHFT_SPD_1: 1556
+  response: 7E9056270E00615
