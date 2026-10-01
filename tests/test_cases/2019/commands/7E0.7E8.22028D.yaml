@@ -3,15 +3,18 @@ test_cases:
 - expected_values:
     AUDI_ECU_TEMP: 82
     AUDI_ECU_TEMP_K: -191.1
+    AUDI_ECU_TEMP_KELVIN: -40
     AUDI_ENG_CTRL_MODULE_T: 82
   response: 7E80562028D0334
 - expected_values:
     AUDI_ECU_TEMP: 88
     AUDI_ECU_TEMP_K: -185.1
+    AUDI_ECU_TEMP_KELVIN: -40
     AUDI_ENG_CTRL_MODULE_T: 88
   response: 7E80562028D0370
 - expected_values:
     AUDI_ECU_TEMP: 90
     AUDI_ECU_TEMP_K: -183.1
+    AUDI_ECU_TEMP_KELVIN: -40
     AUDI_ENG_CTRL_MODULE_T: 90
   response: 7E80562028D0384

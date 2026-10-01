@@ -2,13 +2,16 @@ command_id: 7E1.7E9.221004
 test_cases:
 - expected_values:
     AUDI_TIRE_RL_SPD: 9.2
+    AUDI_TIRE_RL_SPD_7E1: 0.92
     AUDI_TIRE_RL_SPD_V3: 9.2
   response: 7E905621004005C
 - expected_values:
     AUDI_TIRE_RL_SPD: 80.2
+    AUDI_TIRE_RL_SPD_7E1: 8.02
     AUDI_TIRE_RL_SPD_V3: 80.2
   response: '7E9056210040322'
 - expected_values:
     AUDI_TIRE_RL_SPD: 91.7
+    AUDI_TIRE_RL_SPD_7E1: 9.17
     AUDI_TIRE_RL_SPD_V3: 91.7
   response: '7E9056210040395'
