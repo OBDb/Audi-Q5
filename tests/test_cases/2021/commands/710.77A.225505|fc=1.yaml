@@ -5,6 +5,6 @@ test_cases:
     AUDI_TRON_STEER_WHL_T: 67
   response: 77A056255054300
 - expected_values:
-    AUDI_STEER_WHL_T: 85
-    AUDI_TRON_STEER_WHL_T: 85
-  response: 77A056255055500
+    AUDI_STEER_WHL_T: 91
+    AUDI_TRON_STEER_WHL_T: 91
+  response: 77A056255055B00

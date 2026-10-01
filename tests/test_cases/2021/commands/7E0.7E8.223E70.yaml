@@ -10,5 +10,5 @@ test_cases:
     AUDI_INT_MANIFOLD_P_RAW_V2: 0.256
   response: 7E805623E700100
 - expected_values:
-    AUDI_INT_MANIFOLD_P_RAW_V2: 1.439
-  response: 7E805623E70059F
+    AUDI_INT_MANIFOLD_P_RAW_V2: 1.349
+  response: 7E805623E700545

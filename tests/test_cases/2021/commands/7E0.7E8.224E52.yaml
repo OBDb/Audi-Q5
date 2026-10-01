@@ -2,10 +2,10 @@ command_id: 7E0.7E8.224E52
 test_cases:
 - expected_values:
     AUDI_OIL_LEVEL_TEST_2: 100
-  response: 7E805624E522B16
+  response: 7E805624E5229EA
 - expected_values:
     AUDI_OIL_LEVEL_TEST_2: 100
-  response: 7E805624E522E0E
+  response: 7E805624E522D00
 - expected_values:
     AUDI_OIL_LEVEL_TEST_2: 100
   response: 7E805624E522FF8

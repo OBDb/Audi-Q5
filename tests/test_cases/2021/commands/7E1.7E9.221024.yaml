@@ -1,6 +1,15 @@
 command_id: 7E1.7E9.221024
 test_cases:
 - expected_values:
+    AUDI_CURRENT_N215_P_CTRL_1: 13
+  response: '7E9056210240082'
+- expected_values:
+    AUDI_CURRENT_N215_P_CTRL_1: 13.1
+  response: '7E9056210240083'
+- expected_values:
+    AUDI_CURRENT_N215_P_CTRL_1: 13.2
+  response: '7E9056210240084'
+- expected_values:
     AUDI_CURRENT_N215_P_CTRL_1: 13.7
   response: '7E9056210240089'
 - expected_values:

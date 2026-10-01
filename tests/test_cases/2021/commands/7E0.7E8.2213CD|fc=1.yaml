@@ -7,5 +7,5 @@ test_cases:
     AUDI_AIR_MASS: 39.90625
   response: 7E8056213CD04FD
 - expected_values:
-    AUDI_AIR_MASS: 136.6875
-  response: 7E8056213CD1116
+    AUDI_AIR_MASS: 172.6875
+  response: 7E8056213CD1596
