@@ -1,8 +1,20 @@
 command_id: 7E1.7E9.221022
 test_cases:
 - expected_values:
+    AUDI_TCM_TQ_LOSSES: 127
+  response: 7E905621022007F
+- expected_values:
+    AUDI_TCM_TQ_LOSSES: 131
+  response: '7E9056210220083'
+- expected_values:
+    AUDI_TCM_TQ_LOSSES: 132
+  response: '7E9056210220084'
+- expected_values:
     AUDI_TCM_TQ_LOSSES: 137
   response: '7E9056210220089'
+- expected_values:
+    AUDI_TCM_TQ_LOSSES: 142
+  response: 7E905621022008E
 - expected_values:
     AUDI_TCM_TQ_LOSSES: 143
   response: 7E905621022008F

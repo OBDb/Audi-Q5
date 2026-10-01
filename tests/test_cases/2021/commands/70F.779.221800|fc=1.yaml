@@ -4,6 +4,9 @@ test_cases:
     AUDI_CPL_SOL_I: 0
   response: '779056218000000'
 - expected_values:
+    AUDI_CPL_SOL_I: 0.01172
+  response: '779056218000006'
+- expected_values:
     AUDI_CPL_SOL_I: 2.41601
   response: 7790562180004D5
 - expected_values:
@@ -21,3 +24,6 @@ test_cases:
 - expected_values:
     AUDI_CPL_SOL_I: 2.55077
   response: 77905621800051A
+- expected_values:
+    AUDI_CPL_SOL_I: 2.57421
+  response: '779056218000526'

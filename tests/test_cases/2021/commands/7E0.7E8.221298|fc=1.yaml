@@ -4,29 +4,11 @@ test_cases:
     AUDI_CAT_T_BANK_1: 405.475
   response: 7E8056212982A6A
 - expected_values:
-    AUDI_CAT_T_BANK_1: 435.1
-  response: 7E8056212982C44
-- expected_values:
     AUDI_CAT_T_BANK_1: 447.475
   response: 7E8056212982D0A
-- expected_values:
-    AUDI_CAT_T_BANK_1: 521.1625
-  response: 7E80562129831A5
 - expected_values:
     AUDI_CAT_T_BANK_1: 542.4125
   response: 7E80562129832F9
 - expected_values:
-    AUDI_CAT_T_BANK_1: 555.6
-  response: 7E80562129833CC
-- expected_values:
-    AUDI_CAT_T_BANK_1: 564.1625
-  response: '7E8056212983455'
-- expected_values:
-    AUDI_CAT_T_BANK_1: 571.725
-  response: 7E80562129834CE
-- expected_values:
-    AUDI_CAT_T_BANK_1: 574.0375
-  response: 7E80562129834F3
-- expected_values:
-    AUDI_CAT_T_BANK_1: 611.35
-  response: '7E8056212983748'
+    AUDI_CAT_T_BANK_1: 658.1625
+  response: 7E8056212983A35

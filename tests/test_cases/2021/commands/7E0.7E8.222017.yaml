@@ -4,8 +4,8 @@ test_cases:
     AUDI_AC_COMP_TQ_V4: 0
   response: '7E8056220170000'
 - expected_values:
-    AUDI_AC_COMP_TQ_V4: -7.72
-  response: 7E805622017FCFC
+    AUDI_AC_COMP_TQ_V4: -12.81
+  response: 7E805622017FAFF
 - expected_values:
     AUDI_AC_COMP_TQ_V4: -2.53
   response: 7E805622017FF03

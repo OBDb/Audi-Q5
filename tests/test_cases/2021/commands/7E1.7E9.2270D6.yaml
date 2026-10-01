@@ -4,23 +4,8 @@ test_cases:
     AUDI_AUX_HYDRAULIC_PMP_RPM: 64
   response: 7E9056270D6025B
 - expected_values:
-    AUDI_AUX_HYDRAULIC_PMP_RPM: 64
-  response: 7E9056270D6025F
-- expected_values:
-    AUDI_AUX_HYDRAULIC_PMP_RPM: 64
-  response: 7E9056270D60261
-- expected_values:
-    AUDI_AUX_HYDRAULIC_PMP_RPM: 64
-  response: 7E9056270D60263
-- expected_values:
-    AUDI_AUX_HYDRAULIC_PMP_RPM: 64
-  response: 7E9056270D60265
-- expected_values:
-    AUDI_AUX_HYDRAULIC_PMP_RPM: 128
-  response: 7E9056270D604B0
-- expected_values:
-    AUDI_AUX_HYDRAULIC_PMP_RPM: 128
-  response: 7E9056270D604B6
+    AUDI_AUX_HYDRAULIC_PMP_RPM: 160
+  response: 7E9056270D6052F
 - expected_values:
     AUDI_AUX_HYDRAULIC_PMP_RPM: 192
   response: 7E9056270D606FE

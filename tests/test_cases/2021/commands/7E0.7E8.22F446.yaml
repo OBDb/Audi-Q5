@@ -4,5 +4,5 @@ test_cases:
     AUDI_AAT_7E0: 18
   response: 7E80462F4463A
 - expected_values:
-    AUDI_AAT_7E0: 38
-  response: 7E80462F4464E
+    AUDI_AAT_7E0: 45
+  response: 7E80462F44655

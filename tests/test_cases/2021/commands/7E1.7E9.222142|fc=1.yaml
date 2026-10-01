@@ -7,6 +7,9 @@ test_cases:
     AUDI_SPEC_TQ_CLU_1_DATA: 20.6
   response: 7E905622142019C
 - expected_values:
+    AUDI_SPEC_TQ_CLU_1_DATA: 41.6
+  response: '7E9056221420340'
+- expected_values:
     AUDI_SPEC_TQ_CLU_1_DATA: 42.6
   response: '7E9056221420354'
 - expected_values:
