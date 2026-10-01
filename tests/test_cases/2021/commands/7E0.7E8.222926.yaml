@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.222926
 test_cases:
 - expected_values:
+    AUDI_TEST_CATALYTIC_CONV: 0.273
+  response: '7E8056229260111'
+- expected_values:
     AUDI_TEST_CATALYTIC_CONV: 0.281
   response: '7E8056229260119'
 - expected_values:

@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.222050
 test_cases:
 - expected_values:
-    AUDI_GEN_LOAD_SIG: 0.03
+    AUDI_GEN_LOAD_SIG_V3: 0.03
   response: '7E8056220500003'

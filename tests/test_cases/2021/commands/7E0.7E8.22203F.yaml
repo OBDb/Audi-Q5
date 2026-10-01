@@ -10,5 +10,5 @@ test_cases:
     AUDI_TQ_LIM_7E0: 230.4
   response: 7E80562203F0900
 - expected_values:
-    AUDI_TQ_LIM_7E0: 385.1
-  response: 7E80562203F0F0B
+    AUDI_TQ_LIM_7E0: 384
+  response: 7E80562203F0F00

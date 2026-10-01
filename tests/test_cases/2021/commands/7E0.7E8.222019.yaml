@@ -4,5 +4,5 @@ test_cases:
     AUDI_CAM_ADJ_EXH_SPEC: 0
   response: '7E8056220190000'
 - expected_values:
-    AUDI_CAM_ADJ_EXH_SPEC: 21.5
-  response: 7E80562201900D7
+    AUDI_CAM_ADJ_EXH_SPEC: 23.8
+  response: 7E80562201900EE

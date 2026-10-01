@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.223E70
 test_cases:
 - expected_values:
-    AUDI_INT_MANIFOLD_P_RAW_V2: 0.222
-  response: 7E805623E7000DE
+    AUDI_INT_MANIFOLD_P_RAW_V2: 0.218
+  response: 7E805623E7000DA
 - expected_values:
     AUDI_INT_MANIFOLD_P_RAW_V2: 0.255
   response: 7E805623E7000FF

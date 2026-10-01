@@ -1,0 +1,62 @@
+command_id: 710.77A.22123A|fc=1
+test_cases:
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3505.5
+  response: |-
+    77A100B62123A000088
+    77A21EF000087BCAAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3505.8
+  response: |-
+    77A100B62123A000088
+    77A21F2000087BCAAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3506
+  response: |-
+    77A100B62123A000088
+    77A21F4000087BCAAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3506.1
+  response: |-
+    77A100B62123A000088
+    77A21F5000087BCAAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3506.2
+  response: |-
+    77A100B62123A000088
+    77A21F6000087BCAAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3506.3
+  response: |-
+    77A100B62123A000088
+    77A21F7000087BCAAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3506.4
+  response: |-
+    77A100B62123A000088
+    77A21F8000087BCAAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3506.5
+  response: |-
+    77A100B62123A000088
+    77A21F9000087BCAAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3506.6
+  response: |-
+    77A100B62123A000088
+    77A21FA000087BCAAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3474.8
+    AUDI_BZE_Q_LAD: 3506.7
+  response: |-
+    77A100B62123A000088
+    77A21FB000087BCAAAA

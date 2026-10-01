@@ -16,8 +16,14 @@ test_cases:
     AUDI_IDLE_SPD_SPEC_RPM: 900
   response: '7E8056240560384'
 - expected_values:
+    AUDI_IDLE_SPD_SPEC_RPM: 930
+  response: 7E80562405603A2
+- expected_values:
     AUDI_IDLE_SPD_SPEC_RPM: 950
   response: 7E80562405603B6
+- expected_values:
+    AUDI_IDLE_SPD_SPEC_RPM: 987
+  response: 7E80562405603DB
 - expected_values:
     AUDI_IDLE_SPD_SPEC_RPM: 1103
   response: 7E805624056044F

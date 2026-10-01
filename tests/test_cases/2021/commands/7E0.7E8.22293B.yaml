@@ -10,5 +10,5 @@ test_cases:
     AUDI_FUEL_HIGH_P_SPEC: 102.4
   response: 7E80562293B0400
 - expected_values:
-    AUDI_FUEL_HIGH_P_SPEC: 266.5
-  response: 7E80562293B0A69
+    AUDI_FUEL_HIGH_P_SPEC: 262.2
+  response: 7E80562293B0A3E
