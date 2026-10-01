@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.222027
 test_cases:
 - expected_values:
-    AUDI_FUEL_HIGH_P_ACT: 78.4
-  response: '7E8056220270310'
+    AUDI_FUEL_HIGH_P_ACT: 60
+  response: '7E8056220270258'
 - expected_values:
-    AUDI_FUEL_HIGH_P_ACT: 102.2
-  response: 7E80562202703FE
+    AUDI_FUEL_HIGH_P_ACT: 76.6
+  response: 7E80562202702FE
 - expected_values:
-    AUDI_FUEL_HIGH_P_ACT: 153.8
-  response: '7E8056220270602'
+    AUDI_FUEL_HIGH_P_ACT: 128
+  response: '7E8056220270500'
 - expected_values:
-    AUDI_FUEL_HIGH_P_ACT: 263.9
-  response: 7E8056220270A4F
+    AUDI_FUEL_HIGH_P_ACT: 261.8
+  response: 7E8056220270A3A

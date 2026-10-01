@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.222976
 test_cases:
 - expected_values:
-    AUDI_EXH_GAS_T_SENS_1: 1110
+    AUDI_EXH_GAS_T_SENS_1_V2: 1110
   response: 7E8056229762B5C

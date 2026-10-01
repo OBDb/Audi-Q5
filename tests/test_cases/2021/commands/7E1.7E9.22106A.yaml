@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.22106A
+test_cases:
+- expected_values:
+    AUDI_RESERVE_TQ: 0
+  response: 7E90562106A0000
+- expected_values:
+    AUDI_RESERVE_TQ: 101
+  response: 7E90562106A0065
+- expected_values:
+    AUDI_RESERVE_TQ: 812
+  response: 7E90562106A032C
+- expected_values:
+    AUDI_RESERVE_TQ: 1549
+  response: 7E90562106A060D
+- expected_values:
+    AUDI_RESERVE_TQ: 1584
+  response: 7E90562106A0630
+- expected_values:
+    AUDI_RESERVE_TQ: 1760
+  response: 7E90562106A06E0
+- expected_values:
+    AUDI_RESERVE_TQ: 1881
+  response: 7E90562106A0759

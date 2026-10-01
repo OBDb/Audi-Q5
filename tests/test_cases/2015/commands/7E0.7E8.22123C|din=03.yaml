@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.22123C|din=03
+test_cases:
+- expected_values:
+    AUDI_OIL_LAST_DYNAMIC: 33.256
+    AUDI_PQ35_OIL_DYN_LAST: 33.256
+  response: 7E80562123C207A

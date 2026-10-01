@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.22426C
 test_cases:
 - expected_values:
-    AUDI_MIS_PER_1000_2: 0
+    AUDI_MIS_PER_1000_2_V2: 0
   response: 7E80562426C0000

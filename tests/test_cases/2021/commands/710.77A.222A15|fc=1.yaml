@@ -1,0 +1,32 @@
+command_id: 710.77A.222A15|fc=1
+test_cases:
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 0.2
+  response: 77A05622A150014
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 0.5
+  response: 77A05622A150032
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 0.7
+  response: 77A05622A150046
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 0.8
+  response: 77A05622A150050
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 0.9
+  response: 77A05622A15005A
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 1
+  response: 77A05622A150064
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 1.1
+  response: 77A05622A15006E
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 1.2
+  response: 77A05622A150078
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 1.3
+  response: 77A05622A150082
+- expected_values:
+    AUDI_ENERGY_BALANCE_LAST: 1.4
+  response: 77A05622A15008C

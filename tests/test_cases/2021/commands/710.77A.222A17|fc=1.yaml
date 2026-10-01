@@ -1,0 +1,32 @@
+command_id: 710.77A.222A17|fc=1
+test_cases:
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5316.15
+  response: 77A06622A170013C7
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5319.3
+  response: 77A06622A170013CA
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5321.4
+  response: 77A06622A170013CC
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5322.45
+  response: 77A06622A170013CD
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5323.5
+  response: 77A06622A170013CE
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5324.55
+  response: 77A06622A170013CF
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5325.6
+  response: 77A06622A170013D0
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5326.65
+  response: 77A06622A170013D1
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5327.7
+  response: 77A06622A170013D2
+- expected_values:
+    AUDI_OVERALL_ENERGY: 5328.75
+  response: 77A06622A170013D3

@@ -1,0 +1,23 @@
+command_id: 70F.779.221800|fc=1
+test_cases:
+- expected_values:
+    AUDI_CPL_SOL_I: 0
+  response: '779056218000000'
+- expected_values:
+    AUDI_CPL_SOL_I: 2.41601
+  response: 7790562180004D5
+- expected_values:
+    AUDI_CPL_SOL_I: 2.45312
+  response: '7790562180004E8'
+- expected_values:
+    AUDI_CPL_SOL_I: 2.47656
+  response: 7790562180004F4
+- expected_values:
+    AUDI_CPL_SOL_I: 2.49023
+  response: 7790562180004FB
+- expected_values:
+    AUDI_CPL_SOL_I: 2.50195
+  response: '779056218000501'
+- expected_values:
+    AUDI_CPL_SOL_I: 2.55077
+  response: 77905621800051A

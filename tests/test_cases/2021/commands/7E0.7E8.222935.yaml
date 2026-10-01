@@ -7,26 +7,5 @@ test_cases:
     AUDI_ECT_ENG_START: 22.5
   response: 7E80562293500E1
 - expected_values:
-    AUDI_ECT_ENG_START: 61.5
-  response: '7E8056229350267'
-- expected_values:
-    AUDI_ECT_ENG_START: 63
-  response: '7E8056229350276'
-- expected_values:
-    AUDI_ECT_ENG_START: 64.5
-  response: '7E8056229350285'
-- expected_values:
-    AUDI_ECT_ENG_START: 66
-  response: '7E8056229350294'
-- expected_values:
-    AUDI_ECT_ENG_START: 70.5
-  response: 7E80562293502C1
-- expected_values:
-    AUDI_ECT_ENG_START: 105.7
-  response: '7E8056229350421'
-- expected_values:
-    AUDI_ECT_ENG_START: 106.5
-  response: '7E8056229350429'
-- expected_values:
-    AUDI_ECT_ENG_START: 108
-  response: '7E8056229350438'
+    AUDI_ECT_ENG_START: 102.7
+  response: '7E8056229350403'

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2213CD|fc=1
+test_cases:
+- expected_values:
+    AUDI_AIR_MASS: 0
+  response: 7E8056213CD0000
+- expected_values:
+    AUDI_AIR_MASS: 39.90625
+  response: 7E8056213CD04FD
+- expected_values:
+    AUDI_AIR_MASS: 136.6875
+  response: 7E8056213CD1116
