@@ -10,8 +10,17 @@ test_cases:
     AUDI_RESERVE_TQ: 812
   response: 7E90562106A032C
 - expected_values:
+    AUDI_RESERVE_TQ: 1242
+  response: 7E90562106A04DA
+- expected_values:
+    AUDI_RESERVE_TQ: 1479
+  response: 7E90562106A05C7
+- expected_values:
     AUDI_RESERVE_TQ: 1549
   response: 7E90562106A060D
+- expected_values:
+    AUDI_RESERVE_TQ: 1566
+  response: 7E90562106A061E
 - expected_values:
     AUDI_RESERVE_TQ: 1584
   response: 7E90562106A0630

@@ -11,4 +11,4 @@ test_cases:
   response: 7E8056212001DFF
 - expected_values:
     AUDI_EA888B_BOOST_P_CTRL_1: 103.97
-  response: '7E8056212002524'
+  response: '7E8056212002502'

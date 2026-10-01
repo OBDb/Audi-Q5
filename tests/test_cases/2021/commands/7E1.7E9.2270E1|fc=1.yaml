@@ -4,8 +4,8 @@ test_cases:
     AUDI_INPUT_SHFT_SPD_2: -1
   response: 7E9056270E10000
 - expected_values:
-    AUDI_INPUT_SHFT_SPD_2: 1784
-  response: 7E9056270E106F9
+    AUDI_INPUT_SHFT_SPD_2: 254
+  response: 7E9056270E100FF
 - expected_values:
     AUDI_INPUT_SHFT_SPD_2: 2334
   response: 7E9056270E1091F

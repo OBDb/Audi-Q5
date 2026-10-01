@@ -4,8 +4,8 @@ test_cases:
     AUDI_WEAR_INDEX_0_NEW_ENG: 0
   response: 7E8056220C20000
 - expected_values:
-    AUDI_WEAR_INDEX_0_NEW_ENG: 0.30518
-  response: 7E8056220C200C8
+    AUDI_WEAR_INDEX_0_NEW_ENG: 0.38453
+  response: 7E8056220C200FC
 - expected_values:
     AUDI_WEAR_INDEX_0_NEW_ENG: 0.42267
   response: 7E8056220C20115

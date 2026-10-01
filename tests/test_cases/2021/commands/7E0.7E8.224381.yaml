@@ -4,8 +4,8 @@ test_cases:
     AUDI_LONG_TERM_FUEL_TRIM_IDLE: 0
   response: '7E8056243810000'
 - expected_values:
-    AUDI_LONG_TERM_FUEL_TRIM_IDLE: -0.36
-  response: 7E805624381FFDC
+    AUDI_LONG_TERM_FUEL_TRIM_IDLE: -0.42
+  response: 7E805624381FFD6
 - expected_values:
     AUDI_LONG_TERM_FUEL_TRIM_IDLE: -0.02
   response: 7E805624381FFFE

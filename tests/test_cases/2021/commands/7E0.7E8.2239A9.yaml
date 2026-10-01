@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.2239A9
 test_cases:
 - expected_values:
+    AUDI_OXYGEN_CTRL_ADPT: 0.27
+  response: 7E8056239A9001B
+- expected_values:
     AUDI_OXYGEN_CTRL_ADPT: -0.46
   response: 7E8056239A9FFD2

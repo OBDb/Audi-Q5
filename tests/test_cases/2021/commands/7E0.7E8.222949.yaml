@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.222949
 test_cases:
 - expected_values:
-    AUDI_AVG_IGN_TIM_ANG: 8.25
-  response: '7E8056229490339'
-- expected_values:
-    AUDI_AVG_IGN_TIM_ANG: 12.75
-  response: 7E80562294904FB
+    AUDI_AVG_IGN_TIM_ANG: 4.12
+  response: 7E805622949019C
 - expected_values:
     AUDI_AVG_IGN_TIM_ANG: 15.37
   response: '7E8056229490601'
+- expected_values:
+    AUDI_AVG_IGN_TIM_ANG: 28.12
+  response: 7E8056229490AFC
 - expected_values:
     AUDI_AVG_IGN_TIM_ANG: 30.75
   response: 7E8056229490C03

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     AUDI_MIS_1000_REVOLUTIONS_4: 0
   response: 7E80562291F0000
+- expected_values:
+    AUDI_MIS_1000_REVOLUTIONS_4: 1
+  response: 7E80562291F0001

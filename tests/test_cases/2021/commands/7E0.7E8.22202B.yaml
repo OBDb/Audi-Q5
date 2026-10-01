@@ -7,8 +7,8 @@ test_cases:
     AUDI_ECT_RADIATOR_OUTLET_ACT: 25.4
   response: 7E80562202B00FE
 - expected_values:
-    AUDI_ECT_RADIATOR_OUTLET_ACT: 25.7
-  response: 7E80562202B0101
+    AUDI_ECT_RADIATOR_OUTLET_ACT: 51.2
+  response: 7E80562202B0200
 - expected_values:
     AUDI_ECT_RADIATOR_OUTLET_ACT: 80.6
   response: 7E80562202B0326

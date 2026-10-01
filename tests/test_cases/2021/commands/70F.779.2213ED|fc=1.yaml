@@ -1,8 +1,17 @@
 command_id: 70F.779.2213ED|fc=1
 test_cases:
 - expected_values:
+    AUDI_CPL_CLU_TQ: 9216
+  response: 779066213ED240084
+- expected_values:
+    AUDI_CPL_CLU_TQ: 9264
+  response: 779066213ED243084
+- expected_values:
     AUDI_CPL_CLU_TQ: 9360
   response: 779066213ED249084
+- expected_values:
+    AUDI_CPL_CLU_TQ: 9444
+  response: 779066213ED24E484
 - expected_values:
     AUDI_CPL_CLU_TQ: 11264
   response: 779066213ED2C0084

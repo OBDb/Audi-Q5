@@ -10,5 +10,5 @@ test_cases:
     AUDI_EXH_GAS_T_BEFORE: 383.9
   response: 7E80562296F0EFF
 - expected_values:
-    AUDI_EXH_GAS_T_BEFORE: 597.8
-  response: 7E80562296F175A
+    AUDI_EXH_GAS_T_BEFORE: 647.8
+  response: 7E80562296F194E

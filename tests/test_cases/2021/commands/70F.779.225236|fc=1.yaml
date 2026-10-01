@@ -11,6 +11,11 @@ test_cases:
     7791009625236000000
     7792100140400000000
 - expected_values:
+    AUDI_DRIVE_SHFT_SPD_SENS: 84.5
+  response: |-
+    7791009625236000000
+    77921A9140400000000
+- expected_values:
     AUDI_DRIVE_SHFT_SPD_SENS: 166.5
   response: |-
     7791009625236000001
@@ -30,3 +35,8 @@ test_cases:
   response: |-
     779100962523600000E
     7792186140400000000
+- expected_values:
+    AUDI_DRIVE_SHFT_SPD_SENS: 1897.5
+  response: |-
+    779100962523600000E
+    77921D3140400000000

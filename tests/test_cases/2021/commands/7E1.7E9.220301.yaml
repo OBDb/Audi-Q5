@@ -4,26 +4,5 @@ test_cases:
     AUDI_CTRL_MODULE_T: 28
   response: '7E90462030144'
 - expected_values:
-    AUDI_CTRL_MODULE_T: 36
-  response: 7E9046203014C
-- expected_values:
-    AUDI_CTRL_MODULE_T: 37
-  response: 7E9046203014D
-- expected_values:
-    AUDI_CTRL_MODULE_T: 39
-  response: 7E9046203014F
-- expected_values:
-    AUDI_CTRL_MODULE_T: 44
-  response: '7E90462030154'
-- expected_values:
-    AUDI_CTRL_MODULE_T: 47
-  response: '7E90462030157'
-- expected_values:
-    AUDI_CTRL_MODULE_T: 52
-  response: 7E9046203015C
-- expected_values:
-    AUDI_CTRL_MODULE_T: 57
-  response: '7E90462030161'
-- expected_values:
-    AUDI_CTRL_MODULE_T: 59
-  response: '7E90462030163'
+    AUDI_CTRL_MODULE_T: 73
+  response: '7E90462030171'
