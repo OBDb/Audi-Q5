@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22138C
 test_cases:
 - expected_values:
-    AUDI_IGA_IGC_2: -35.25025
-  response: 7E80462138C01
+    AUDI_IGA_IGC_2: -35.625
+  response: 7E80462138C00
 - expected_values:
-    AUDI_IGA_IGC_2: 31.83
-  response: 7E80462138CB4
+    AUDI_IGA_IGC_2: 32.95425
+  response: 7E80462138CB7

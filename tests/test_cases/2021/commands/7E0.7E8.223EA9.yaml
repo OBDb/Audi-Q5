@@ -4,8 +4,8 @@ test_cases:
     AUDI_CHG_P_CTRL_VLV: 0
   response: 7E805623EA90000
 - expected_values:
-    AUDI_CHG_P_CTRL_VLV: -20.5
-  response: 7E805623EA9F7FE
+    AUDI_CHG_P_CTRL_VLV: -17.93
+  response: 7E805623EA9F8FF
 - expected_values:
     AUDI_CHG_P_CTRL_VLV: -2.51
   response: 7E805623EA9FF05
