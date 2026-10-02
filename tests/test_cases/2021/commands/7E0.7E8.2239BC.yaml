@@ -4,5 +4,8 @@ test_cases:
     AUDI_MIXTURE_VARIATION_1: 0
   response: 7E8056239BC0000
 - expected_values:
-    AUDI_MIXTURE_VARIATION_1: 2.32
-  response: 7E8056239BC00E8
+    AUDI_MIXTURE_VARIATION_1: 2.53
+  response: 7E8056239BC00FD
+- expected_values:
+    AUDI_MIXTURE_VARIATION_1: 3.17
+  response: 7E8056239BC013D

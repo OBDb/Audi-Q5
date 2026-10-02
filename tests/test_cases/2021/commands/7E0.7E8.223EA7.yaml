@@ -7,5 +7,5 @@ test_cases:
     AUDI_CHG_P_CTRL_VLV_POS_ACT: 97.18
   response: 7E805623EA725F6
 - expected_values:
-    AUDI_CHG_P_CTRL_VLV_POS_ACT: 97.34
-  response: 7E805623EA72606
+    AUDI_CHG_P_CTRL_VLV_POS_ACT: 97.29
+  response: 7E805623EA72601

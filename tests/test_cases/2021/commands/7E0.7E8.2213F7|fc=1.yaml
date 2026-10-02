@@ -10,5 +10,5 @@ test_cases:
   response: 7E8056213F701FF
 - expected_values:
     AUDI_KNOCK_RETARD_CYL_6: -47.25
-    AUDI_NL_PRE_1: 0.03944
-  response: 7E8056213F70205
+    AUDI_NL_PRE_1: 0.03929
+  response: 7E8056213F70203

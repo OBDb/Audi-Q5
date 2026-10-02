@@ -13,6 +13,15 @@ test_cases:
     AUDI_TCM_TQ_LOSSES: 137
   response: '7E9056210220089'
 - expected_values:
+    AUDI_TCM_TQ_LOSSES: 138
+  response: 7E905621022008A
+- expected_values:
+    AUDI_TCM_TQ_LOSSES: 140
+  response: 7E905621022008C
+- expected_values:
+    AUDI_TCM_TQ_LOSSES: 141
+  response: 7E905621022008D
+- expected_values:
     AUDI_TCM_TQ_LOSSES: 142
   response: 7E905621022008E
 - expected_values:

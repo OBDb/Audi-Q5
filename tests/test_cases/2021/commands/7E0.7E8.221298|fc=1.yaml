@@ -4,11 +4,11 @@ test_cases:
     AUDI_CAT_T_BANK_1: 405.475
   response: 7E8056212982A6A
 - expected_values:
-    AUDI_CAT_T_BANK_1: 447.475
-  response: 7E8056212982D0A
+    AUDI_CAT_T_BANK_1: 414.475
+  response: 7E8056212982AFA
 - expected_values:
-    AUDI_CAT_T_BANK_1: 542.4125
-  response: 7E80562129832F9
+    AUDI_CAT_T_BANK_1: 622.9125
+  response: '7E8056212983801'
 - expected_values:
     AUDI_CAT_T_BANK_1: 658.1625
   response: 7E8056212983A35

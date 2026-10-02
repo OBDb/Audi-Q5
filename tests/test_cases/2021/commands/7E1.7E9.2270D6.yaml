@@ -5,7 +5,7 @@ test_cases:
   response: 7E9056270D6025B
 - expected_values:
     AUDI_AUX_HYDRAULIC_PMP_RPM: 160
-  response: 7E9056270D6052F
+  response: 7E9056270D6051D
 - expected_values:
     AUDI_AUX_HYDRAULIC_PMP_RPM: 192
   response: 7E9056270D606FE

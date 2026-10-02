@@ -7,5 +7,5 @@ test_cases:
     AUDI_TI_MES4_PLS_1_2: 0.988
   response: 7E8056213A200F7
 - expected_values:
-    AUDI_TI_MES4_PLS_1_2: 2.348
-  response: 7E8056213A2024B
+    AUDI_TI_MES4_PLS_1_2: 2.276
+  response: 7E8056213A20239

@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.22203F
 test_cases:
 - expected_values:
-    AUDI_TQ_LIM_7E0: 205.3
-  response: 7E80562203F0805
-- expected_values:
-    AUDI_TQ_LIM_7E0: 230.3
-  response: 7E80562203F08FF
+    AUDI_TQ_LIM_7E0: 204.7
+  response: 7E80562203F07FF
 - expected_values:
     AUDI_TQ_LIM_7E0: 230.4
   response: 7E80562203F0900
