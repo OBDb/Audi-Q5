@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     AUDI_LOST_TQ_ADPT_AC: 0
   response: 7E80562437F0000
+- expected_values:
+    AUDI_LOST_TQ_ADPT_AC: -0.3
+  response: 7E80562437FFFFD
