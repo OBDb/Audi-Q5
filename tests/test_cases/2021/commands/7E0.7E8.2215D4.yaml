@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     AUDI_LAMBDA_OUTPUT: 0.00015
   response: 7E8076215D40005C7A1
+- expected_values:
+    AUDI_LAMBDA_OUTPUT: 0.00015
+  response: 7E8076215D40005C823

@@ -4,11 +4,11 @@ test_cases:
     AUDI_THERMOSTAT_CMD: 46.08142
   response: 7E8056244170EBF
 - expected_values:
+    AUDI_THERMOSTAT_CMD: 78.1248
+  response: '7E8056244171900'
+- expected_values:
     AUDI_THERMOSTAT_CMD: 93.68872
   response: 7E8056244171DFB
-- expected_values:
-    AUDI_THERMOSTAT_CMD: 153.19785
-  response: '7E8056244173106'
 - expected_values:
     AUDI_THERMOSTAT_CMD: 305.175
   response: 7E80562441761A8

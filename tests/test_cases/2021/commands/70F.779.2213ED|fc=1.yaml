@@ -19,6 +19,9 @@ test_cases:
     AUDI_CPL_CLU_TQ: 9444
   response: 779066213ED24E484
 - expected_values:
+    AUDI_CPL_CLU_TQ: 9524
+  response: 779066213ED253484
+- expected_values:
     AUDI_CPL_CLU_TQ: 11264
   response: 779066213ED2C0084
 - expected_values:

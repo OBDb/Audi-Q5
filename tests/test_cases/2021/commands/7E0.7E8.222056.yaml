@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.222056
 test_cases:
 - expected_values:
-    AUDI_CLT_FAN_2_ACTIVATION: 10.16
-  response: 7E80562205603F8
+    AUDI_CLT_FAN_2_ACTIVATION: 0
+  response: '7E8056220560000'
 - expected_values:
     AUDI_CLT_FAN_2_ACTIVATION: 28.13
   response: 7E8056220560AFD
-- expected_values:
-    AUDI_CLT_FAN_2_ACTIVATION: 69.14
-  response: 7E8056220561B02
 - expected_values:
     AUDI_CLT_FAN_2_ACTIVATION: 86.72
   response: 7E80562205621E0

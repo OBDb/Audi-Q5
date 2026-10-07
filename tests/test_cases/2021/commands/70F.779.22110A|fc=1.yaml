@@ -13,6 +13,12 @@ test_cases:
     779100B62110A000100
     7792100000400000000
 - expected_values:
+    AUDI_STAT_CC_ECU_T_ST: 0.2652
+    AUDI_STAT_CLU_TQ_SOLL_TQ: 0
+  response: |-
+    779100B62110A001100
+    7792100000000020000
+- expected_values:
     AUDI_STAT_CC_ECU_T_ST: 8.9388
     AUDI_STAT_CLU_TQ_SOLL_TQ: 152.75
   response: |-

@@ -10,6 +10,9 @@ test_cases:
     AUDI_INT_MODEL_AIR_MASS: 0.2
   response: 7E8056211AB0002
 - expected_values:
+    AUDI_INT_MODEL_AIR_MASS: 0.3
+  response: 7E8056211AB0003
+- expected_values:
     AUDI_INT_MODEL_AIR_MASS: 1.8
   response: 7E8056211AB0012
 - expected_values:

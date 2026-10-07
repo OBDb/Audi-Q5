@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     AUDI_MANUAL_ENG_STARTS: 3131
   response: 7E8056229980C3B
+- expected_values:
+    AUDI_MANUAL_ENG_STARTS: 3132
+  response: 7E8056229980C3C
