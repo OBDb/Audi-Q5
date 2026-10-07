@@ -24,3 +24,9 @@ test_cases:
   response: |-
     77A100B62123A000089
     77A2112000087D2AAAA
+- expected_values:
+    AUDI_BZE_Q_ELAD: 3480.6
+    AUDI_BZE_Q_LAD: 3510.5
+  response: |-
+    77A100B62123A000089
+    77A2121000087F6AAAA
