@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     AUDI_DIRECT_INJECTIONS: 136318245
   response: 7E80762426708200D25
+- expected_values:
+    AUDI_DIRECT_INJECTIONS: 136390401
+  response: '7E80762426708212701'
