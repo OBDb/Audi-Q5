@@ -2,13 +2,13 @@ command_id: 7E1.7E9.2270D6
 test_cases:
 - expected_values:
     AUDI_AUX_HYDRAULIC_PMP_RPM: 64
-  response: 7E9056270D6025B
-- expected_values:
-    AUDI_AUX_HYDRAULIC_PMP_RPM: 160
-  response: 7E9056270D6051D
+  response: 7E9056270D60253
 - expected_values:
     AUDI_AUX_HYDRAULIC_PMP_RPM: 192
   response: 7E9056270D606FE
+- expected_values:
+    AUDI_AUX_HYDRAULIC_PMP_RPM: 288
+  response: 7E9056270D60912
 - expected_values:
     AUDI_AUX_HYDRAULIC_PMP_RPM: 320
   response: 7E9056270D60A22
