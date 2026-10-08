@@ -19,6 +19,9 @@ test_cases:
     AUDI_MAF_THROUGH_THROTTLE: 91.4
   response: 7E8056211AC0392
 - expected_values:
+    AUDI_MAF_THROUGH_THROTTLE: 92
+  response: 7E8056211AC0398
+- expected_values:
     AUDI_MAF_THROUGH_THROTTLE: 96.9
   response: 7E8056211AC03C9
 - expected_values:

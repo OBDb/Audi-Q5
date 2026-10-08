@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     AUDI_GPF_OIL_ASH_MASS: 4.42
   response: 7E80562406C01BA
+- expected_values:
+    AUDI_GPF_OIL_ASH_MASS: 4.43
+  response: 7E80562406C01BB

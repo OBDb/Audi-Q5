@@ -8,6 +8,9 @@ test_cases:
   response: 7E805624E5126B6
 - expected_values:
     AUDI_OIL_LEVEL_TEST_1: 100
+  response: 7E805624E51272E
+- expected_values:
+    AUDI_OIL_LEVEL_TEST_1: 100
   response: 7E805624E5127F6
 - expected_values:
     AUDI_OIL_LEVEL_TEST_1: 100

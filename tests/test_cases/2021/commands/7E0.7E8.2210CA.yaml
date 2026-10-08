@@ -10,5 +10,8 @@ test_cases:
     AUDI_ACCEL_V2: 15.525
   response: 7E8056210CA3CA5
 - expected_values:
+    AUDI_ACCEL_V2: 16.15
+  response: 7E8056210CA3F16
+- expected_values:
     AUDI_ACCEL_V2: 17.8
   response: 7E8056210CA4588
