@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.223EAC
 test_cases:
 - expected_values:
-    AUDI_CHG_P_CTRL_VLV_V_POS_OPENED: 0.62119
-  response: 7E805623EAC0FE7
+    AUDI_CHG_P_CTRL_VLV_V_POS_OPENED: 0.61753
+  response: 7E805623EAC0FCF
 - expected_values:
     AUDI_CHG_P_CTRL_VLV_V_POS_OPENED: 0.66392
   response: 7E805623EAC10FF

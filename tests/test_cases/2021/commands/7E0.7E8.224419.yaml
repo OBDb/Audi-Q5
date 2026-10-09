@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.224419
 test_cases:
 - expected_values:
-    AUDI_ENG_T_MANAGEMENT: 972
-  response: 7E80562441903CC
+    AUDI_ENG_T_MANAGEMENT: 841
+  response: '7E8056244190349'
 - expected_values:
     AUDI_ENG_T_MANAGEMENT: 1278
   response: 7E80562441904FE

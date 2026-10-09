@@ -1,8 +1,8 @@
 command_id: 714.77E.22220C|fc=1
 test_cases:
 - expected_values:
-    AUDI_OUTSIDE_T: 16.5
-  response: 77E0462220C85
+    AUDI_OUTSIDE_T: 11.5
+  response: 77E0462220C7B
 - expected_values:
     AUDI_OUTSIDE_T: 43
   response: 77E0462220CBA
