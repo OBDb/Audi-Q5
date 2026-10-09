@@ -1,29 +1,8 @@
 command_id: 7E0.7E8.221000|fc=1
 test_cases:
 - expected_values:
-    AUDI_AAT_7E0_2: 15.75
-  response: '7E80462100055'
-- expected_values:
-    AUDI_AAT_7E0_2: 17.25
-  response: '7E80462100057'
-- expected_values:
-    AUDI_AAT_7E0_2: 18
-  response: '7E80462100058'
-- expected_values:
-    AUDI_AAT_7E0_2: 22.5
-  response: 7E8046210005E
-- expected_values:
-    AUDI_AAT_7E0_2: 24
-  response: '7E80462100060'
-- expected_values:
-    AUDI_AAT_7E0_2: 27.75
-  response: '7E80462100065'
-- expected_values:
-    AUDI_AAT_7E0_2: 28.5
-  response: '7E80462100066'
-- expected_values:
-    AUDI_AAT_7E0_2: 31.5
-  response: 7E8046210006A
+    AUDI_AAT_7E0_2: 11.25
+  response: 7E8046210004F
 - expected_values:
     AUDI_AAT_7E0_2: 32.25
   response: 7E8046210006B

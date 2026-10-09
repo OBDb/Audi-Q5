@@ -7,5 +7,5 @@ test_cases:
     AUDI_TQ_REQ_SUM_AUXILIARY: 25.1
   response: 7E80562209B00FB
 - expected_values:
-    AUDI_TQ_REQ_SUM_AUXILIARY: 26.6
-  response: 7E80562209B010A
+    AUDI_TQ_REQ_SUM_AUXILIARY: 25.7
+  response: 7E80562209B0101

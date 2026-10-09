@@ -7,11 +7,20 @@ test_cases:
     AUDI_OXYGEN_CTRL_ADPT: 0.68
   response: 7E8056239A90044
 - expected_values:
+    AUDI_OXYGEN_CTRL_ADPT: 0.71
+  response: 7E8056239A90047
+- expected_values:
     AUDI_OXYGEN_CTRL_ADPT: 1.74
   response: 7E8056239A900AE
 - expected_values:
+    AUDI_OXYGEN_CTRL_ADPT: 2.21
+  response: 7E8056239A900DD
+- expected_values:
     AUDI_OXYGEN_CTRL_ADPT: 2.31
   response: 7E8056239A900E7
+- expected_values:
+    AUDI_OXYGEN_CTRL_ADPT: 3.63
+  response: 7E8056239A9016B
 - expected_values:
     AUDI_OXYGEN_CTRL_ADPT: -0.46
   response: 7E8056239A9FFD2

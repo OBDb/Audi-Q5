@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     AUDI_CPL_SOL_I: 7.99412
   response: 779056218000FFD
+- expected_values:
+    AUDI_CPL_SOL_I: -0.01172
+  response: 77905621800FFFA

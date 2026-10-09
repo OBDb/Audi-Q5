@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     AUDI_SPEC_TQ_CLU_1_DATA: -500
   response: 7E905622142D8F0
+- expected_values:
+    AUDI_SPEC_TQ_CLU_1_DATA: -10
+  response: 7E905622142FF38
