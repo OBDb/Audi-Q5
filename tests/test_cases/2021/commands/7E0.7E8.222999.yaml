@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     AUDI_AUTOMATIC_ENG_STARTS: 4752
   response: '7E8056229991290'
+- expected_values:
+    AUDI_AUTOMATIC_ENG_STARTS: 4765
+  response: 7E805622999129D

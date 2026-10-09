@@ -7,8 +7,8 @@ test_cases:
     AUDI_CLT_FAN_1_ACTIVATION: 23.05
   response: '7E8056220550901'
 - expected_values:
-    AUDI_CLT_FAN_1_ACTIVATION: 51.17
-  response: 7E80562205513FD
+    AUDI_CLT_FAN_1_ACTIVATION: 28.13
+  response: 7E8056220550AFD
 - expected_values:
     AUDI_CLT_FAN_1_ACTIVATION: 78.52
   response: 7E8056220551EAC

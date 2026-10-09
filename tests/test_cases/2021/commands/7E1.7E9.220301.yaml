@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.220301
 test_cases:
 - expected_values:
-    AUDI_CTRL_MODULE_T: 28
-  response: '7E90462030144'
+    AUDI_CTRL_MODULE_T: 24
+  response: '7E90462030140'
 - expected_values:
-    AUDI_CTRL_MODULE_T: 73
-  response: '7E90462030171'
+    AUDI_CTRL_MODULE_T: 78
+  response: '7E90462030176'

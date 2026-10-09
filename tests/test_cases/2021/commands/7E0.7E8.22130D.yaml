@@ -7,5 +7,5 @@ test_cases:
     AUDI_FUEL_MASS_REQ_I_CTL: -5.46805
   response: 7E80562130DFEFE
 - expected_values:
-    AUDI_FUEL_MASS_REQ_I_CTL: -5.31969
-  response: 7E80562130DFF05
+    AUDI_FUEL_MASS_REQ_I_CTL: -5.38328
+  response: 7E80562130DFF02

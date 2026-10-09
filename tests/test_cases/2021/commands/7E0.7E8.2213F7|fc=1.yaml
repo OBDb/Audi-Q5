@@ -2,8 +2,8 @@ command_id: 7E0.7E8.2213F7|fc=1
 test_cases:
 - expected_values:
     AUDI_KNOCK_RETARD_CYL_6: -48
-    AUDI_NL_PRE_1: 0.01762
-  response: 7E8056213F700E7
+    AUDI_NL_PRE_1: 0.01678
+  response: 7E8056213F700DC
 - expected_values:
     AUDI_KNOCK_RETARD_CYL_6: -47.625
     AUDI_NL_PRE_1: 0.03899

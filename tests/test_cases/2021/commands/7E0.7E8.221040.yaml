@@ -4,11 +4,11 @@ test_cases:
     AUDI_PF_DIFF_P_FILTERED: -4560.5
   response: 7E80562104006DE
 - expected_values:
+    AUDI_PF_DIFF_P_FILTERED: -4488.5
+  response: 7E80562104007FE
+- expected_values:
     AUDI_PF_DIFF_P_FILTERED: -4488
   response: '7E8056210400800'
 - expected_values:
-    AUDI_PF_DIFF_P_FILTERED: -4424.5
-  response: 7E80562104008FE
-- expected_values:
-    AUDI_PF_DIFF_P_FILTERED: -2426.5
-  response: '7E8056210402836'
+    AUDI_PF_DIFF_P_FILTERED: -2115.5
+  response: 7E8056210402D12

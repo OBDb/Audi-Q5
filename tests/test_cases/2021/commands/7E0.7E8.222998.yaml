@@ -4,26 +4,5 @@ test_cases:
     AUDI_MANUAL_ENG_STARTS: 3123
   response: 7E8056229980C33
 - expected_values:
-    AUDI_MANUAL_ENG_STARTS: 3124
-  response: 7E8056229980C34
-- expected_values:
-    AUDI_MANUAL_ENG_STARTS: 3125
-  response: 7E8056229980C35
-- expected_values:
-    AUDI_MANUAL_ENG_STARTS: 3127
-  response: 7E8056229980C37
-- expected_values:
-    AUDI_MANUAL_ENG_STARTS: 3128
-  response: 7E8056229980C38
-- expected_values:
-    AUDI_MANUAL_ENG_STARTS: 3129
-  response: 7E8056229980C39
-- expected_values:
-    AUDI_MANUAL_ENG_STARTS: 3130
-  response: 7E8056229980C3A
-- expected_values:
-    AUDI_MANUAL_ENG_STARTS: 3131
-  response: 7E8056229980C3B
-- expected_values:
-    AUDI_MANUAL_ENG_STARTS: 3132
-  response: 7E8056229980C3C
+    AUDI_MANUAL_ENG_STARTS: 3136
+  response: 7E8056229980C40
