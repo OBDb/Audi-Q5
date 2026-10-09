@@ -7,5 +7,8 @@ test_cases:
     AUDI_FUEL_LOW_P_SPEC_V2: 5.385
   response: '7E8056229321509'
 - expected_values:
+    AUDI_FUEL_LOW_P_SPEC_V2: 6.719
+  response: 7E8056229321A3F
+- expected_values:
     AUDI_FUEL_LOW_P_SPEC_V2: 6.905
   response: 7E8056229321AF9

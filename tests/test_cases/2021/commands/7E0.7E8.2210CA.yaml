@@ -1,14 +1,29 @@
 command_id: 7E0.7E8.2210CA
 test_cases:
 - expected_values:
+    AUDI_ACCEL_V2: 0
+  response: 7E8056210CA0000
+- expected_values:
     AUDI_ACCEL_V2: 14.15
   response: 7E8056210CA3746
 - expected_values:
     AUDI_ACCEL_V2: 14.9
   response: 7E8056210CA3A34
 - expected_values:
+    AUDI_ACCEL_V2: 15
+  response: 7E8056210CA3A98
+- expected_values:
+    AUDI_ACCEL_V2: 15.3
+  response: 7E8056210CA3BC4
+- expected_values:
     AUDI_ACCEL_V2: 15.525
   response: 7E8056210CA3CA5
+- expected_values:
+    AUDI_ACCEL_V2: 15.725
+  response: 7E8056210CA3D6D
+- expected_values:
+    AUDI_ACCEL_V2: 16.15
+  response: 7E8056210CA3F16
 - expected_values:
     AUDI_ACCEL_V2: 17.8
   response: 7E8056210CA4588
