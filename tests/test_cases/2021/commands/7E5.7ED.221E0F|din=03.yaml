@@ -1,18 +1,18 @@
 command_id: 7E5.7ED.221E0F|din=03
 test_cases:
 - expected_values:
-    AUDI_BMS_T_MIN: 0
-    AUDI_BMS_T_MIN_CELL: 8
+    Q5_BMS_T_MIN: 0
+    Q5_BMS_T_MIN_CELL: 8
   response: 7ED05621E0F6408
 - expected_values:
-    AUDI_BMS_T_MIN: 10
-    AUDI_BMS_T_MIN_CELL: 3
+    Q5_BMS_T_MIN: 10
+    Q5_BMS_T_MIN_CELL: 3
   response: 7ED05621E0F6E03
 - expected_values:
-    AUDI_BMS_T_MIN: 27
-    AUDI_BMS_T_MIN_CELL: 8
+    Q5_BMS_T_MIN: 27
+    Q5_BMS_T_MIN_CELL: 8
   response: 7ED05621E0F7F08
 - expected_values:
-    AUDI_BMS_T_MIN: 38
-    AUDI_BMS_T_MIN_CELL: 6
+    Q5_BMS_T_MIN: 38
+    Q5_BMS_T_MIN_CELL: 6
   response: 7ED05621E0F8A06

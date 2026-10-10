@@ -1,0 +1,11 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    Q5_CLIMATE_T_AFTER_EVAP: 0
+  response: 7B0056226120019
+- expected_values:
+    Q5_CLIMATE_T_AFTER_EVAP: 0
+  response: 7B005622612001A
+- expected_values:
+    Q5_CLIMATE_T_AFTER_EVAP: 0
+  response: 7B005622612001E

@@ -1,0 +1,17 @@
+command_id: 714.77E.22224B|fc=1
+test_cases:
+- expected_values:
+    Q5_DASH_OIL_THERMAL_WEAR: 151
+  response: 77E0562224B0097
+- expected_values:
+    Q5_DASH_OIL_THERMAL_WEAR: 338
+  response: 77E0562224B0152
+- expected_values:
+    Q5_DASH_OIL_THERMAL_WEAR: 421
+  response: 77E0562224B01A5
+- expected_values:
+    Q5_DASH_OIL_THERMAL_WEAR: 423
+  response: 77E0562224B01A7
+- expected_values:
+    Q5_DASH_OIL_THERMAL_WEAR: 424
+  response: 77E0562224B01A8

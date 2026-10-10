@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.22293E
 test_cases:
 - expected_values:
-    AUDI_CHG_P_CTRL_ADPT_MAX: 3.94
+    Q5_CHG_P_CTRL_ADPT_MAX: 3.94
   response: 7E80562293E018A

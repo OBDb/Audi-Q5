@@ -1,14 +1,11 @@
 command_id: 7E5.7ED.221E1E|din=03
 test_cases:
 - expected_values:
-    AUDI_BMS_I_DCHG_LIM_PRED: 54
-    AUDI_HVBAT_DISCHG_I_LIM_PRED: 0
+    Q5_BMS_I_DCHG_LIM_PRED: 54
   response: 7ED05621E1E0036
 - expected_values:
-    AUDI_BMS_I_DCHG_LIM_PRED: 109
-    AUDI_HVBAT_DISCHG_I_LIM_PRED: 0
+    Q5_BMS_I_DCHG_LIM_PRED: 109
   response: 7ED05621E1E006D
 - expected_values:
-    AUDI_BMS_I_DCHG_LIM_PRED: 110
-    AUDI_HVBAT_DISCHG_I_LIM_PRED: 0
+    Q5_BMS_I_DCHG_LIM_PRED: 110
   response: 7ED05621E1E006E

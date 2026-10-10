@@ -1,17 +1,29 @@
 command_id: 7E0.7E8.224E51
 test_cases:
 - expected_values:
-    AUDI_OIL_LEVEL_TEST_1: 97.1
+    Q5_OIL_LEVEL_TEST_1: 93.3
+  response: 7E805624E512472
+- expected_values:
+    Q5_OIL_LEVEL_TEST_1: 97.1
   response: 7E805624E5125EE
 - expected_values:
-    AUDI_OIL_LEVEL_TEST_1: 99.1
+    Q5_OIL_LEVEL_TEST_1: 98.2
+  response: 7E805624E51265C
+- expected_values:
+    Q5_OIL_LEVEL_TEST_1: 99.1
   response: 7E805624E5126B6
 - expected_values:
-    AUDI_OIL_LEVEL_TEST_1: 100
+    Q5_OIL_LEVEL_TEST_1: 100
+  response: 7E805624E51272E
+- expected_values:
+    Q5_OIL_LEVEL_TEST_1: 100
+  response: 7E805624E51277E
+- expected_values:
+    Q5_OIL_LEVEL_TEST_1: 100
   response: 7E805624E5127F6
 - expected_values:
-    AUDI_OIL_LEVEL_TEST_1: 100
+    Q5_OIL_LEVEL_TEST_1: 100
   response: 7E805624E512814
 - expected_values:
-    AUDI_OIL_LEVEL_TEST_1: 100
+    Q5_OIL_LEVEL_TEST_1: 100
   response: 7E805624E512C24

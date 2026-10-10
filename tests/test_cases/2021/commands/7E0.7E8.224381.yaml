@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.224381
 test_cases:
 - expected_values:
-    AUDI_LONG_TERM_FUEL_TRIM_IDLE: 0
+    Q5_LONG_TERM_FUEL_TRIM_IDLE: 0
   response: '7E8056243810000'
 - expected_values:
-    AUDI_LONG_TERM_FUEL_TRIM_IDLE: -0.49
+    Q5_LONG_TERM_FUEL_TRIM_IDLE: -0.49
   response: 7E805624381FFCF
 - expected_values:
-    AUDI_LONG_TERM_FUEL_TRIM_IDLE: -0.02
+    Q5_LONG_TERM_FUEL_TRIM_IDLE: -0.02
   response: 7E805624381FFFE

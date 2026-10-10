@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.224418
 test_cases:
 - expected_values:
-    AUDI_THERMOSTAT_ACT: 71.20343
-  response: 7E80562441816C9
+    Q5_THERMOSTAT_ACT: 67.60237
+  response: 7E80562441815A2
 - expected_values:
-    AUDI_THERMOSTAT_ACT: 87.51198
+    Q5_THERMOSTAT_ACT: 87.51198
   response: 7E8056244181C01
 - expected_values:
-    AUDI_THERMOSTAT_ACT: 90.61256
+    Q5_THERMOSTAT_ACT: 90.61256
   response: 7E8056244181CFF
 - expected_values:
-    AUDI_THERMOSTAT_ACT: 304.56465
+    Q5_THERMOSTAT_ACT: 100
   response: '7E8056244186176'

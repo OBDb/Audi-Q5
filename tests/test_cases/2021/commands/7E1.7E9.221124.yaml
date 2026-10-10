@@ -1,5 +1,5 @@
 command_id: 7E1.7E9.221124
 test_cases:
 - expected_values:
-    AUDI_CLU_1_HI_ADPT_POINT: 12.159
+    Q5_CLU_1_HI_ADPT_POINT: 12.159
   response: 7E9056211242F7F

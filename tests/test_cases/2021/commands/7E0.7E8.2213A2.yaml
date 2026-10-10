@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2213A2
 test_cases:
 - expected_values:
-    AUDI_TI_MES4_PLS_1_2: 0
+    Q5_TI_MES4_PLS_1_2: 0
   response: 7E8056213A20000
 - expected_values:
-    AUDI_TI_MES4_PLS_1_2: 0.988
+    Q5_TI_MES4_PLS_1_2: 0.988
   response: 7E8056213A200F7
 - expected_values:
-    AUDI_TI_MES4_PLS_1_2: 2.276
-  response: 7E8056213A20239
+    Q5_TI_MES4_PLS_1_2: 3.628
+  response: 7E8056213A2038B

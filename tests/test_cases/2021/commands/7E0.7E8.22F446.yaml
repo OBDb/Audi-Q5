@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F446
 test_cases:
 - expected_values:
-    AUDI_AAT_7E0: 18
-  response: 7E80462F4463A
+    Q5_AAT_7E0: 11
+  response: 7E80462F44633
 - expected_values:
-    AUDI_AAT_7E0: 45
+    Q5_AAT_7E0: 45
   response: 7E80462F44655

@@ -1,22 +1,18 @@
 command_id: 7E5.7ED.221E0E|din=03
 test_cases:
 - expected_values:
-    AUDI_BMS_T_MAX: 10
-    AUDI_BMS_T_MAX_CELL: 8
-    AUDI_HVBAT_T_MAX: 440.125
+    Q5_BMS_T_MAX: 10
+    Q5_BMS_T_MAX_CELL: 8
   response: 7ED05621E0E6E08
 - expected_values:
-    AUDI_BMS_T_MAX: 24
-    AUDI_BMS_T_MAX_CELL: 1
-    AUDI_HVBAT_T_MAX: 496.01562
+    Q5_BMS_T_MAX: 24
+    Q5_BMS_T_MAX_CELL: 1
   response: 7ED05621E0E7C01
 - expected_values:
-    AUDI_BMS_T_MAX: 27
-    AUDI_BMS_T_MAX_CELL: 8
-    AUDI_HVBAT_T_MAX: 508.125
+    Q5_BMS_T_MAX: 27
+    Q5_BMS_T_MAX_CELL: 8
   response: 7ED05621E0E7F08
 - expected_values:
-    AUDI_BMS_T_MAX: 38
-    AUDI_BMS_T_MAX_CELL: 5
-    AUDI_HVBAT_T_MAX: 552.07812
+    Q5_BMS_T_MAX: 38
+    Q5_BMS_T_MAX_CELL: 5
   response: 7ED05621E0E8A05

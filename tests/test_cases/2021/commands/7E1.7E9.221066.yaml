@@ -1,14 +1,11 @@
 command_id: 7E1.7E9.221066
 test_cases:
 - expected_values:
-    AUDI_ANALYSIS_CLU_1_T_1: 0
-    AUDI_STATIC_TQ_LIM: 0
+    Q5_ANALYSIS_CLU_1_T_1: 0
   response: '7E9056210660000'
 - expected_values:
-    AUDI_ANALYSIS_CLU_1_T_1: 1290.3
-    AUDI_STATIC_TQ_LIM: 1020
+    Q5_ANALYSIS_CLU_1_T_1: 1290.3
   response: 7E90562106603FC
 - expected_values:
-    AUDI_ANALYSIS_CLU_1_T_1: 117.86
-    AUDI_STATIC_TQ_LIM: 1303
-  response: '7E9056210660517'
+    Q5_ANALYSIS_CLU_1_T_1: 179.32
+  response: '7E9056210660623'

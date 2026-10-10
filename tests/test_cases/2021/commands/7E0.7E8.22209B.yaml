@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22209B
 test_cases:
 - expected_values:
-    AUDI_TQ_REQ_SUM_AUXILIARY: 0
+    Q5_TQ_REQ_SUM_AUXILIARY: 0
   response: 7E80562209B0000
 - expected_values:
-    AUDI_TQ_REQ_SUM_AUXILIARY: 25.1
+    Q5_TQ_REQ_SUM_AUXILIARY: 25.1
   response: 7E80562209B00FB
 - expected_values:
-    AUDI_TQ_REQ_SUM_AUXILIARY: 26.6
-  response: 7E80562209B010A
+    Q5_TQ_REQ_SUM_AUXILIARY: 25.7
+  response: 7E80562209B0101

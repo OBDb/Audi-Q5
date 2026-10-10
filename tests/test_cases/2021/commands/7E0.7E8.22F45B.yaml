@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F45B
 test_cases:
 - expected_values:
-    AUDI_HVBAT_REMAINING: 30.19608
-  response: 7E80462F45B4D
+    Q5_HVBAT_REMAINING: 0
+  response: 7E80462F45B00
 - expected_values:
-    AUDI_HVBAT_REMAINING: 61.96078
-  response: 7E80462F45B9E
+    Q5_HVBAT_REMAINING: 62.35294
+  response: 7E80462F45B9F

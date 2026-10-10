@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221024
 test_cases:
 - expected_values:
-    AUDI_ALTERNATOR_LOAD: 550
+    Q5_ALTERNATOR_LOAD: 550
   response: 7E8046210240B
 - expected_values:
-    AUDI_ALTERNATOR_LOAD: 750
+    Q5_ALTERNATOR_LOAD: 750
   response: 7E8046210240F

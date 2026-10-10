@@ -1,17 +1,11 @@
 command_id: 7E1.7E9.221002
 test_cases:
 - expected_values:
-    AUDI_TIRE_FL_SPD_7E1: 0.71
-    AUDI_TIRE_FL_SPD_V2: 7.1
-    AUDI_TIRE_FL_SPD_V3: 7.1
+    Q5_TIRE_FL_SPD_V3: 7.1
   response: '7E9056210020047'
 - expected_values:
-    AUDI_TIRE_FL_SPD_7E1: 8.01
-    AUDI_TIRE_FL_SPD_V2: 80.1
-    AUDI_TIRE_FL_SPD_V3: 80.1
+    Q5_TIRE_FL_SPD_V3: 80.1
   response: '7E9056210020321'
 - expected_values:
-    AUDI_TIRE_FL_SPD_7E1: 9.16
-    AUDI_TIRE_FL_SPD_V2: 91.6
-    AUDI_TIRE_FL_SPD_V3: 91.6
+    Q5_TIRE_FL_SPD_V3: 91.6
   response: '7E9056210020394'

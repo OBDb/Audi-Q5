@@ -1,8 +1,11 @@
 command_id: 7E1.7E9.222142|fc=1
 test_cases:
 - expected_values:
-    AUDI_SPEC_TQ_CLU_1_DATA: 0.05
+    Q5_SPEC_TQ_CLU_1_DATA: 0.05
   response: '7E9056221420001'
 - expected_values:
-    AUDI_SPEC_TQ_CLU_1_DATA: -500
+    Q5_SPEC_TQ_CLU_1_DATA: -500
   response: 7E905622142D8F0
+- expected_values:
+    Q5_SPEC_TQ_CLU_1_DATA: -10
+  response: 7E905622142FF38

@@ -1,32 +1,8 @@
 command_id: 7E1.7E9.222143|fc=1
 test_cases:
 - expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: 3
-  response: 7E905622143003C
+    Q5_SPEC_TQ_CLU_2_DATA: 0.05
+  response: '7E9056221430001'
 - expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: 5
-  response: '7E9056221430064'
-- expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: 13.3
-  response: 7E905622143010A
-- expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: 20
-  response: '7E9056221430190'
-- expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: 23.8
-  response: 7E90562214301DC
-- expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: 38.75
-  response: '7E9056221430307'
-- expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: 67.3
-  response: '7E9056221430542'
-- expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: 72.85
-  response: 7E90562214305B1
-- expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: 169.5
-  response: 7E9056221430D3E
-- expected_values:
-    AUDI_SPEC_TQ_CLU_2_DATA: -500
+    Q5_SPEC_TQ_CLU_2_DATA: -500
   response: 7E905622143D8F0

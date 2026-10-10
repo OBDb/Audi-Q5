@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.223997
 test_cases:
 - expected_values:
-    AUDI_MIXTURE_ADPT_FACTOR_IDLE: 0
+    Q5_MIXTURE_ADPT_FACTOR_IDLE: 0
   response: '7E8056239970000'
 - expected_values:
-    AUDI_MIXTURE_ADPT_FACTOR_IDLE: -5.13
+    Q5_MIXTURE_ADPT_FACTOR_IDLE: -5.13
   response: 7E805623997FDFF
 - expected_values:
-    AUDI_MIXTURE_ADPT_FACTOR_IDLE: -2.55
-  response: 7E805623997FF01
+    Q5_MIXTURE_ADPT_FACTOR_IDLE: -2.56
+  response: 7E805623997FF00

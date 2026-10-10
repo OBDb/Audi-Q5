@@ -1,0 +1,11 @@
+command_id: 746.7B0.222605|fc=1
+test_cases:
+- expected_values:
+    Q5_CLIMATE_REFRIG_P: 11.2
+  response: 7B00462260538
+- expected_values:
+    Q5_CLIMATE_REFRIG_P: 12.2
+  response: 7B0046226053D
+- expected_values:
+    Q5_CLIMATE_REFRIG_P: 12.4
+  response: 7B0046226053E
