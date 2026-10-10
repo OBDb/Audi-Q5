@@ -1,32 +1,32 @@
 command_id: 744.7AE.2215E2|fc=1,din=03
 test_cases:
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 20
+    Q5_CHRGR_COOLANT_T: 20
   response: 7AE046215E23C
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 21
+    Q5_CHRGR_COOLANT_T: 21
   response: 7AE046215E23D
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 23
+    Q5_CHRGR_COOLANT_T: 23
   response: 7AE046215E23F
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 24
+    Q5_CHRGR_COOLANT_T: 24
   response: 7AE046215E240
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 25
+    Q5_CHRGR_COOLANT_T: 25
   response: 7AE046215E241
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 26
+    Q5_CHRGR_COOLANT_T: 26
   response: 7AE046215E242
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 27
+    Q5_CHRGR_COOLANT_T: 27
   response: 7AE046215E243
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 28
+    Q5_CHRGR_COOLANT_T: 28
   response: 7AE046215E244
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 31
+    Q5_CHRGR_COOLANT_T: 31
   response: 7AE046215E247
 - expected_values:
-    AUDI_CHRGR_COOLANT_T: 51
+    Q5_CHRGR_COOLANT_T: 51
   response: 7AE046215E25B

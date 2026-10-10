@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.225149
 test_cases:
 - expected_values:
-    AUDI_CHAIN_ELONGATION: 37645
+    Q5_CHAIN_ELONGATION: 37645
   response: 7E80662514900930D

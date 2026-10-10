@@ -1,10 +1,8 @@
 command_id: 746.7B0.22260A|fc=1
 test_cases:
 - expected_values:
-    AUDI_AAT_CABIN: -50
-    AUDI_OUTSIDE_T_SYSTEM: 0
+    Q5_OUTSIDE_T_SYSTEM: 16.9
   response: 7B00562260A00A9
 - expected_values:
-    AUDI_AAT_CABIN: -50
-    AUDI_OUTSIDE_T_SYSTEM: 0
+    Q5_OUTSIDE_T_SYSTEM: 23
   response: 7B00562260A00E6

@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.221139
 test_cases:
 - expected_values:
-    AUDI_MEAN_INJ_QUANTITY: 10.19
+    Q5_MEAN_INJ_QUANTITY: 10.19
   response: 7E80562113903FB

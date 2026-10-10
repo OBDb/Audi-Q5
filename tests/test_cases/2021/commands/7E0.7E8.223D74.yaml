@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.223D74
 test_cases:
 - expected_values:
-    AUDI_TRANS_CLT_VLV_OPEN: 0
+    Q5_TRANS_CLT_VLV_OPEN: 0
   response: 7E804623D7400
 - expected_values:
-    AUDI_TRANS_CLT_VLV_OPEN: 1
+    Q5_TRANS_CLT_VLV_OPEN: 1
   response: 7E804623D7401

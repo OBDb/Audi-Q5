@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.221068
 test_cases:
 - expected_values:
-    AUDI_ANALYSIS_CLU_1_T_3: 0
+    Q5_ANALYSIS_CLU_1_T_3: 0
   response: '7E9056210680000'
 - expected_values:
-    AUDI_ANALYSIS_CLU_1_T_3: 1280.04
+    Q5_ANALYSIS_CLU_1_T_3: 1280.04
   response: 7E90562106802FA
 - expected_values:
-    AUDI_ANALYSIS_CLU_1_T_3: 5.2
+    Q5_ANALYSIS_CLU_1_T_3: 5.2
   response: '7E9056210680401'

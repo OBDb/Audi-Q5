@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22209C
 test_cases:
 - expected_values:
-    AUDI_ENG_DRAG_TQ: 15
+    Q5_ENG_DRAG_TQ: 15
   response: 7E80562209C0096
 - expected_values:
-    AUDI_ENG_DRAG_TQ: 19.9
+    Q5_ENG_DRAG_TQ: 19.9
   response: 7E80562209C00C7

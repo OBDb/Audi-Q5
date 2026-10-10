@@ -1,17 +1,17 @@
 command_id: 744.7AE.221525|fc=1
 test_cases:
 - expected_values:
-    AUDI_OBC_V_PROX_A: 1500
+    Q5_OBC_V_PROX_A: 1500
   response: 7AE0562152505DC
 - expected_values:
-    AUDI_OBC_V_PROX_A: 1510
+    Q5_OBC_V_PROX_A: 1510
   response: 7AE0562152505E6
 - expected_values:
-    AUDI_OBC_V_PROX_A: 1520
+    Q5_OBC_V_PROX_A: 1520
   response: 7AE0562152505F0
 - expected_values:
-    AUDI_OBC_V_PROX_A: 4450
+    Q5_OBC_V_PROX_A: 4450
   response: 7AE056215251162
 - expected_values:
-    AUDI_OBC_V_PROX_A: 4460
+    Q5_OBC_V_PROX_A: 4460
   response: 7AE05621525116C

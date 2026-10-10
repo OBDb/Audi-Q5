@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22294A
 test_cases:
 - expected_values:
-    AUDI_DYNAMIC_AVG_IGN_ANG: 0
+    Q5_DYNAMIC_AVG_IGN_ANG: 0
   response: 7E80562294A0000
 - expected_values:
-    AUDI_DYNAMIC_AVG_IGN_ANG: -30.75
-  response: 7E80562294AF3FD
+    Q5_DYNAMIC_AVG_IGN_ANG: -15.37
+  response: 7E80562294AF9FF
 - expected_values:
-    AUDI_DYNAMIC_AVG_IGN_ANG: -2.25
+    Q5_DYNAMIC_AVG_IGN_ANG: -2.25
   response: 7E80562294AFF1F

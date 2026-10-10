@@ -1,32 +1,44 @@
 command_id: 710.77A.22123A|fc=1
 test_cases:
 - expected_values:
-    AUDI_BZE_Q_ELAD: 3474.8
-    AUDI_BZE_Q_LAD: 3505.5
+    Q5_BZE_Q_ELAD: 3474.8
+    Q5_BZE_Q_LAD: 3505.5
   response: |-
     77A100B62123A000088
     77A21EF000087BCAAAA
 - expected_values:
-    AUDI_BZE_Q_ELAD: 3474.8
-    AUDI_BZE_Q_LAD: 3505.8
+    Q5_BZE_Q_ELAD: 3474.8
+    Q5_BZE_Q_LAD: 3505.8
   response: |-
     77A100B62123A000088
     77A21F2000087BCAAAA
 - expected_values:
-    AUDI_BZE_Q_ELAD: 3475.7
-    AUDI_BZE_Q_LAD: 3507.4
+    Q5_BZE_Q_ELAD: 3475.7
+    Q5_BZE_Q_LAD: 3507.4
   response: |-
     77A100B62123A000089
     77A2102000087C5AAAA
 - expected_values:
-    AUDI_BZE_Q_ELAD: 3477
-    AUDI_BZE_Q_LAD: 3509
+    Q5_BZE_Q_ELAD: 3477
+    Q5_BZE_Q_LAD: 3509
   response: |-
     77A100B62123A000089
     77A2112000087D2AAAA
 - expected_values:
-    AUDI_BZE_Q_ELAD: 3480.6
-    AUDI_BZE_Q_LAD: 3510.5
+    Q5_BZE_Q_ELAD: 3483
+    Q5_BZE_Q_LAD: 3514.2
   response: |-
     77A100B62123A000089
-    77A2121000087F6AAAA
+    77A21460000880EAAAA
+- expected_values:
+    Q5_BZE_Q_ELAD: 3483
+    Q5_BZE_Q_LAD: 3515.2
+  response: |-
+    77A100B62123A000089
+    77A21500000880EAAAA
+- expected_values:
+    Q5_BZE_Q_ELAD: 3485.1
+    Q5_BZE_Q_LAD: 3516.8
+  response: |-
+    77A100B62123A000089
+    77A216000008823AAAA

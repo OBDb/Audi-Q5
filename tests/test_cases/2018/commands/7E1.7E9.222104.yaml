@@ -1,7 +1,5 @@
 command_id: 7E1.7E9.222104
 test_cases:
 - expected_values:
-    AUDI_ATF_T: 75
-    AUDI_ATF_T_DUAL_CLU: 115
-    AUDI_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 75
+    Q5_ATF_T: 75
   response: '7E90462210473'

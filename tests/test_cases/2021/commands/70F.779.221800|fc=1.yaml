@@ -1,8 +1,11 @@
 command_id: 70F.779.221800|fc=1
 test_cases:
 - expected_values:
-    AUDI_CPL_SOL_I: 0
+    Q5_CPL_SOL_I: 0
   response: '779056218000000'
 - expected_values:
-    AUDI_CPL_SOL_I: 7.99412
+    Q5_CPL_SOL_I: 7.99412
   response: 779056218000FFD
+- expected_values:
+    Q5_CPL_SOL_I: -0.01172
+  response: 77905621800FFFA

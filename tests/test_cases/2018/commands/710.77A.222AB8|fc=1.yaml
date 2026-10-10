@@ -1,9 +1,7 @@
 command_id: 710.77A.222AB8|fc=1
 test_cases:
 - expected_values:
-    AUDI_BAT_ENERGY_CONTENT: 27.99893
-    AUDI_HVBAT_E_CONTENT: 0
-    AUDI_HVBAT_KWH: 0
+    Q5_HVBAT_E_CONTENT: 0
   response: |-
     77A100B622AB8023000
     77A210000000000AAAA

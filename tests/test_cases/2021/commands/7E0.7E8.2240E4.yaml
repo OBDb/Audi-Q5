@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2240E4
 test_cases:
 - expected_values:
-    AUDI_T_SENS_ENG_T_V: 0.659
+    Q5_T_SENS_ENG_T_V: 0.659
   response: 7E8056240E40293
 - expected_values:
-    AUDI_T_SENS_ENG_T_V: 0.767
+    Q5_T_SENS_ENG_T_V: 0.767
   response: 7E8056240E402FF
 - expected_values:
-    AUDI_T_SENS_ENG_T_V: 0.771
-  response: 7E8056240E40303
+    Q5_T_SENS_ENG_T_V: 0.77
+  response: 7E8056240E40302
 - expected_values:
-    AUDI_T_SENS_ENG_T_V: 2.128
+    Q5_T_SENS_ENG_T_V: 2.128
   response: 7E8056240E40850

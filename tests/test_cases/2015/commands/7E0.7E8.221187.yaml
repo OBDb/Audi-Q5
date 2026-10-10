@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.221187
 test_cases:
 - expected_values:
-    AUDI_ACCELERATION: 0
-    AUDI_ACCEL_7E0: 0
+    Q5_ACCELERATION: 0
   response: '7E8056211870000'
 - expected_values:
-    AUDI_ACCELERATION: -0.267
-    AUDI_ACCEL_7E0: -0.267
+    Q5_ACCELERATION: -0.267
   response: 7E805621187FEF5
 - expected_values:
-    AUDI_ACCELERATION: -0.068
-    AUDI_ACCEL_7E0: -0.068
+    Q5_ACCELERATION: -0.068
   response: 7E805621187FFBC

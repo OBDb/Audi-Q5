@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2213F2
+test_cases:
+- expected_values:
+    Q5_IGA_CYL_KNK_0: -1.125
+  response: 7E8046213F27D
+- expected_values:
+    Q5_IGA_CYL_KNK_0: -0.375
+  response: 7E8046213F27F
+- expected_values:
+    Q5_IGA_CYL_KNK_0: 0
+  response: 7E8046213F280

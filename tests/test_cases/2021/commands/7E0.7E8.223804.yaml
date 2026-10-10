@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.223804
 test_cases:
 - expected_values:
-    AUDI_ACCEL_PEDAL_POS: 0
+    Q5_ACCEL_PEDAL_POS: 0
   response: '7E8056238040000'
 - expected_values:
-    AUDI_ACCEL_PEDAL_POS: 12.79
+    Q5_ACCEL_PEDAL_POS: 12.79
   response: 7E80562380404FF
 - expected_values:
-    AUDI_ACCEL_PEDAL_POS: 46.78
+    Q5_ACCEL_PEDAL_POS: 46.78
   response: '7E8056238041246'

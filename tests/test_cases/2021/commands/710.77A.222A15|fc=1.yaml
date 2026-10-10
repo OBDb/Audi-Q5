@@ -1,8 +1,8 @@
 command_id: 710.77A.222A15|fc=1
 test_cases:
 - expected_values:
-    AUDI_ENERGY_BALANCE_LAST: 0.1
+    Q5_ENERGY_BALANCE_LAST: 0.1
   response: 77A05622A15000A
 - expected_values:
-    AUDI_ENERGY_BALANCE_LAST: 1.8
-  response: 77A05622A1500B4
+    Q5_ENERGY_BALANCE_LAST: 2.1
+  response: 77A05622A1500D2

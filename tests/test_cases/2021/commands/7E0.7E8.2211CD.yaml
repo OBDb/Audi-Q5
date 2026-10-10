@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211CD
 test_cases:
 - expected_values:
-    AUDI_TCO_1_SYS: 52
+    Q5_TCO_1_SYS: 52
   response: 7E8046211CD5C
 - expected_values:
-    AUDI_TCO_1_SYS: 108
+    Q5_TCO_1_SYS: 108
   response: 7E8046211CD94

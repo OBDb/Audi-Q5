@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.223996
 test_cases:
 - expected_values:
-    AUDI_MIXTURE_ADPT_FACTOR: 0.03
+    Q5_MIXTURE_ADPT_FACTOR: 0.03
   response: '7E8056239960003'
 - expected_values:
-    AUDI_MIXTURE_ADPT_FACTOR: 2.53
+    Q5_MIXTURE_ADPT_FACTOR: 2.53
   response: 7E80562399600FD
 - expected_values:
-    AUDI_MIXTURE_ADPT_FACTOR: -0.78
-  response: 7E805623996FFB2
+    Q5_MIXTURE_ADPT_FACTOR: -1.37
+  response: 7E805623996FF77

@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.224417
 test_cases:
 - expected_values:
-    AUDI_THERMOSTAT_CMD: 46.08142
+    Q5_THERMOSTAT_CMD: 46.08142
   response: 7E8056244170EBF
 - expected_values:
-    AUDI_THERMOSTAT_CMD: 78.1248
+    Q5_THERMOSTAT_CMD: 78.1248
   response: '7E8056244171900'
 - expected_values:
-    AUDI_THERMOSTAT_CMD: 93.68872
+    Q5_THERMOSTAT_CMD: 93.68872
   response: 7E8056244171DFB
 - expected_values:
-    AUDI_THERMOSTAT_CMD: 305.175
+    Q5_THERMOSTAT_CMD: 100
   response: 7E80562441761A8

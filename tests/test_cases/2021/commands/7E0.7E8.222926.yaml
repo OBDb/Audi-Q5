@@ -1,14 +1,23 @@
 command_id: 7E0.7E8.222926
 test_cases:
 - expected_values:
-    AUDI_TEST_CATALYTIC_CONV: 0.211
+    Q5_TEST_CATALYTIC_CONV: 0.102
+  response: '7E8056229260066'
+- expected_values:
+    Q5_TEST_CATALYTIC_CONV: 0.156
+  response: 7E805622926009C
+- expected_values:
+    Q5_TEST_CATALYTIC_CONV: 0.18
+  response: 7E80562292600B4
+- expected_values:
+    Q5_TEST_CATALYTIC_CONV: 0.211
   response: 7E80562292600D3
 - expected_values:
-    AUDI_TEST_CATALYTIC_CONV: 0.273
+    Q5_TEST_CATALYTIC_CONV: 0.273
   response: '7E8056229260111'
 - expected_values:
-    AUDI_TEST_CATALYTIC_CONV: 0.281
+    Q5_TEST_CATALYTIC_CONV: 0.281
   response: '7E8056229260119'
 - expected_values:
-    AUDI_TEST_CATALYTIC_CONV: 0.289
+    Q5_TEST_CATALYTIC_CONV: 0.289
   response: '7E8056229260121'

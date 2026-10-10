@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.222904
 test_cases:
 - expected_values:
-    AUDI_MIS_TOT: 0
+    Q5_MIS_TOT: 0
   response: '7E8056229040000'
 - expected_values:
-    AUDI_MIS_TOT: 1
+    Q5_MIS_TOT: 1
   response: '7E8056229040001'
 - expected_values:
-    AUDI_MIS_TOT: 2
+    Q5_MIS_TOT: 2
   response: '7E8056229040002'
 - expected_values:
-    AUDI_MIS_TOT: 3
+    Q5_MIS_TOT: 3
   response: '7E8056229040003'

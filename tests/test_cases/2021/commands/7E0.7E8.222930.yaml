@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.222930
 test_cases:
 - expected_values:
-    AUDI_CAM_ADJ_INT_BANK_1: 0
+    Q5_CAM_ADJ_INT_BANK_1: 0
   response: '7E8056229300000'
 - expected_values:
-    AUDI_CAM_ADJ_INT_BANK_1: 53.8
-  response: '7E8056229301504'
-- expected_values:
-    AUDI_CAM_ADJ_INT_BANK_1: 56.31
+    Q5_CAM_ADJ_INT_BANK_1: 56.31
   response: 7E80562293015FF
+- expected_values:
+    Q5_CAM_ADJ_INT_BANK_1: 58.91
+  response: '7E8056229301703'

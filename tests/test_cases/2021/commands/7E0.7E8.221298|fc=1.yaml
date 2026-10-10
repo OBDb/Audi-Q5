@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.221298|fc=1
 test_cases:
 - expected_values:
-    AUDI_CAT_T_BANK_1: 405.475
-  response: 7E8056212982A6A
+    Q5_CAT_T_BANK_1: 382.475
+  response: 7E80562129828FA
 - expected_values:
-    AUDI_CAT_T_BANK_1: 622.7875
+    Q5_CAT_T_BANK_1: 622.7875
   response: 7E80562129837FF
 - expected_values:
-    AUDI_CAT_T_BANK_1: 622.9125
+    Q5_CAT_T_BANK_1: 622.9125
   response: '7E8056212983801'
 - expected_values:
-    AUDI_CAT_T_BANK_1: 658.1625
+    Q5_CAT_T_BANK_1: 658.1625
   response: 7E8056212983A35

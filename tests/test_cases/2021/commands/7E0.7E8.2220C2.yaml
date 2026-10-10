@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2220C2
 test_cases:
 - expected_values:
-    AUDI_WEAR_INDEX_0_NEW_ENG: 0
+    Q5_WEAR_INDEX_0_NEW_ENG: 0
   response: 7E8056220C20000
 - expected_values:
-    AUDI_WEAR_INDEX_0_NEW_ENG: 0.38453
+    Q5_WEAR_INDEX_0_NEW_ENG: 0.38453
   response: 7E8056220C200FC
 - expected_values:
-    AUDI_WEAR_INDEX_0_NEW_ENG: 0.42267
-  response: 7E8056220C20115
+    Q5_WEAR_INDEX_0_NEW_ENG: 0.41505
+  response: 7E8056220C20110

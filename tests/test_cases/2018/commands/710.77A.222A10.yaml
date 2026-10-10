@@ -1,6 +1,5 @@
 command_id: 710.77A.222A10
 test_cases:
 - expected_values:
-    AUDI_BAT_V_AT_REST: 12.1
-    AUDI_SSB_V_REST: 15.56471
+    Q5_SSB_V_REST: 12.1
   response: 77A04622A101F

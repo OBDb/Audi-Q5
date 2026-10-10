@@ -1,14 +1,11 @@
 command_id: 744.7AE.221DA7|fc=1,din=03
 test_cases:
 - expected_values:
-    AUDI_CHRGR_V_OUT: 0
-    AUDI_OBC_HIGH_V_OUTPUT: 0
+    Q5_OBC_HIGH_V_OUTPUT: 0
   response: 7AE05621DA70000
 - expected_values:
-    AUDI_CHRGR_V_OUT: 1
-    AUDI_OBC_HIGH_V_OUTPUT: 34.6
+    Q5_OBC_HIGH_V_OUTPUT: 34.6
   response: 7AE05621DA7015A
 - expected_values:
-    AUDI_CHRGR_V_OUT: 1
-    AUDI_OBC_HIGH_V_OUTPUT: 42.4
+    Q5_OBC_HIGH_V_OUTPUT: 42.4
   response: 7AE05621DA701A8

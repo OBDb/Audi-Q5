@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.222920
-test_cases:
-- expected_values:
-    AUDI_MIS_1000_REVOLUTIONS_2_V2: 0
-  response: '7E8056229200000'
-- expected_values:
-    AUDI_MIS_1000_REVOLUTIONS_2_V2: 1
-  response: '7E8056229200001'

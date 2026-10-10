@@ -1,11 +1,11 @@
 command_id: 70F.779.221801|fc=1
 test_cases:
 - expected_values:
-    AUDI_CPL_SENS_SPD: 0
+    Q5_CPL_SENS_SPD: 0
   response: '7790762180100000000'
 - expected_values:
-    AUDI_CPL_SENS_SPD: 511.5
+    Q5_CPL_SENS_SPD: 511.5
   response: 77907621801000003FF
 - expected_values:
-    AUDI_CPL_SENS_SPD: 1840.5
-  response: '7790762180100000E61'
+    Q5_CPL_SENS_SPD: 1972.5
+  response: 7790762180100000F69

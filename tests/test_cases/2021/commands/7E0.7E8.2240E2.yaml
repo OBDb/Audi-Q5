@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2240E2
 test_cases:
 - expected_values:
-    AUDI_T_SENS_ENG_T_TGT: 96.7
-  response: 7E8056240E203C7
+    Q5_T_SENS_ENG_T_TGT: 96
+  response: 7E8056240E203C0
 - expected_values:
-    AUDI_T_SENS_ENG_T_TGT: 102
+    Q5_T_SENS_ENG_T_TGT: 102
   response: 7E8056240E203FC
 - expected_values:
-    AUDI_T_SENS_ENG_T_TGT: 102.7
+    Q5_T_SENS_ENG_T_TGT: 102.7
   response: 7E8056240E20403

@@ -1,52 +1,52 @@
 command_id: 710.77A.222AB6|fc=1
 test_cases:
 - expected_values:
-    AUDI_RANGE_V2: 107
+    Q5_RANGE_V2: 107
   response: |-
     77A100A622AB6006B00
     77A2146002500AAAAAA
 - expected_values:
-    AUDI_RANGE_V2: 192
+    Q5_RANGE_V2: 192
   response: |-
     77A100A622AB600C000
     77A21A0002000AAAAAA
 - expected_values:
-    AUDI_RANGE_V2: 227
+    Q5_RANGE_V2: 227
   response: |-
     77A100A622AB600E300
     77A21BE002500AAAAAA
 - expected_values:
-    AUDI_RANGE_V2: 258
+    Q5_RANGE_V2: 258
   response: |-
     77A100A622AB6010200
     77A21D2003000AAAAAA
 - expected_values:
-    AUDI_RANGE_V2: 270
+    Q5_RANGE_V2: 270
   response: |-
     77A100A622AB6010E01
     77A210E000000AAAAAA
 - expected_values:
-    AUDI_RANGE_V2: 277
+    Q5_RANGE_V2: 277
   response: |-
     77A100A622AB6011500
     77A21F0002500AAAAAA
 - expected_values:
-    AUDI_RANGE_V2: 351
+    Q5_RANGE_V2: 351
   response: |-
     77A100A622AB6015F01
     77A2140001F00AAAAAA
 - expected_values:
-    AUDI_RANGE_V2: 510
+    Q5_RANGE_V2: 510
   response: |-
     77A100A622AB601FE01
     77A21FE000000AAAAAA
 - expected_values:
-    AUDI_RANGE_V2: 512
+    Q5_RANGE_V2: 512
   response: |-
     77A100A622AB6020001
     77A21FE000200AAAAAA
 - expected_values:
-    AUDI_RANGE_V2: 520
+    Q5_RANGE_V2: 520
   response: |-
     77A100A622AB6020802
     77A2108000000AAAAAA

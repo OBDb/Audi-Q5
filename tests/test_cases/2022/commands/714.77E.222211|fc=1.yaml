@@ -1,29 +1,29 @@
 command_id: 714.77E.222211|fc=1
 test_cases:
 - expected_values:
-    AUDI_PQ35_CHG_AIR_P: 0
+    Q5_PQ35_CHG_AIR_P: 0
   response: '77E0462221100'
 - expected_values:
-    AUDI_PQ35_CHG_AIR_P: 0.39216
+    Q5_PQ35_CHG_AIR_P: 0.39216
   response: '77E0462221101'
 - expected_values:
-    AUDI_PQ35_CHG_AIR_P: 52.94118
+    Q5_PQ35_CHG_AIR_P: 52.94118
   response: '77E0462221187'
 - expected_values:
-    AUDI_PQ35_CHG_AIR_P: 53.33333
+    Q5_PQ35_CHG_AIR_P: 53.33333
   response: '77E0462221188'
 - expected_values:
-    AUDI_PQ35_CHG_AIR_P: 53.72549
+    Q5_PQ35_CHG_AIR_P: 53.72549
   response: '77E0462221189'
 - expected_values:
-    AUDI_PQ35_CHG_AIR_P: 54.11765
+    Q5_PQ35_CHG_AIR_P: 54.11765
   response: 77E046222118A
 - expected_values:
-    AUDI_PQ35_CHG_AIR_P: 54.5098
+    Q5_PQ35_CHG_AIR_P: 54.5098
   response: 77E046222118B
 - expected_values:
-    AUDI_PQ35_CHG_AIR_P: 54.90196
+    Q5_PQ35_CHG_AIR_P: 54.90196
   response: 77E046222118C
 - expected_values:
-    AUDI_PQ35_CHG_AIR_P: 55.29412
+    Q5_PQ35_CHG_AIR_P: 55.29412
   response: 77E046222118D

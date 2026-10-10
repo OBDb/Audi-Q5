@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.222929
 test_cases:
 - expected_values:
-    AUDI_ADPT_LOSS_TQ: 0.2
+    Q5_ADPT_LOSS_TQ: 0.2
   response: '7E8056229290002'

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2213F8
+test_cases:
+- expected_values:
+    Q5_NL_PRE_2: 0.01732
+  response: 7E8056213F800E3
+- expected_values:
+    Q5_NL_PRE_2: 0.03891
+  response: 7E8056213F801FE
+- expected_values:
+    Q5_NL_PRE_2: 0.03914
+  response: 7E8056213F80201
+- expected_values:
+    Q5_NL_PRE_2: 0.07965
+  response: 7E8056213F80414

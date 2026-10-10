@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211D0
 test_cases:
 - expected_values:
-    AUDI_TCO_1_ST: 16
+    Q5_TCO_1_ST: 16
   response: 7E8046211D038
 - expected_values:
-    AUDI_TCO_1_ST: 108
+    Q5_TCO_1_ST: 108
   response: 7E8046211D094
