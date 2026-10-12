@@ -10,5 +10,8 @@ test_cases:
     Q5_CLIMATE_FR_L_DEFL_T: 0.33333
   response: 7B00562260C01FF
 - expected_values:
+    Q5_CLIMATE_FR_L_DEFL_T: 0.66667
+  response: 7B00562260C0207
+- expected_values:
     Q5_CLIMATE_FR_L_DEFL_T: null
   response: 7B00562260CFFF1
