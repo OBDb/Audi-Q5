@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     Q5_TIRE_RR_SPD: 0
   response: 77D05622B1E0000
+- expected_values:
+    Q5_TIRE_RR_SPD: 46.4
+  response: 77D05622B1E01D0
+- expected_values:
+    Q5_TIRE_RR_SPD: 49.6
+  response: 77D05622B1E01F0
+- expected_values:
+    Q5_TIRE_RR_SPD: 79.5
+  response: 77D05622B1E031B
+- expected_values:
+    Q5_TIRE_RR_SPD: 90.7
+  response: 77D05622B1E038B
+- expected_values:
+    Q5_TIRE_RR_SPD: 93.3
+  response: 77D05622B1E03A5
+- expected_values:
+    Q5_TIRE_RR_SPD: 99.1
+  response: 77D05622B1E03DF
