@@ -1,4 +1,9 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" },
+    { "hdr": "7E5", "type": "battery" }
+  ],
+  "commands": [
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "2606"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "Q5_CLT_FAN_ACTIVATION_ACT", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "percent" }, "name": "Coolant fan activation, actual value"}
@@ -213,15 +218,15 @@
   "signals": [
     {"id": "Q5_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "dbg": true, "cmd": {"22": "2B1C"}, "freq": 30,
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1C"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "Q5_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1D"}, "freq": 30, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1D"}, "freq": 30, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "Q5_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "dbg": true, "cmd": {"22": "2B1E"}, "freq": 30,
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1E"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "Q5_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
