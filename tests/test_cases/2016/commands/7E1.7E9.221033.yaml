@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221033
+test_cases:
+- expected_values:
+    Q5_TIME_SINCE_SHIFT: 3000
+  response: '7E90462103364'
+- expected_values:
+    Q5_TIME_SINCE_SHIFT: 3600
+  response: '7E90462103378'
+- expected_values:
+    Q5_TIME_SINCE_SHIFT: 7650
+  response: 7E904621033FF

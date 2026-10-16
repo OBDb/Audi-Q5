@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222103
+test_cases:
+- expected_values:
+    Q5_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 0
+  response: '7E9056221030000'
+- expected_values:
+    Q5_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 3062
+  response: 7E9056221032FD8
+- expected_values:
+    Q5_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 3270
+  response: '7E9056221033318'

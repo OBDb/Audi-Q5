@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221026
+test_cases:
+- expected_values:
+    Q5_CURRENT_N216_P_CTRL_2: 50
+  response: 7E90562102601F4
+- expected_values:
+    Q5_CURRENT_N216_P_CTRL_2: 272.9
+  response: 7E9056210260AA9
+- expected_values:
+    Q5_CURRENT_N216_P_CTRL_2: 273.2
+  response: 7E9056210260AAC
+- expected_values:
+    Q5_CURRENT_N216_P_CTRL_2: 850
+  response: '7E9056210262134'

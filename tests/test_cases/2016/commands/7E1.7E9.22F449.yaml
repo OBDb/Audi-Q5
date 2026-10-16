@@ -1,0 +1,26 @@
+command_id: 7E1.7E9.22F449
+test_cases:
+- expected_values:
+    Q5_ACCEL_PEDAL_POS_7E1: 14.90196
+  response: 7E90462F44926
+- expected_values:
+    Q5_ACCEL_PEDAL_POS_7E1: 20.39216
+  response: 7E90462F44934
+- expected_values:
+    Q5_ACCEL_PEDAL_POS_7E1: 20.78431
+  response: 7E90462F44935
+- expected_values:
+    Q5_ACCEL_PEDAL_POS_7E1: 21.17647
+  response: 7E90462F44936
+- expected_values:
+    Q5_ACCEL_PEDAL_POS_7E1: 27.45098
+  response: 7E90462F44946
+- expected_values:
+    Q5_ACCEL_PEDAL_POS_7E1: 27.84314
+  response: 7E90462F44947
+- expected_values:
+    Q5_ACCEL_PEDAL_POS_7E1: 28.23529
+  response: 7E90462F44948
+- expected_values:
+    Q5_ACCEL_PEDAL_POS_7E1: 28.62745
+  response: 7E90462F44949

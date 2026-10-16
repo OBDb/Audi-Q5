@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    Q5_RPM: 799
+  response: 7E80562F40C0C7C
+- expected_values:
+    Q5_RPM: 1086
+  response: 7E80562F40C10F8
+- expected_values:
+    Q5_RPM: 2054.5
+  response: 7E80562F40C201A
+- expected_values:
+    Q5_RPM: 3594
+  response: 7E80562F40C3828

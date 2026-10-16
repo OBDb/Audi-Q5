@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.220301
+test_cases:
+- expected_values:
+    Q5_CTRL_MODULE_T_7E1: 53
+  response: 7E9046203015D
+- expected_values:
+    Q5_CTRL_MODULE_T_7E1: 91
+  response: '7E90462030183'

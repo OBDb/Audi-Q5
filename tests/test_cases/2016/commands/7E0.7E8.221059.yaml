@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221059
+test_cases:
+- expected_values:
+    Q5_ACCEL_PEDAL_TQ_LIM: 0
+  response: '7E8056210590000'
+- expected_values:
+    Q5_ACCEL_PEDAL_TQ_LIM: 50.8
+  response: 7E80562105901FC
+- expected_values:
+    Q5_ACCEL_PEDAL_TQ_LIM: 339.1
+  response: 7E8056210590D3F

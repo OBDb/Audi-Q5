@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211F3
+test_cases:
+- expected_values:
+    Q5_PQ35_POST_INJ_2_START: 0
+  response: 7E8056211F30000
+- expected_values:
+    Q5_PQ35_POST_INJ_2_START: 0.72
+  response: 7E8056211F30024
+- expected_values:
+    Q5_PQ35_POST_INJ_2_START: 5.76
+  response: 7E8056211F30120
+- expected_values:
+    Q5_PQ35_POST_INJ_2_START: 7.2
+  response: 7E8056211F30168
+- expected_values:
+    Q5_PQ35_POST_INJ_2_START: -3.6
+  response: 7E8056211F3FF4C
+- expected_values:
+    Q5_PQ35_POST_INJ_2_START: -2.16
+  response: 7E8056211F3FF94
+- expected_values:
+    Q5_PQ35_POST_INJ_2_START: -0.72
+  response: 7E8056211F3FFDC

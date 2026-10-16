@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22114F|din=03
+test_cases:
+- expected_values:
+    Q5_MIS_1_7E0: 823
+  response: 7E80562114F0337

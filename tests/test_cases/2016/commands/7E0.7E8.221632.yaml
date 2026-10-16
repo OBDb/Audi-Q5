@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221632
+test_cases:
+- expected_values:
+    Q5_EOT_MEAS: 72
+  response: 7E8056216320D7B
+- expected_values:
+    Q5_EOT_MEAS: 85.5
+  response: 7E8056216320E02
+- expected_values:
+    Q5_EOT_MEAS: 110.1
+  response: 7E8056216320EF8

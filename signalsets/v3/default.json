@@ -410,7 +410,7 @@
   "signals": [
     {"id": "Q5_AAT_7E0_2", "path": "Engine", "fmt": { "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_AAT_V2", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
@@ -426,7 +426,7 @@
   "signals": [
     {"id": "Q5_PQ35_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1010"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1010"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_ENGINE_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
@@ -438,7 +438,7 @@
   "signals": [
     {"id": "Q5_ALTERNATOR_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 12750, "mul": 50, "unit": "watts" }, "name": "Alternator load"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1026"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1026"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_MQB_MAF_1_B1_RAW", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Mass airflow sensor 1 bank 1 raw value"}
   ]},
@@ -474,15 +474,15 @@
   "signals": [
     {"id": "Q5_PQ35_CHG_P", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Boost pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1059"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1059"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_ACCEL_PEDAL_TQ_LIM", "path": "Movement", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Accelerator pedal torque limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "105A"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "105A"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_BATTERY_V", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Battery voltage, raw count"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "105C"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "105C"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_GEN_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Generator load"}
   ]},
@@ -530,11 +530,11 @@
   "signals": [
     {"id": "Q5_PQ35_INJ_3_RAIL_P_2", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 3 rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D3"}, "freq": 3600, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D3"}, "freq": 3600, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_INJ_2_RAIL_P_1", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 2 rail pressure calibration point 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D6"}, "freq": 3600, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D6"}, "freq": 3600, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_INJ_1_RAIL_P_2", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 1 rail pressure calibration point 2"}
   ]},
@@ -554,7 +554,7 @@
   "signals": [
     {"id": "Q5_PQ35_INJ_3_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 3 rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10DE"}, "freq": 3600, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10DE"}, "freq": 3600, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_INJ_4_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 4 rail pressure calibration point 3"}
   ]},
@@ -654,7 +654,7 @@
   "signals": [
     {"id": "Q5_SEG_AD_MMV_ER_1", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112E"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_SEG_AD_MMV_ER_2", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER, 2"}
   ]},
@@ -666,11 +666,11 @@
   "signals": [
     {"id": "Q5_PQ35_POST_INJ_3_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Post-injection 3 start position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "Q5_EARLY_COOLANT_T", "path": "Engine", "fmt": { "len": 16, "max": 300, "div": 10, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "Q5_MEAN_INJ_QUANTITY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
@@ -678,19 +678,19 @@
   "signals": [
     {"id": "Q5_PQ35_O2_SEN_1_LAMBDA", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "scalar" }, "name": "Oxygen sensor 1 bank 1 lambda value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113F"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113F"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "Q5_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel consumption"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1148"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1148"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_FUEL_METER", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Fuel metering valve position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1149"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1149"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_BOOST_P_CMD", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Boost pressure commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "114F"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "114F"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_MIS_1_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
   ]},
@@ -706,11 +706,11 @@
   "signals": [
     {"id": "Q5_PARTICLE_FLT_FUEL", "path": "Fuel", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "liters" }, "name": "Particle filter, fuel consumption since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115B"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115B"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PARTICLE_FLT_FIELD", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Particle filter, field regeneration request status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_SRV_REGEN_STAT", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service regeneration status"}
   ]},
@@ -718,7 +718,7 @@
   "signals": [
     {"id": "Q5_PQ35_TIME_LAST_REGEN", "fmt": { "len": 32, "max": 0.426, "div": 10066666667, "unit": "minutes" }, "name": "Time since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1160"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1160"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_ODO_HD", "path": "Trips", "fmt": { "len": 32, "max": 4294967.2949999999, "div": 1000, "unit": "kilometers" }, "name": "Odometer, high resolution", "suggestedMetric": "odometer"}
   ]},
@@ -758,11 +758,11 @@
   "signals": [
     {"id": "Q5_PQ35_LIM_ACCEL_PED", "path": "Movement", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Accelerator pedal limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AB"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AB"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_INT_MODEL_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Intake model air mass flow filtered value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_MAF_THROUGH_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow through throttle"}
   ]},
@@ -774,11 +774,11 @@
   "signals": [
     {"id": "Q5_PQ35_OIL_LVL", "path": "Engine", "fmt": { "len": 16, "max": 131.068, "min": -131.072, "div": 250, "sign": true, "unit": "millimeters" }, "name": "Engine oil level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 15, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 15, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_EOT_V2", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -40, "div": 10, "add": -273.1, "nullmin": -40, "nullmax": 500, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -798,7 +798,7 @@
   "signals": [
     {"id": "Q5_TCO_1_SYS", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "TCO_1_SYS"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CF"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CF"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_BRAKE_BOOSTER_P", "path": "Control", "fmt": { "len": 16, "max": 2559, "mul": 19531, "div": 500000, "unit": "unknown" }, "name": "Brake booster pressure"}
   ]},
@@ -806,15 +806,15 @@
   "signals": [
     {"id": "Q5_TCO_1_ST", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "TCO_1_ST"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D1"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D1"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_BRAKE_BOOSTER_RAW_P", "path": "Control", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Brake booster raw pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D2"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_HIGH_P_CTRL_ADPT", "path": "Engine", "fmt": { "len": 16, "max": 16.3835, "min": -16.384, "div": 2000, "sign": true, "unit": "unknown" }, "name": "High pressure control, adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D4"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_TURBOCHARGER_INLET_P", "path": "Battery", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Turbocharger inlet pressure corrected value"}
   ]},
@@ -822,23 +822,23 @@
   "signals": [
     {"id": "Q5_MAP_RAW", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Manifold absolute pressure, raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11E6"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11E6"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "Q5_MQB_DPF_EXH_VOL", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "scalar" }, "name": "Diesel particulate filter exhaust gas flow volume"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11EE"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11EE"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_P_BEFORE_THROTTLE_ACT", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Pressure before throttle valve - actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11EF"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11EF"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_P_BEFORE_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 2559.96, "mul": 21333, "div": 546125, "unit": "unknown" }, "name": "Pressure before throttle valve - sensor measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F0"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F0"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_BOOST_P_ACT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Boost pressure, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F1"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F1"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_TRANS_IN_SPD", "path": "Movement", "fmt": { "len": 16, "max": 10000, "min": -16384, "div": 2, "sign": true, "nullmax": 10000, "unit": "rpm" }, "name": "Transmission input shaft speed"}
   ]},
@@ -846,7 +846,7 @@
   "signals": [
     {"id": "Q5_PQ35_MAIN_INJ_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Main injection start position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F3"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F3"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_POST_INJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Post-injection 2 start position"}
   ]},
@@ -858,11 +858,11 @@
   "signals": [
     {"id": "Q5_PQ35_FIELD_LIM", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Field limit value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_EA888B_BOOST_P_CTRL_1", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1201"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1201"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_EA888B_BOOST_P_CTRL_2", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 2"}
   ]},
@@ -874,11 +874,11 @@
   "signals": [
     {"id": "Q5_HIGH_FUEL_P_CONTROL_DEVIATION", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High fuel pressure control deviation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1221"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1221"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_ACCEL_PED_1", "path": "Movement", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Accelerator pedal sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "123C"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "123C"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_OIL_DYN_LAST", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Oil last dynamic measurement"}
   ]},
@@ -914,15 +914,15 @@
   "signals": [
     {"id": "Q5_MQB_EGR_VALVE_2_B1_FLOW", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Exhaust gas recirculation valve 2 bank 1 mass flow"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "133B"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "133B"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_CAMS_SPD", "path": "Movement", "fmt": { "len": 16, "max": 9830.1, "min": -9830.4, "mul": 0.3, "sign": true, "unit": "rpm" }, "name": "Camshaft speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "133F"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "133F"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_TQ_REDUCTION_REQ_ESP", "path": "Engine", "fmt": { "len": 32, "max": 214748364, "min": -214748364, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque reduction request from ESP"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1341"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1341"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_CAMS_END", "path": "Engine", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Camshaft end position"}
   ]},
@@ -934,7 +934,7 @@
   "signals": [
     {"id": "Q5_PQ35_SOOT_IDX", "path": "Engine.DPF", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "meters" }, "name": "Soot index"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1356"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1356"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_CHG_LIM_OVER", "path": "Battery", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Charge limit overcharge protection"}
   ]},
@@ -950,7 +950,7 @@
   "signals": [
     {"id": "Q5_IGA_IGC_2", "path": "Engine", "fmt": { "len": 8, "max": 59.9362, "min": -35.625, "mul": 1499, "div": 4000, "add": -35.625, "unit": "degrees" }, "name": "IGA_IGC, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138D"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138D"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_IGA_IGC_3", "path": "Engine", "fmt": { "len": 8, "max": 59.9362, "min": -35.625, "mul": 1499, "div": 4000, "add": -35.625, "unit": "degrees" }, "name": "IGA_IGC, 3"}
   ]},
@@ -1038,7 +1038,7 @@
   "signals": [
     {"id": "Q5_IGA_CYL_KNK_1", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F4"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F4"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_IGA_CYL_KNK_2", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 2"}
   ]},
@@ -1102,7 +1102,7 @@
   "signals": [
     {"id": "Q5_CTR_MIS_DC_MMV_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "CTR_MIS_DC_MMV_CYL_SAE, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1490"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1490"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_BRAKE_BOOSTER_LOW_P_ACT", "path": "Control", "fmt": { "len": 16, "max": 2559.9937, "mul": 39063, "div": 1000000, "unit": "unknown" }, "name": "Brake booster low pressure, actual"}
   ]},
@@ -1114,7 +1114,7 @@
   "signals": [
     {"id": "Q5_PQ35_PRE_INJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Pre-injection 2 start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
@@ -1126,7 +1126,7 @@
   "signals": [
     {"id": "Q5_PQ35_POST_INJ_2_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 2 duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CE"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CE"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_POST_INJ_3_ACTIVATION_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 3 activation duration"}
   ]},
@@ -1158,19 +1158,19 @@
   "signals": [
     {"id": "Q5_MAIN_CAT_OSC_AGE_CORRECTION_FACTOR", "path": "Engine", "fmt": { "len": 16, "max": 2, "mul": 2, "div": 65535, "unit": "scalar" }, "name": "Main cat oxygen storage capacity age correction factor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1511"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1511"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_ECT_MAX", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Coolant temperature, maximum value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1512"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1512"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_ECT_MIN", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Coolant temperature, minimum value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1513"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1513"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_ECT_LINEAR", "path": "Engine", "fmt": { "len": 16, "max": 143.9978, "min": -48, "mul": 29297, "div": 10000000, "add": -48, "unit": "celsius" }, "name": "Coolant temperature linear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1515"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1515"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_CAT_T_CALC", "path": "Engine", "fmt": { "len": 8, "max": 1225, "min": -50, "mul": 5, "add": -50, "unit": "celsius" }, "name": "Catalyst temperature, calculated"}
   ]},
@@ -1190,11 +1190,11 @@
   "signals": [
     {"id": "Q5_PQ35_SELECTED_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Selected gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "15B8"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "15B8"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_MQB_DPF_DIFF_P_DYNAMIC_OFFSET", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure, dynamic offset"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15D4"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15D4"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_LAMBDA_OUTPUT", "path": "Engine", "fmt": { "len": 16, "max": 1.99, "mul": 199997, "div": 6553500000, "unit": "scalar" }, "name": "Lambda output value"}
   ]},
@@ -1214,11 +1214,11 @@
   "signals": [
     {"id": "Q5_PRE_INJ_3_START", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 21973, "div": 1000000, "sign": true, "unit": "degrees" }, "name": "Pre-injection 3, start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1632"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1632"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_EOT_MEAS", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature measured value", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1633"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1633"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_LONGITUDINAL_ACCEL", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"}
   ]},
@@ -2007,63 +2007,63 @@
   "signals": [
     {"id": "Q5_ENG_OIL_LEVEL", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Engine oil level current value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_SHORT_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Short term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_LONG_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Long term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_RPM", "path": "Movement", "fmt": { "len": 16, "max": 7000, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since dtcs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since dtcs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_BARO", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_EXH_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 1200, "min": -40, "div": 10, "add": -40, "nullmax": 1200, "unit": "celsius" }, "name": "Exhaust gas temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_AAT_7E0", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_ACCEL_PEDAL_POS_1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_ACCEL_PEDAL_POS_2", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 2"}
   ]},
@@ -2075,27 +2075,27 @@
   "signals": [
     {"id": "Q5_PQ35_HIGH_P_EGR_CLOSING_VAR_1", "path": "Engine.EGR", "fmt": {"bix": 8, "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High press EGR closing v1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0301"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0301"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_CTRL_MODULE_T_7E1", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0302"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0302"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0303"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0303"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_DRIVE_TIME_ECO", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time, eco", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in eco mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0304"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0304"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_DRIVE_TIME_SPORT", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time, sport", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in sport mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0305"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0305"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time, manual", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0805"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0805"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_BRAKE_LIGHT_ON_VALID", "path": "Lights",  "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "noyes" }, "name": "Brake light reading valid?"},
     {"id": "Q5_BRAKE_PRESSED_VALID",  "path": "Control", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "noyes" }, "name": "Brake pressure reading valid?"},
@@ -2118,7 +2118,7 @@
   "signals": [
     {"id": "Q5_TIRE_RL_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1005"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1005"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_VSS_ESP", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed ESP", "suggestedMetric": "speed"}
   ]},
@@ -2130,19 +2130,19 @@
   "signals": [
     {"id": "Q5_MQB_TCM_ENGINE_TORQUE_LOSS", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque loss"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1010"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1010"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_MQB_TCM_CONVERTER_LOSS_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Converter loss torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_ROAD_RESISTANCE", "path": "Transmission", "fmt": { "len": 8, "max": 31.894, "min": -31, "mul": 24.9, "div": 100, "add": -31.6, "unit": "percent" }, "name": "Road resistance"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1018"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1018"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_DRIVING_STRATEGY_MOUNTAIN_FACTOR", "path": "Transmission", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Driving strategy mountain factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1019"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1019"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "Q5_PQ35_DRIVING_STRATEGY_SPORT_FACTOR", "path": "Transmission", "fmt": { "len": 8, "max": 100, "mul": 1700, "div": 255, "unit": "percent" }, "name": "Driving strategy sport factor"}
   ]},
@@ -2150,43 +2150,43 @@
   "signals": [
     {"id": "Q5_PQ35_ODO_3", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer #3", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1022"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1022"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_TCM_TQ_LOSSES", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission torque losses"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1024"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1024"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_CURRENT_N215_P_CTRL_1", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N215 pressure control valve 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1025"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1025"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_CURRENT_N218_P_CTRL_4", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N218 pressure control valve 4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1026"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1026"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_CURRENT_N216_P_CTRL_2", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N216 pressure control valve 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1027"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1027"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_CURRENT_N233_P_CTRL_5", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N233 pressure control valve 5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1028"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1028"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_CURRENT_N217_P_CTRL_3", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N217 pressure control valve 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102B"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102B"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_PQ35_CLUTCH_1_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "celsius" }, "name": "Clutch 1 temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_PQ35_CLUTCH_2_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "celsius" }, "name": "Clutch 2 temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "102D"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Pressure supply actual pressure analog digital value"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102E"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_M009_DES_SOLENOID_10", "path": "Engine", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "M009, desired solenoid out 10"},
     {"id": "Q5_M009_DES_SOLENOID_11", "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "M009, desired solenoid out 11"},
@@ -2194,15 +2194,15 @@
     {"id": "Q5_M009_DES_SOLENOID_13", "path": "Engine", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "M009, desired solenoid out 13"},
     {"id": "Q5_M009_DES_SOLENOID_14", "path": "Engine", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "M009, desired solenoid out 14"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1033"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1033"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_TIME_SINCE_SHIFT", "path": "Transmission", "fmt": { "len": 8, "max": 7650, "mul": 30, "unit": "milliseconds" }, "name": "Time since shift"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "103A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "103A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "Q5_TIME_AFTERRUN", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time in after-run"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "103B"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "103B"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_TIME_SINCE_RESET", "path": "Engine", "fmt": { "len": 8, "max": 7650, "mul": 30, "unit": "milliseconds" }, "name": "Time since reset"}
   ]},
@@ -2434,11 +2434,11 @@
   "signals": [
     {"id": "Q5_PQ35_CLUTCH_2_FAILED_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 failed adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10F9"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10F9"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE", "path": "Transmission", "fmt": { "len": 8, "max": 24.5, "min": -1, "div": 10, "add": -1, "unit": "bars" }, "name": "Clutch 1 actual pressure raw value"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10FA"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10FA"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_PQ35_DL382_CLUTCH_2_ACTUAL_P_RAW_VALUE", "path": "Transmission", "fmt": { "len": 8, "max": 24.5, "min": -1, "div": 10, "add": -1, "unit": "bars" }, "name": "Clutch 2 actual pressure raw value"}
   ]},
@@ -2687,39 +2687,39 @@
   "signals": [
     {"id": "Q5_MQB_DL382_CLUTCH_T_CALCULATED", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Clutch temperature calculated"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2002"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2002"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_ENG_TQ_7E1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2102"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2102"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_MQB_TCM_TRANSMISSION_INPUT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Transmission input speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2103"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2103"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_MQB_TCM_TRANSMISSION_OUTPUT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Transmission output speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2104"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2104"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_ATF_T", "path": "Fluids", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2105"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2105"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_TQ_TRANSMITTING_FUNCTION", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "Torque transmitting function, ratio"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2106"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2106"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_VSS_HR", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed, HR", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2108"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2108"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_DRIVING_RES_INDEX", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Driving resistance index"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210E"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_DRIVING_POS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Driving position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 2, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 2, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
           "1": { "description": "First gear",   "value": "1" },
@@ -2732,7 +2732,7 @@
         }}
     }
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2114"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2114"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017], "from": 2023 },
   "signals": [
     {"id": "Q5_MQB_TCM_KICK_DOWN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Kick down"}
   ]},
@@ -2764,11 +2764,11 @@
   "signals": [
     {"id": "Q5_INPUT_SHFT_SPD_2", "path": "Movement", "fmt": { "len": 16, "max": 7000, "min": -32769, "add": -1, "sign": true, "unit": "rpm" }, "name": "Input shaft speed 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "Q5_ACCEL_PEDAL_POS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},

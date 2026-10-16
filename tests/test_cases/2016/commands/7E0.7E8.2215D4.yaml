@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2215D4
+test_cases:
+- expected_values:
+    Q5_LAMBDA_OUTPUT: 0.91992
+  response: 7E8056215D475C0
+- expected_values:
+    Q5_LAMBDA_OUTPUT: 1
+  response: 7E8056215D48000
+- expected_values:
+    Q5_LAMBDA_OUTPUT: 1.02332
+  response: 7E8056215D482FC
+- expected_values:
+    Q5_LAMBDA_OUTPUT: 1.09293
+  response: 7E8056215D48BE5

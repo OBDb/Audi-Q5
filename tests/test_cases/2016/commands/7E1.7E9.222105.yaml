@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.222105
+test_cases:
+- expected_values:
+    Q5_TQ_TRANSMITTING_FUNCTION: 0
+  response: '7E9056221050000'
+- expected_values:
+    Q5_TQ_TRANSMITTING_FUNCTION: 2.5
+  response: '7E9056221050019'
+- expected_values:
+    Q5_TQ_TRANSMITTING_FUNCTION: 3.1
+  response: 7E905622105001F
+- expected_values:
+    Q5_TQ_TRANSMITTING_FUNCTION: 4.8
+  response: '7E9056221050030'
+- expected_values:
+    Q5_TQ_TRANSMITTING_FUNCTION: 32.3
+  response: '7E9056221050143'

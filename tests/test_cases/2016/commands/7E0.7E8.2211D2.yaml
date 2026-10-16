@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211D2
+test_cases:
+- expected_values:
+    Q5_HIGH_P_CTRL_ADPT: -0.2
+  response: 7E8056211D2FE70
+- expected_values:
+    Q5_HIGH_P_CTRL_ADPT: -0.1895
+  response: 7E8056211D2FE85

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211CF
+test_cases:
+- expected_values:
+    Q5_BRAKE_BOOSTER_P: 77.14745
+  response: 7E8056211CF07B7

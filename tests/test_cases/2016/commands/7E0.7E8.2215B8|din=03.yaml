@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2215B8|din=03
+test_cases:
+- expected_values:
+    Q5_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 4430
+  response: 7E8056215B8114E
+- expected_values:
+    Q5_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 4460
+  response: 7E8056215B8116C

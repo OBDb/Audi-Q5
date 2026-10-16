@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211EF
+test_cases:
+- expected_values:
+    Q5_P_BEFORE_THROTTLE: 996.48401
+  response: 7E8056211EF63A6
+- expected_values:
+    Q5_P_BEFORE_THROTTLE: 1020.07775
+  response: 7E8056211EF6602
+- expected_values:
+    Q5_P_BEFORE_THROTTLE: 1039.92149
+  response: 7E8056211EF67FE
+- expected_values:
+    Q5_P_BEFORE_THROTTLE: 2119.37422
+  response: 7E8056211EFD3F0

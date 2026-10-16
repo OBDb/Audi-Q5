@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2213F4
+test_cases:
+- expected_values:
+    Q5_IGA_CYL_KNK_2: 4.125
+  response: 7E8056213F48B44
+- expected_values:
+    Q5_IGA_CYL_KNK_2: 4.125
+  response: 7E8056213F48B61
+- expected_values:
+    Q5_IGA_CYL_KNK_2: 4.125
+  response: 7E8056213F48BB8
+- expected_values:
+    Q5_IGA_CYL_KNK_2: 4.125
+  response: 7E8056213F48BE8
+- expected_values:
+    Q5_IGA_CYL_KNK_2: 4.125
+  response: 7E8056213F48BF7
+- expected_values:
+    Q5_IGA_CYL_KNK_2: 4.5
+  response: 7E8056213F48C38
+- expected_values:
+    Q5_IGA_CYL_KNK_2: 4.5
+  response: 7E8056213F48C3D
+- expected_values:
+    Q5_IGA_CYL_KNK_2: 4.5
+  response: 7E8056213F48C66
