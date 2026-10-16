@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211AB
+test_cases:
+- expected_values:
+    Q5_INT_MODEL_AIR_MASS: 10.8
+  response: 7E8056211AB006C
+- expected_values:
+    Q5_INT_MODEL_AIR_MASS: 77
+  response: 7E8056211AB0302
+- expected_values:
+    Q5_INT_MODEL_AIR_MASS: 435
+  response: 7E8056211AB10FE
+- expected_values:
+    Q5_INT_MODEL_AIR_MASS: 509
+  response: 7E8056211AB13E2

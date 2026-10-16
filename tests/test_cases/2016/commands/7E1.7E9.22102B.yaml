@@ -1,0 +1,32 @@
+command_id: 7E1.7E9.22102B
+test_cases:
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 0
+  response: 7E90462102B00
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 23
+  response: 7E90462102B17
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 29
+  response: 7E90462102B1D
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 34
+  response: 7E90462102B22
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 37
+  response: 7E90462102B25
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 42
+  response: 7E90462102B2A
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 55
+  response: 7E90462102B37
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 56
+  response: 7E90462102B38
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 57
+  response: 7E90462102B39
+- expected_values:
+    Q5_PQ35_CLUTCH_1_T: 59
+  response: 7E90462102B3B

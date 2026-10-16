@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221513
+test_cases:
+- expected_values:
+    Q5_ECT_LINEAR: 78.20855
+  response: 7E805621513A847
+- expected_values:
+    Q5_ECT_LINEAR: 98.96547
+  response: 7E805621513C3F4
+- expected_values:
+    Q5_ECT_LINEAR: 100.50063
+  response: 7E805621513C600
+- expected_values:
+    Q5_ECT_LINEAR: 103.50065
+  response: 7E805621513CA00

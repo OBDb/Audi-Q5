@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F406
+test_cases:
+- expected_values:
+    Q5_SHORT_TERM_FUEL_TRIM_1: -18.75
+  response: 7E80462F40668
+- expected_values:
+    Q5_SHORT_TERM_FUEL_TRIM_1: 14.0625
+  response: 7E80462F40692

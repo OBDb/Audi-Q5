@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221010|fc=1,c=17
+test_cases:
+- expected_values:
+    Q5_ENGINE_TORQUE: 0
+  response: '7E8056210100000'
+- expected_values:
+    Q5_ENGINE_TORQUE: 178.6
+  response: 7E80562101006FA
+- expected_values:
+    Q5_ENGINE_TORQUE: 306
+  response: 7E8056210100BF4

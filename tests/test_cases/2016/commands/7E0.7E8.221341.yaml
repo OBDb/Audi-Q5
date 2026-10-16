@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221341
+test_cases:
+- expected_values:
+    Q5_PQ35_CAMS_END: 0.8
+  response: '7E8056213410004'
+- expected_values:
+    Q5_PQ35_CAMS_END: -563.2
+  response: 7E805621341F500
+- expected_values:
+    Q5_PQ35_CAMS_END: -308.4
+  response: 7E805621341F9FA
+- expected_values:
+    Q5_PQ35_CAMS_END: -49.2
+  response: 7E805621341FF0A

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221160
+test_cases:
+- expected_values:
+    Q5_ODO_HD: 83475.492
+  response: 7E80762116004F9BC24
+- expected_values:
+    Q5_ODO_HD: 83492.345
+  response: 7E80762116004F9FDF9
+- expected_values:
+    Q5_ODO_HD: 83492.759
+  response: 7E80762116004F9FF97
+- expected_values:
+    Q5_ODO_HD: 83493.413
+  response: 7E80762116004FA0225
+- expected_values:
+    Q5_ODO_HD: 83497.985
+  response: 7E80762116004FA1401

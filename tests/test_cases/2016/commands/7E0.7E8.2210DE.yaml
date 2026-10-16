@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2210DE
+test_cases:
+- expected_values:
+    Q5_PQ35_INJ_4_RAIL_P_3: 0.0003
+  response: 7E8056210DE0006
+- expected_values:
+    Q5_PQ35_INJ_4_RAIL_P_3: 0.00095
+  response: 7E8056210DE0013
+- expected_values:
+    Q5_PQ35_INJ_4_RAIL_P_3: 0.00195
+  response: 7E8056210DE0027
+- expected_values:
+    Q5_PQ35_INJ_4_RAIL_P_3: 0.0049
+  response: 7E8056210DE0062
+- expected_values:
+    Q5_PQ35_INJ_4_RAIL_P_3: 0.00945
+  response: 7E8056210DE00BD
+- expected_values:
+    Q5_PQ35_INJ_4_RAIL_P_3: -0.00365
+  response: 7E8056210DEFFB7
+- expected_values:
+    Q5_PQ35_INJ_4_RAIL_P_3: -0.00035
+  response: 7E8056210DEFFF9

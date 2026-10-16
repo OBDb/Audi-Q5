@@ -1,0 +1,26 @@
+command_id: 7E1.7E9.22102D
+test_cases:
+- expected_values:
+    Q5_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 1312
+  response: 7E90562102D2005
+- expected_values:
+    Q5_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2080
+  response: 7E90562102D2008
+- expected_values:
+    Q5_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 384
+  response: 7E90562102D8001
+- expected_values:
+    Q5_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 7808
+  response: 7E90562102D801E
+- expected_values:
+    Q5_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2208
+  response: 7E90562102DA008
+- expected_values:
+    Q5_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 1472
+  response: 7E90562102DC005
+- expected_values:
+    Q5_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 1984
+  response: 7E90562102DC007
+- expected_values:
+    Q5_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2240
+  response: 7E90562102DC008

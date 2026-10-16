@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F42F
+test_cases:
+- expected_values:
+    Q5_FLI_INPUT: 92.94118
+  response: 7E80462F42FED
+- expected_values:
+    Q5_FLI_INPUT: 93.72549
+  response: 7E80462F42FEF
+- expected_values:
+    Q5_FLI_INPUT: 94.90196
+  response: 7E80462F42FF2
+- expected_values:
+    Q5_FLI_INPUT: 95.68627
+  response: 7E80462F42FF4
+- expected_values:
+    Q5_FLI_INPUT: 96.86275
+  response: 7E80462F42FF7

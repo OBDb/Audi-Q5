@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211BD
+test_cases:
+- expected_values:
+    Q5_OIL_LEVEL_WARN: 1.3588
+  response: 7E8056211BD0D45
+- expected_values:
+    Q5_OIL_LEVEL_WARN: 1.4308
+  response: 7E8056211BD0DF9
+- expected_values:
+    Q5_OIL_LEVEL_WARN: 1.4344
+  response: 7E8056211BD0E02
