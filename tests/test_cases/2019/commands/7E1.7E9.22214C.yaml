@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     Q5_MQB_DL382_CLUTCH_1_P: 4.4
   response: 7E90462214C36
+- expected_values:
+    Q5_MQB_DL382_CLUTCH_1_P: 5.6
+  response: 7E90462214C42

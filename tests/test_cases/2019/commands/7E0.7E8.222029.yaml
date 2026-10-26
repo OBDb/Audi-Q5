@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     Q5_PQ35_CHARGE_AIR_P_SPECIFIED: 63.12
   response: '7E8056220290315'
+- expected_values:
+    Q5_PQ35_CHARGE_AIR_P_SPECIFIED: 63.2
+  response: '7E8056220290316'

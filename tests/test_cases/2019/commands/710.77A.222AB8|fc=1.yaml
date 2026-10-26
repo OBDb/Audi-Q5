@@ -3,6 +3,11 @@ test_cases:
 - expected_values:
     Q5_HVBAT_E_CONTENT: 0
   response: |-
+    77A100B622AB8024E00
+    77A210000000000AAAA
+- expected_values:
+    Q5_HVBAT_E_CONTENT: 0
+  response: |-
     77A100B622AB8028A00
     77A210000000000AAAA
 - expected_values:

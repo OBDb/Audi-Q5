@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     Q5_SSB_V: 14.279
   response: 77A05622A072827
+- expected_values:
+    Q5_SSB_V: 14.478
+  response: 77A05622A0728EE

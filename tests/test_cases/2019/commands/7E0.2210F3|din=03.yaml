@@ -4,6 +4,9 @@ test_cases:
     Q5_OIL_LEVEL_LAST_VALID: 148.75
   response: 7E8056210F3113C
 - expected_values:
+    Q5_OIL_LEVEL_LAST_VALID: 160.4375
+  response: 7E8056210F311F7
+- expected_values:
     Q5_OIL_LEVEL_LAST_VALID: 161.75
   response: 7E8056210F3120C
 - expected_values:

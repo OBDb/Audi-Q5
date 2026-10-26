@@ -1,6 +1,9 @@
 command_id: 746.7B0.222609|fc=1
 test_cases:
 - expected_values:
+    Q5_AAT_746: 18.5
+  response: 7B00562260900B9
+- expected_values:
     Q5_AAT_746: 30.5
   response: 7B0056226090131
 - expected_values:

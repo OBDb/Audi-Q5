@@ -1,6 +1,11 @@
 command_id: 710.77A.222AB6|fc=1
 test_cases:
 - expected_values:
+    Q5_RANGE_V2: 460
+  response: |-
+    77A100A622AB601CC01
+    77A21CC07FD01AAAAAA
+- expected_values:
     Q5_RANGE_V2: 510
   response: |-
     77A100A622AB601FE01

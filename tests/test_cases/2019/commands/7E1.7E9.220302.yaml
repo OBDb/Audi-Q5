@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     Q5_DRIVE_TIME: 2137.25
   response: '7E9056203022165'
+- expected_values:
+    Q5_DRIVE_TIME: 2202.25
+  response: '7E9056203022269'

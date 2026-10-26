@@ -4,6 +4,9 @@ test_cases:
     Q5_SSB_T: -13
   response: 77A04622A0B1B
 - expected_values:
+    Q5_SSB_T: 26
+  response: 77A04622A0B42
+- expected_values:
     Q5_SSB_T: 31
   response: 77A04622A0B47
 - expected_values:

@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     Q5_ODO: 147730
   response: 7E80662295A024112
+- expected_values:
+    Q5_ODO: 153399
+  response: 7E80662295A025737

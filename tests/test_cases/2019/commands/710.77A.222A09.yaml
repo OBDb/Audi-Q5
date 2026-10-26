@@ -13,5 +13,8 @@ test_cases:
     Q5_SSB_C: 3.642
   response: 77A07622A0900000E3A
 - expected_values:
+    Q5_SSB_C: 21.23
+  response: 77A07622A09000052EE
+- expected_values:
     Q5_SSB_C: -12.037
   response: 77A07622A09FFFFD0FB

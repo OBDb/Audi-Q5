@@ -8,4 +8,7 @@ test_cases:
   response: 7B005622612001A
 - expected_values:
     Q5_CLIMATE_T_AFTER_EVAP: 0
+  response: 7B005622612001C
+- expected_values:
+    Q5_CLIMATE_T_AFTER_EVAP: 0
   response: 7B005622612001E

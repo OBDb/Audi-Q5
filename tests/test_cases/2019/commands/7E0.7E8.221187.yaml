@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     Q5_ACCELERATION: -0.006
   response: 7E805621187FFFA
+- expected_values:
+    Q5_ACCELERATION: -0.001
+  response: 7E805621187FFFF

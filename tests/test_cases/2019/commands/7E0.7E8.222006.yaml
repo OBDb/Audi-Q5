@@ -4,6 +4,9 @@ test_cases:
     Q5_PQ35_OIL_FILL_LEVEL: 5.04
   response: '7E8056220060054'
 - expected_values:
+    Q5_PQ35_OIL_FILL_LEVEL: 5.4
+  response: 7E805622006005A
+- expected_values:
     Q5_PQ35_OIL_FILL_LEVEL: 5.46
   response: 7E805622006005B
 - expected_values:

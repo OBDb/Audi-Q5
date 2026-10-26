@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     Q5_HIGH_FUEL_P_CONTROL_DEVIATION: 1092500
   response: 7E80562121F2AAD
+- expected_values:
+    Q5_HIGH_FUEL_P_CONTROL_DEVIATION: 1127500
+  response: 7E80562121F2C0B
