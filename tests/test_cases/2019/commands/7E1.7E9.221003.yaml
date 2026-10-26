@@ -4,6 +4,9 @@ test_cases:
     Q5_TIRE_RR_SPD_V3: 13.5
   response: '7E9056210030087'
 - expected_values:
+    Q5_TIRE_RR_SPD_V3: 41.7
+  response: 7E90562100301A1
+- expected_values:
     Q5_TIRE_RR_SPD_V3: 79.4
   response: 7E905621003031A
 - expected_values:

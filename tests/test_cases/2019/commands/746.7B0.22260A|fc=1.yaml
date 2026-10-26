@@ -4,6 +4,9 @@ test_cases:
     Q5_OUTSIDE_T_SYSTEM: 11
   response: 7B00562260A006E
 - expected_values:
+    Q5_OUTSIDE_T_SYSTEM: 23.8
+  response: 7B00562260A00EE
+- expected_values:
     Q5_OUTSIDE_T_SYSTEM: 31.6
   response: 7B00562260A013C
 - expected_values:

@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22132B
 test_cases:
 - expected_values:
+    Q5_MQB_DL382_P_SENSOR_2_T: 31
+  response: 7E90562132B001F
+- expected_values:
     Q5_MQB_DL382_P_SENSOR_2_T: 58
   response: 7E90562132B003A
 - expected_values:

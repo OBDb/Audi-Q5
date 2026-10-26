@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     Q5_ENG_TRQ_REQ_2: 280.5
   response: 7E8056243800AF5
+- expected_values:
+    Q5_ENG_TRQ_REQ_2: -23.9
+  response: 7E805624380FF11

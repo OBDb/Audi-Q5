@@ -4,5 +4,8 @@ test_cases:
     Q5_MQB_TCM_TRANSMISSION_INPUT_SPD: 1215
   response: 7E90562210212FC
 - expected_values:
+    Q5_MQB_TCM_TRANSMISSION_INPUT_SPD: 1709
+  response: 7E9056221021AB4
+- expected_values:
     Q5_MQB_TCM_TRANSMISSION_INPUT_SPD: 1835
   response: 7E9056221021CAC

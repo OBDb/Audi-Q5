@@ -10,6 +10,9 @@ test_cases:
     Q5_SSB_AH: 27
   response: 77A04622A0F1B
 - expected_values:
+    Q5_SSB_AH: 47
+  response: 77A04622A0F2F
+- expected_values:
     Q5_SSB_AH: 55
   response: 77A04622A0F37
 - expected_values:

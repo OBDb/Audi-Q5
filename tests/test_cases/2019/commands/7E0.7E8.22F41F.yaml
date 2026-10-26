@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
+    Q5_RUNTM: 64
+  response: 7E80562F41F0040
+- expected_values:
     Q5_RUNTM: 268
   response: 7E80562F41F010C
 - expected_values:

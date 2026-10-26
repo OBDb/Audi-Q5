@@ -8,4 +8,7 @@ test_cases:
   response: 7B0056226070080
 - expected_values:
     Q5_CLIMATE_RAD_FAN_CMD_DUTY: 0.4
+  response: 7B005622607018C
+- expected_values:
+    Q5_CLIMATE_RAD_FAN_CMD_DUTY: 0.4
   response: 7B00562260701E4

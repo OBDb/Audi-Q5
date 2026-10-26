@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     Q5_ALTERNATOR_LOAD: 750
   response: 7E8046210240F
+- expected_values:
+    Q5_ALTERNATOR_LOAD: 900
+  response: '7E80462102412'

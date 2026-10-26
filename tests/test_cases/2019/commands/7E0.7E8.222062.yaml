@@ -4,5 +4,8 @@ test_cases:
     Q5_APP_POS2: 0.376
   response: '7E8056220620178'
 - expected_values:
+    Q5_APP_POS2: 0.548
+  response: '7E8056220620224'
+- expected_values:
     Q5_APP_POS2: 1.005
   response: 7E80562206203ED

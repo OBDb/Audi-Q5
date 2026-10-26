@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221139
 test_cases:
 - expected_values:
+    Q5_MEAN_INJ_QUANTITY: 13.01
+  response: '7E8056211390515'
+- expected_values:
     Q5_MEAN_INJ_QUANTITY: 15.12
   response: 7E80562113905E8
 - expected_values:

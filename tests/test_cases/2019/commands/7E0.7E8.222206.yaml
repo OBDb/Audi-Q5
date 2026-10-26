@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.222206
 test_cases:
 - expected_values:
+    Q5_PQ35_FUEL_LEVEL_7E0_2206: 63
+  response: 7E8046222063F
+- expected_values:
     Q5_PQ35_FUEL_LEVEL_7E0_2206: 68
   response: '7E80462220644'
 - expected_values:

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_PQ35_CLUTCH_2_CHAR_CURVE_SHIFT: 1.2544
   response: '7E9056210780005'
+- expected_values:
+    Q5_PQ35_CLUTCH_2_CHAR_CURVE_SHIFT: 10.0352
+  response: '7E9056210780028'

@@ -4,6 +4,9 @@ test_cases:
     Q5_CABIN_T: 25.4
   response: 7B00562261300FE
 - expected_values:
+    Q5_CABIN_T: 26.1
+  response: 7B0056226130105
+- expected_values:
     Q5_CABIN_T: 27
   response: 7B005622613010E
 - expected_values:

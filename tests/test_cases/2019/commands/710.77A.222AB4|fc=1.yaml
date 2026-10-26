@@ -4,6 +4,12 @@ test_cases:
     Q5_HVBAT_CSMP_AVG_INT: 25
     Q5_RANGE_EST_INT: 0
   response: |-
+    77A100D622AB402DE00
+    77A2100000000000019
+- expected_values:
+    Q5_HVBAT_CSMP_AVG_INT: 25
+    Q5_RANGE_EST_INT: 0
+  response: |-
     77A100D622AB4033100
     77A2100000000000019
 - expected_values:

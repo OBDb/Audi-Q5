@@ -10,5 +10,8 @@ test_cases:
     Q5_STEER_ANGLE: 0.141
   response: 77D05622B29008D
 - expected_values:
+    Q5_STEER_ANGLE: 0.53
+  response: 77D05622B290212
+- expected_values:
     Q5_STEER_ANGLE: -0.652
   response: 77D05622B29FD74

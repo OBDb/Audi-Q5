@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_SPEC_VALUE_RAIL_P: 408000
   response: 7E80562121E0FF0
+- expected_values:
+    Q5_SPEC_VALUE_RAIL_P: 416600
+  response: 7E80562121E1046
