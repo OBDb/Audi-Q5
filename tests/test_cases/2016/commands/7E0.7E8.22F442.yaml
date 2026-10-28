@@ -7,8 +7,8 @@ test_cases:
     Q5_VPWR: 13.829
   response: 7E80562F4423605
 - expected_values:
-    Q5_VPWR: 14.065
-  response: 7E80562F44236F1
+    Q5_VPWR: 14.371
+  response: 7E80562F4423823
 - expected_values:
-    Q5_VPWR: 14.088
-  response: 7E80562F4423708
+    Q5_VPWR: 14.583
+  response: 7E80562F44238F7

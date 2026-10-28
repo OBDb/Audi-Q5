@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_DRIVE_TIME_ECO: 90
   response: 7E904620303E1
+- expected_values:
+    Q5_DRIVE_TIME_ECO: 99.6
+  response: 7E904620303F9

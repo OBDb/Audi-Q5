@@ -4,5 +4,5 @@ test_cases:
     Q5_BATTERY_V: 689
   response: 7E80562105A02B1
 - expected_values:
-    Q5_BATTERY_V: 709
-  response: 7E80562105A02C5
+    Q5_BATTERY_V: 729
+  response: 7E80562105A02D9
