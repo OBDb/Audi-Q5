@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     Q5_ODO_HD: 83497.985
   response: 7E80762116004FA1401
+- expected_values:
+    Q5_ODO_HD: 136499.614
+  response: 7E8076211600822D19E
