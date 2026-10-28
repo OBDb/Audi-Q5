@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     Q5_BARO: 100
   response: 7E80462F43364
+- expected_values:
+    Q5_BARO: 101
+  response: 7E80462F43365
+- expected_values:
+    Q5_BARO: 102
+  response: 7E80462F43366
