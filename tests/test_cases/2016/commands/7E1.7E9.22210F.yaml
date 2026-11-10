@@ -1,11 +1,14 @@
 command_id: 7E1.7E9.22210F
 test_cases:
 - expected_values:
-    Q5_GEAR: '2'
-  response: 7E90462210F02
-- expected_values:
-    Q5_GEAR: '3'
+    Q5_GEAR: '1'
   response: 7E90462210F03
 - expected_values:
-    Q5_GEAR: '7'
+    Q5_GEAR: '5'
   response: 7E90462210F07
+- expected_values:
+    Q5_GEAR: '7'
+  response: 7E90462210F09
+- expected_values:
+    Q5_GEAR: '8'
+  response: 7E90462210F0A
