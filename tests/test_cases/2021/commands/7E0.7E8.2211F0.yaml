@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2211F0
 test_cases:
 - expected_values:
-    Q5_BOOST_P_ACT_7E0: 329.29688
+    Q5_BOOST_P_ACT_7E0: 32.92969
   response: 7E8056211F01077
 - expected_values:
-    Q5_BOOST_P_ACT_7E0: 360
+    Q5_BOOST_P_ACT_7E0: 36
   response: 7E8056211F01200
 - expected_values:
-    Q5_BOOST_P_ACT_7E0: 499.92188
+    Q5_BOOST_P_ACT_7E0: 49.99219
   response: 7E8056211F018FF
 - expected_values:
-    Q5_BOOST_P_ACT_7E0: 582.8125
+    Q5_BOOST_P_ACT_7E0: 58.28125
   response: 7E8056211F01D24
