@@ -18,51 +18,51 @@
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42BB"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_EVAPORATOR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "unit": "celsius" }, "name": "Evaporator temperature"}
+    {"id": "Q5_EVAPORATOR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Evaporator temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42BC"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_LEFT_FOOTWELL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left footwell air outlet temperature"}
+    {"id": "Q5_LEFT_FOOTWELL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left footwell air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42BD"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_RIGHT_FOOTWELL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right footwell air outlet temperature"}
+    {"id": "Q5_RIGHT_FOOTWELL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right footwell air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42BE"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_LEFT_REAR_HI_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left rear upper air outlet temperature"}
+    {"id": "Q5_LEFT_REAR_HI_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left rear upper air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42C0"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_RIGHT_REAR_HI_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right rear upper air outlet temperature"}
+    {"id": "Q5_RIGHT_REAR_HI_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right rear upper air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42C1"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_LEFT_REAR_FOOTWELL_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left rear footwell air outlet temperature"}
+    {"id": "Q5_LEFT_REAR_FOOTWELL_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left rear footwell air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42C2"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_RIGHT_REAR_FOOTWELL_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right rear footwell air outlet temperature"}
+    {"id": "Q5_RIGHT_REAR_FOOTWELL_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right rear footwell air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42C3"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_LEFT_SIDE_AIR_OUTLET_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left side air outlet temperature"}
+    {"id": "Q5_LEFT_SIDE_AIR_OUTLET_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left side air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42C4"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_RIGHT_SIDE_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right side air outlet temperature"}
+    {"id": "Q5_RIGHT_SIDE_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right side air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42C5"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_LEFT_CENTRAL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left central air outlet temperature"}
+    {"id": "Q5_LEFT_CENTRAL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left central air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42C6"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_RIGHT_CENTRAL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right central air outlet temperature"}
+    {"id": "Q5_RIGHT_CENTRAL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right central air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "42C8"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "Q5_FRONT_DEFROST_FLAP_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Front defrost flap air outlet temperature"}
+    {"id": "Q5_FRONT_DEFROST_FLAP_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Front defrost flap air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "cmd": {"22": "5036"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
@@ -1516,7 +1516,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2023 },
   "signals": [
-    {"id": "Q5_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "Q5_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A3"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
@@ -2832,15 +2832,15 @@
   ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E33"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
-    {"id": "Q5_BMS_CELL_V_MAX",      "path": "Battery", "fmt": {           "len": 16, "max": 6.5535, "div": 10000, "unit": "volts"  }, "name": "Cell voltage max, value"},
-    {"id": "Q5_BMS_CELL_V_MAX_IDX",  "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 255,                  "unit": "scalar" }, "name": "Cell voltage max, index"},
-    {"id": "Q5_HVBAT_CELL_V_MAX_NO", "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,                  "unit": "scalar" }, "name": "HV battery highest cell"}
+    {"id": "Q5_BMS_CELL_V_MAX",      "path": "Battery", "fmt": {           "len": 16, "max": 65.535, "div": 1000, "unit": "volts"  }, "name": "Cell voltage max, value"},
+    {"id": "Q5_BMS_CELL_V_MAX_IDX",  "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 255,                 "unit": "scalar" }, "name": "Cell voltage max, index"},
+    {"id": "Q5_HVBAT_CELL_V_MAX_NO", "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,                 "unit": "scalar" }, "name": "HV battery highest cell"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E34"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
-    {"id": "Q5_BMS_CELL_V_MIN",      "path": "Battery", "fmt": {           "len": 16, "max": 6.5535, "div": 10000, "unit": "volts"  }, "name": "Cell voltage min, value"},
-    {"id": "Q5_BMS_CELL_V_MIN_IDX",  "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 255,                  "unit": "scalar" }, "name": "Cell voltage min, index"},
-    {"id": "Q5_HVBAT_CELL_V_MIN_NO", "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,                  "unit": "scalar" }, "name": "HV battery lowest cell"}
+    {"id": "Q5_BMS_CELL_V_MIN",      "path": "Battery", "fmt": {           "len": 16, "max": 65.535, "div": 1000, "unit": "volts"  }, "name": "Cell voltage min, value"},
+    {"id": "Q5_BMS_CELL_V_MIN_IDX",  "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 255,                 "unit": "scalar" }, "name": "Cell voltage min, index"},
+    {"id": "Q5_HVBAT_CELL_V_MIN_NO", "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,                 "unit": "scalar" }, "name": "HV battery lowest cell"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E3B"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
