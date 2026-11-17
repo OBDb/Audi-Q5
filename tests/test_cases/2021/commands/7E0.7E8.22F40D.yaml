@@ -4,5 +4,8 @@ test_cases:
     Q5_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    Q5_VSS: 255
+    Q5_VSS: 155
+  response: 7E80462F40D9B
+- expected_values:
+    Q5_VSS: null
   response: 7E80462F40DFF

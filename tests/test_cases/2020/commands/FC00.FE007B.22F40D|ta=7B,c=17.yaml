@@ -4,5 +4,8 @@ test_cases:
     Q5_VSS_V2: 0
   response: 17FE007B0462F40D00
 - expected_values:
-    Q5_VSS_V2: 255
+    Q5_VSS_V2: 128
+  response: 17FE007B0462F40D80
+- expected_values:
+    Q5_VSS_V2: null
   response: 17FE007B0462F40DFF
