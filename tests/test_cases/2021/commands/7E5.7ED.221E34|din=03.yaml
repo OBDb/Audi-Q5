@@ -1,32 +1,32 @@
 command_id: 7E5.7ED.221E34|din=03
 test_cases:
 - expected_values:
-    Q5_BMS_CELL_V_MIN: 0.3276
+    Q5_BMS_CELL_V_MIN: 3.276
     Q5_BMS_CELL_V_MIN_IDX: 0
     Q5_HVBAT_CELL_V_MIN_NO: 14
   response: 7ED07621E340CCC000E
 - expected_values:
-    Q5_BMS_CELL_V_MIN: 0.35
+    Q5_BMS_CELL_V_MIN: 3.5
     Q5_BMS_CELL_V_MIN_IDX: 0
     Q5_HVBAT_CELL_V_MIN_NO: 1
   response: 7ED07621E340DAC0001
 - expected_values:
-    Q5_BMS_CELL_V_MIN: 0.3584
+    Q5_BMS_CELL_V_MIN: 3.584
     Q5_BMS_CELL_V_MIN_IDX: 0
     Q5_HVBAT_CELL_V_MIN_NO: 99
   response: 7ED07621E340E000063
 - expected_values:
-    Q5_BMS_CELL_V_MIN: 0.3697
+    Q5_BMS_CELL_V_MIN: 3.697
     Q5_BMS_CELL_V_MIN_IDX: 0
     Q5_HVBAT_CELL_V_MIN_NO: 104
   response: 7ED07621E340E710068
 - expected_values:
-    Q5_BMS_CELL_V_MIN: 0.3839
+    Q5_BMS_CELL_V_MIN: 3.839
     Q5_BMS_CELL_V_MIN_IDX: 0
     Q5_HVBAT_CELL_V_MIN_NO: 14
   response: 7ED07621E340EFF000E
 - expected_values:
-    Q5_BMS_CELL_V_MIN: 0.4097
+    Q5_BMS_CELL_V_MIN: 4.097
     Q5_BMS_CELL_V_MIN_IDX: 0
     Q5_HVBAT_CELL_V_MIN_NO: 98
   response: 7ED07621E3410010062
