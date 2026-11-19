@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     Q5_BAT_SENSOR_T: 8
   response: 77A04622A0A30
+- expected_values:
+    Q5_BAT_SENSOR_T: 13
+  response: 77A04622A0A35

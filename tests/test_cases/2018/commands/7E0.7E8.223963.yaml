@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_KNOCK_SENS_CYL_4: 0.631
   response: '7E8056239630277'
+- expected_values:
+    Q5_KNOCK_SENS_CYL_4: 0.825
+  response: '7E8056239630339'

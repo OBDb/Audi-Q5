@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_NL_PRE_0: 0.15236
   response: 7E8056213F607CD
+- expected_values:
+    Q5_NL_PRE_0: 0.16617
+  response: 7E8056213F60882

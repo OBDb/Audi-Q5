@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_CAM_ADJ_INT_BANK_1: 34.21
   response: 7E8056229300D5D
+- expected_values:
+    Q5_CAM_ADJ_INT_BANK_1: 37.05
+  response: 7E8056229300E79

@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.222949
 test_cases:
 - expected_values:
+    Q5_AVG_IGN_TIM_ANG: 11.25
+  response: '7E8056229490465'
+- expected_values:
     Q5_AVG_IGN_TIM_ANG: 15
   response: 7E80562294905DC

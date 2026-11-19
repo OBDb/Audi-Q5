@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_MIXTURE_ADPT_FACTOR_IDLE: -2.57
   response: 7E805623997FEFF
+- expected_values:
+    Q5_MIXTURE_ADPT_FACTOR_IDLE: -1.6
+  response: 7E805623997FF60

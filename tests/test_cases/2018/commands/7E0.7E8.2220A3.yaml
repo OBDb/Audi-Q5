@@ -4,3 +4,7 @@ test_cases:
     Q5_OIL_P_SWITCH_HIGH_P: 1
     Q5_OIL_P_SWITCH_LOW_P: 1
   response: 7E8046220A303
+- expected_values:
+    Q5_OIL_P_SWITCH_HIGH_P: 0
+    Q5_OIL_P_SWITCH_LOW_P: 1
+  response: 7E8046220A329

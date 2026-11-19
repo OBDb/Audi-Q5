@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_INT_MANIFOLD_P_RAW: 0.345
   response: 7E805623E700159
+- expected_values:
+    Q5_INT_MANIFOLD_P_RAW: 0.779
+  response: 7E805623E70030B

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_FUEL_CONS_PER: 46.62
   response: 7E8056251D61236
+- expected_values:
+    Q5_FUEL_CONS_PER: 80.11
+  response: 7E8056251D61F4B

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_CAM_ADJ_INT_ACT: 2
   response: 7E80562201E0014
+- expected_values:
+    Q5_CAM_ADJ_INT_ACT: 19.1
+  response: 7E80562201E00BF

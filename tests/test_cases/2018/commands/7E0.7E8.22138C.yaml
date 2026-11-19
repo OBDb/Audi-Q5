@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22138C
 test_cases:
 - expected_values:
+    Q5_IGA_IGC_2: -6.01975
+  response: 7E80462138C4F
+- expected_values:
     Q5_IGA_IGC_2: -1.8975
   response: 7E80462138C5A

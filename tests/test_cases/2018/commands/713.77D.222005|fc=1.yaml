@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_P_BRAKE_SERVO_UNIT: -970.5625
   response: 77D05622005C357
+- expected_values:
+    Q5_P_BRAKE_SERVO_UNIT: -961.875
+  response: 77D05622005C3E2

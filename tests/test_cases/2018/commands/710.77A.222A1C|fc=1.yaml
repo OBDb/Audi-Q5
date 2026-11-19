@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     Q5_GEN_CURRENT: 62
   response: 77A05622A1C0212
+- expected_values:
+    Q5_GEN_CURRENT: 63.7
+  response: 77A05622A1C0223
