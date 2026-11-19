@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222004
+test_cases:
+- expected_values:
+    Q5_IGN_ANG_CURRENT_CYL_ACT: -3
+  response: 7E805622004FED4

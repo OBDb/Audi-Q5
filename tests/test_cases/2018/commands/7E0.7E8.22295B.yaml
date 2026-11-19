@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22295B
+test_cases:
+- expected_values:
+    Q5_ODO_ECU_INSTALLED: 115447
+  response: 7E80662295B01C2F7

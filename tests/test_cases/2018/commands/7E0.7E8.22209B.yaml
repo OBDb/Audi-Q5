@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22209B
+test_cases:
+- expected_values:
+    Q5_TQ_REQ_SUM_AUXILIARY: 12.9
+  response: 7E80562209B0081

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2213CD
+test_cases:
+- expected_values:
+    Q5_MAF_RATE: 14.59375
+  response: 7E8056213CD01D3

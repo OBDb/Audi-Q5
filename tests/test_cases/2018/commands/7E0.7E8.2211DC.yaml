@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211DC
+test_cases:
+- expected_values:
+    Q5_MAP_RAW: 7.34375
+  response: 7E8056211DC005E

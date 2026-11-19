@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22201D
+test_cases:
+- expected_values:
+    Q5_CAM_ADJ_INT_SPEC: 1.5
+  response: 7E80562201D000F

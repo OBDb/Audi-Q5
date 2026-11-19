@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22294A
+test_cases:
+- expected_values:
+    Q5_DYNAMIC_AVG_IGN_ANG: -1.12
+  response: 7E80562294AFF90

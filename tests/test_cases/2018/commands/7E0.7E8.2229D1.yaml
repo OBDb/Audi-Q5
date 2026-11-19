@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2229D1
+test_cases:
+- expected_values:
+    Q5_AIR_MASS_ACT_MG: 164.37
+  response: 7E8056229D14035

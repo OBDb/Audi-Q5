@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223962
+test_cases:
+- expected_values:
+    Q5_KNOCK_SENS_CYL_3: 0.516
+  response: '7E8056239620204'

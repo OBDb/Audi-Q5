@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222999
+test_cases:
+- expected_values:
+    Q5_AUTOMATIC_ENG_STARTS: 17434
+  response: 7E805622999441A

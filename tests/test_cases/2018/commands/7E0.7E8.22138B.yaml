@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22138B
+test_cases:
+- expected_values:
+    Q5_IGA_IGC_1: -3.02175
+  response: 7E80462138B57

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223997
+test_cases:
+- expected_values:
+    Q5_MIXTURE_ADPT_FACTOR_IDLE: -2.57
+  response: 7E805623997FEFF

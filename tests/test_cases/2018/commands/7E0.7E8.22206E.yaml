@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22206E
+test_cases:
+- expected_values:
+    Q5_CRANK_SPD_RPM: 882
+  response: 7E80562206E0372
