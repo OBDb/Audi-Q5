@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_MEAN_INJ_QTY: 12
   response: 7E805622097000C
+- expected_values:
+    Q5_MEAN_INJ_QTY: 27
+  response: 7E805622097001B

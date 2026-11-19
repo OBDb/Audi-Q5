@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_AVG_INJ_TIME_7E0: 1
   response: 7E8046220030A
+- expected_values:
+    Q5_AVG_INJ_TIME_7E0: 1.7
+  response: '7E80462200311'

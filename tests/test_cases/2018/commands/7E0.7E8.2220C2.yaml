@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_WEAR_INDEX_0_NEW_ENG: 0.177
   response: 7E8056220C20074
+- expected_values:
+    Q5_WEAR_INDEX_0_NEW_ENG: 0.28077
+  response: 7E8056220C200B8

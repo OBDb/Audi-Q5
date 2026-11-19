@@ -5,3 +5,8 @@ test_cases:
   response: |-
     77D1009622B210ADAFF
     77D21FEFFFE00000000
+- expected_values:
+    Q5_BRAKE_P: 69.21687
+  response: |-
+    77D1009622B211C86FF
+    77D21FEFFFE00000000

@@ -1,6 +1,9 @@
 command_id: 710.77A.222A15|fc=1
 test_cases:
 - expected_values:
+    Q5_ENERGY_BALANCE_LAST: 0
+  response: 77A05622A150000
+- expected_values:
     Q5_ENERGY_BALANCE_LAST: 0.1
   response: 77A05622A15000A
 - expected_values:

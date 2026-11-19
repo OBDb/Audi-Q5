@@ -1,6 +1,12 @@
 command_id: 70F.779.22110A|fc=1
 test_cases:
 - expected_values:
+    Q5_STAT_CC_ECU_T_ST: 0.0156
+    Q5_STAT_CLU_TQ_SOLL_TQ: 1
+  response: |-
+    779100B62110A000100
+    7792100000400000000
+- expected_values:
     Q5_STAT_CC_ECU_T_ST: 0.0312
     Q5_STAT_CLU_TQ_SOLL_TQ: 1
   response: |-

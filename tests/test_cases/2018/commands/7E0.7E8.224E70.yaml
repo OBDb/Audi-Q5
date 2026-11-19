@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_KNOCK_SENSORS_AVG_V_1_2: 0.488
   response: 7E805624E7001E8
+- expected_values:
+    Q5_KNOCK_SENSORS_AVG_V_1_2: 0.879
+  response: 7E805624E70036F

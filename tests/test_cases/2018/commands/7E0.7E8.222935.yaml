@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_ECT_ENG_START: 7.5
   response: 7E805622935004B
+- expected_values:
+    Q5_ECT_ENG_START: 42
+  response: 7E80562293501A4

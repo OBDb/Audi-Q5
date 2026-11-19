@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_BRAKE_BOOSTER_P: 123.51404
   response: 7E8056211CF0C5A
+- expected_values:
+    Q5_BRAKE_BOOSTER_P: 274.09805
+  response: 7E8056211CF1B69

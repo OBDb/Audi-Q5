@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_ENTIRE_ENERGY: 14337.2
   response: 77A06622A1802300C
+- expected_values:
+    Q5_ENTIRE_ENERGY: 14338.4
+  response: 77A06622A18023018

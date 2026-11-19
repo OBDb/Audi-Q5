@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     Q5_FUEL_HIGH_P_SPEC: 74.6
   response: 7E80562293B02EA
+- expected_values:
+    Q5_FUEL_HIGH_P_SPEC: 77.4
+  response: 7E80562293B0306
