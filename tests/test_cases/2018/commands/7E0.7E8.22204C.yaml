@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22204C
+test_cases:
+- expected_values:
+    Q5_FUEL_RATE: 2.28
+  response: 7E80562204C00E4

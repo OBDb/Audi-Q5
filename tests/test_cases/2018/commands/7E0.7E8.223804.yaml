@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223804
+test_cases:
+- expected_values:
+    Q5_ACCEL_PEDAL_POS: 0
+  response: '7E8056238040000'

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223996
+test_cases:
+- expected_values:
+    Q5_MIXTURE_ADPT_FACTOR: 3.31
+  response: 7E805623996014B

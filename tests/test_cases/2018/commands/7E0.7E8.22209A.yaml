@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22209A
+test_cases:
+- expected_values:
+    Q5_FUEL_METERING_VLV: 10.33
+  response: 7E80562209A0409

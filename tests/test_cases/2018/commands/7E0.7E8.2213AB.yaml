@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2213AB
+test_cases:
+- expected_values:
+    Q5_TI_MES4_PLS_3_3: 0.496
+  response: 7E8056213AB007C

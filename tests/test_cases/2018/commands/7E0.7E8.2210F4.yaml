@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210F4
+test_cases:
+- expected_values:
+    Q5_MIS_PER_1000_3: 362
+  response: 7E8056210F4016A

@@ -3,5 +3,15 @@ test_cases:
 - expected_values:
     Q5_HUMIDITY_SENS_REL: 72.27
   response: |-
+    778100C625036004C00
+    77821920151017900AA
+- expected_values:
+    Q5_HUMIDITY_SENS_REL: 72.27
+  response: |-
     778100C625036004F00
     77821920162018900AA
+- expected_values:
+    Q5_HUMIDITY_SENS_REL: 71.28
+  response: |-
+    778100C625036005200
+    7782190016B019800AA

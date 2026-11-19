@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0A
+test_cases:
+- expected_values:
+    Q5_BAT_SENSOR_T: 7
+  response: 77A04622A0A2F
+- expected_values:
+    Q5_BAT_SENSOR_T: 8
+  response: 77A04622A0A30

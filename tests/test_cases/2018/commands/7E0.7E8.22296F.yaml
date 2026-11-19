@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22296F
+test_cases:
+- expected_values:
+    Q5_EXH_GAS_T_BEFORE: 427.3
+  response: 7E80562296F10B1

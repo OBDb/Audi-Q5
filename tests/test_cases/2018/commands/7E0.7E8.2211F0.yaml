@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211F0
+test_cases:
+- expected_values:
+    Q5_BOOST_P_ACT_7E0: 36.44531
+  response: 7E8056211F01239

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223EAC
+test_cases:
+- expected_values:
+    Q5_CHG_P_CTRL_VLV_V_POS_OPENED: 0.57008
+  response: 7E805623EAC0E98
